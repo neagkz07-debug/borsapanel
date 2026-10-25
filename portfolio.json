@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "sermaye": 0,
+    "risk_yuzde": 2.0,
+    "katalizor_risk_carpani": 0.5,
+    "max_pozisyon": 5,
+    "toplam_risk_limiti_yuzde": 6.0,
+    "max_pozisyon_orani": 0.25,
+    "max_sektor_pozisyon": 2
+  },
+  "positions": [],
+  "manuel_haber": []
+}

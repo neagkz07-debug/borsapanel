@@ -1,0 +1,70 @@
+name: BIST30 Bot
+
+on:
+  schedule:
+    # Türkiye saati UTC+3 (yaz/kış saati yok): 10:15, 12:30, 14:30, 16:30, 18:15
+    - cron: '15 7,15 * * 1-5'
+    - cron: '30 9,11,13 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Çalışma modu (auto = saate göre)'
+        type: choice
+        default: auto
+        options: [auto, open, intraday, close]
+      dry_run:
+        description: 'Kuru çalışma: Telegram yok, dosya yazılmaz'
+        type: boolean
+        default: false
+      force:
+        description: 'Tatil/hafta sonu olsa da çalıştır'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bist30-bot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Bağımlılıkları kur
+        run: pip install -r requirements.txt
+
+      - name: Botu çalıştır
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RUN_MODE: ${{ (inputs.mode != 'auto' && inputs.mode) || '' }}
+          DRY_RUN: ${{ (inputs.dry_run && '1') || '0' }}
+          FORCE: ${{ (inputs.force && '1') || '0' }}
+        run: python bot.py
+
+      - name: Durumu kaydet
+        if: always()
+        run: |
+          git config user.name "bist30-bot"
+          git config user.email "bist30-bot@users.noreply.github.com"
+          git add state.json journal.json
+          if git diff --cached --quiet; then
+            echo "Değişiklik yok"
+          else
+            git commit -m "bot: durum güncellemesi"
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && break
+              sleep 5
+            done
+          fi
