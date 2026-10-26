@@ -6,7 +6,7 @@
     "ozet_gun": "2026-10-26"
   },
   "son_calisma": {
-    "zaman": "2026-10-26T18:19:07+03:00",
+    "zaman": "2026-10-26T19:14:10+03:00",
     "mod": "close",
     "durum": "TAMAM",
     "kuru": false,
@@ -21,19 +21,19 @@
     "veri_bayat": false,
     "haber_ok": true,
     "yapay_zeka_ok": false,
-    "son_basarili": "2026-10-26T18:19:07+03:00"
+    "son_basarili": "2026-10-26T19:14:10+03:00"
   },
-  "haber_zamani": "2026-10-26T18:19:07+03:00",
+  "haber_zamani": "2026-10-26T19:14:10+03:00",
   "llm_ok": false,
   "pozisyon_durum": {},
   "cooldowns": {},
-  "guncelleme": "2026-10-26T18:19:07+03:00",
+  "guncelleme": "2026-10-26T19:14:10+03:00",
   "rejim": {
     "label": "RISK_OFF",
     "index": "XU030.IS",
-    "close": 13938.32,
-    "sma20": 14831.85,
-    "sma50": 15846.04,
+    "close": 13948.59,
+    "sma20": 14832.36,
+    "sma50": 15846.24,
     "usdtry_1d_pct": 0.05,
     "fx_shock": false,
     "available": true
