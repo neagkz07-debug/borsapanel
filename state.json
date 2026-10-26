@@ -5,35 +5,33 @@
     "pazartesi_gun": "2026-10-26"
   },
   "son_calisma": {
-    "zaman": "2026-10-26T07:46:25+03:00",
+    "zaman": "2026-10-26T10:43:58+03:00",
     "mod": "open",
     "durum": "TAMAM",
     "kuru": false,
-    "uyarilar": [
-      "Veri güncel değil (son bar None, beklenen 2026-10-23)."
-    ],
-    "son_bar": null
+    "uyarilar": [],
+    "son_bar": "2026-10-26"
   },
   "saglik": {
     "ardisik_hata": 0,
     "veri_eksik": [],
-    "veri_bayat": true,
+    "veri_bayat": false,
     "haber_ok": true,
     "yapay_zeka_ok": true,
-    "son_basarili": "2026-10-26T07:46:25+03:00"
+    "son_basarili": "2026-10-26T10:43:58+03:00"
   },
-  "haber_zamani": "2026-10-26T07:46:25+03:00",
+  "haber_zamani": "2026-10-26T10:43:58+03:00",
   "llm_ok": true,
   "pozisyon_durum": {},
   "cooldowns": {},
-  "guncelleme": "2026-10-26T07:46:25+03:00",
+  "guncelleme": "2026-10-26T10:43:58+03:00",
   "rejim": {
     "label": "RISK_OFF",
     "index": "XU030.IS",
-    "close": 13874.2,
-    "sma20": 14917.38,
-    "sma50": 15888.56,
-    "usdtry_1d_pct": 0.01,
+    "close": 13874.11,
+    "sma20": 14828.64,
+    "sma50": 15844.75,
+    "usdtry_1d_pct": 0.05,
     "fx_shock": false,
     "available": true
   },
