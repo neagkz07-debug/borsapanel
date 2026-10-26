@@ -1,1 +1,14 @@
-{}
+{
+  "bildirim": {
+    "hata_gun": "2026-10-26"
+  },
+  "son_calisma": {
+    "zaman": "2026-10-26T07:30:52+03:00",
+    "mod": "open",
+    "durum": "HATA",
+    "hata": "'NoneType' object is not subscriptable"
+  },
+  "saglik": {
+    "ardisik_hata": 1
+  }
+}
