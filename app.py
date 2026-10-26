@@ -367,6 +367,59 @@ def karne(journal_data: dict) -> None:
         st.caption("Engellenen sinyaller belirgin kötüyse haber filtresi işe yarıyordur; fark yoksa gevşetilir.")
 
 
+ORIJIN = {"llm": "🤖 yapay zekâ", "kural": "📏 kural yedeği", "manuel": "✍️ senin KAP notun"}
+DUYGU = {"OLUMLU": "🟢 olumlu", "OLUMSUZ": "🔴 olumsuz", "NOTR": "⚪ nötr"}
+
+
+def yapay_zeka_bolumu(state: dict) -> None:
+    """Botun haber taramasında ürettiği olaylar: Gemini sınıflandırması, kural yedeği ve KAP notların."""
+    st.header("Yapay zekâ haber analizi")
+    haber = state.get("haber") or {}
+    genel = state.get("haber_genel") or {}
+    zaman = utils.parse_iso(state.get("haber_zamani"))
+    with st.container(border=True):
+        if zaman:
+            durum = "çalıştı" if state.get("llm_ok") else "çalışmadı (kural yedeği)"
+            st.caption(f"Son haber taraması: {zaman.strftime('%d.%m %H:%M')} · yapay zekâ {durum}")
+        else:
+            st.caption("Henüz haber taraması yapılmadı (open ve close çalışmalarında yapılır).")
+        st.markdown("**Genel piyasa**")
+        if genel.get("events"):
+            for ev in genel["events"][:3]:
+                st.markdown(olay_satiri(ev))
+                k = kanit_baglantilari([ev])
+                if k:
+                    st.caption("Kaynaklar: " + k)
+        elif genel.get("summary"):
+            st.write(genel["summary"])
+        else:
+            st.caption("Önemli genel haber yok.")
+
+    def enyuksek(v: dict) -> int:
+        return max([e.get("severity", 0) for e in v.get("events", [])] or [0])
+
+    satirlar = [(s, v) for s, v in haber.items() if v.get("events") or v.get("llm_risk_flag")]
+    satirlar.sort(key=lambda x: -enyuksek(x[1]))
+    if not satirlar:
+        with st.container(border=True):
+            st.caption("Hisse bazında önemli haber yok.")
+    for sym, v in satirlar[:15]:
+        with st.container(border=True):
+            st.subheader(f"{sym} · {DUYGU.get(v.get('sentiment'), '⚪ nötr')}")
+            if v.get("llm_risk_flag"):
+                st.warning(f"Yapay zekâ risk işareti: {v.get('summary') or 'ayrıntı yok'}")
+            for ev in v.get("events", [])[:4]:
+                st.caption(ORIJIN.get(ev.get("origin"), "haber"))
+                st.markdown(olay_satiri(ev))
+            k = kanit_baglantilari(v.get("events", []), limit=4)
+            if k:
+                st.caption("Kaynaklar: " + k)
+            g = v.get("gdelt")
+            if g:
+                st.caption(f"📰 Haber hareketliliği z={g.get('vol_z')} · ton değişimi {g.get('tone_delta')}")
+    st.caption("Yapay zekâ yatırım tavsiyesi vermez; haberleri sınıflandırır. Kararı kurallar ve sen verirsin.")
+
+
 def saglik(state: dict) -> None:
     sg = state.get("saglik") or {}
     with st.expander("🩺 Sağlık"):
@@ -422,6 +475,7 @@ def main() -> None:
         ayarlar_formu(portfolio, zorunlu=False)
     karne(journal_data)
     saglik(state)
+    yapay_zeka_bolumu(state)
     st.caption("Karar destek aracıdır; yatırım tavsiyesi değildir. Emirler Midas'ta elle verilir.")
 
 
