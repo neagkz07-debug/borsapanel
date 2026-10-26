@@ -211,7 +211,12 @@ def _run_inner(root, mode, now, today, dry_run, deps, notifier, portfolio, state
     if not regime["available"]:
         warnings.append("Endeks verisi yok; rejim NÖTR kabul edildi.")
 
-    last_bar = max((s["date"] for s in snaps.values()), default=None)
+    if snaps:
+        last_bar = max(s["date"] for s in snaps.values())
+    elif idx_df is not None and len(idx_df):   # pozisyon yokken yalnızca endeks verisi vardır
+        last_bar = idx_df.index[-1].date()
+    else:
+        last_bar = None
     expected = expected_last_bar(today, mode)
     stale = last_bar is None or last_bar < expected
     if stale:
