@@ -9,5 +9,15 @@
     "max_sektor_pozisyon": 2
   },
   "positions": [],
-  "manuel_haber": []
+  "manuel_haber": [
+    {
+      "symbol": "ASELS",
+      "tarih": "2026-10-26T13:19:14+03:00",
+      "tur": "GENEL",
+      "yon": "OLUMLU",
+      "onem": 1,
+      "not": "Bak buna",
+      "gecerlilik_saat": 48
+    }
+  ]
 }
