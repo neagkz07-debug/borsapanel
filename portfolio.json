@@ -1,6 +1,6 @@
 {
   "settings": {
-    "sermaye": 0,
+    "sermaye": 1000.0,
     "risk_yuzde": 2.0,
     "katalizor_risk_carpani": 0.5,
     "max_pozisyon": 5,
