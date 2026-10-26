@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import logging
 import time
+import warnings
 from typing import Iterable, Optional
 
 import pandas as pd
@@ -10,6 +11,9 @@ import pandas as pd
 import config
 
 log = logging.getLogger("data")
+
+# yfinance'ın pandas 4 uyarıları log'u kirletiyor; işlevi etkilemez.
+warnings.filterwarnings("ignore", message=".*inplace keyword.*")
 
 FIELDS = ["Open", "High", "Low", "Close", "Volume"]
 
@@ -68,7 +72,7 @@ class YFinanceProvider(PriceProvider):
         for attempt in range(self.retries + 1):
             try:
                 raw = yf.download(symbols, period=self.period, interval="1d", group_by="ticker",
-                                  auto_adjust=False, progress=False, threads=True)
+                                  auto_adjust=False, progress=False, threads=False)
                 got = split_download(raw, symbols)
                 if got:
                     return got
