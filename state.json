@@ -3,14 +3,16 @@
     "hata_gun": "2026-10-26",
     "haber": [],
     "pazartesi_gun": "2026-10-26",
-    "ozet_gun": "2026-10-26"
+    "ozet_gun": "2026-10-27"
   },
   "son_calisma": {
-    "zaman": "2026-10-27T16:15:49+03:00",
-    "mod": "intraday",
+    "zaman": "2026-10-27T18:28:24+03:00",
+    "mod": "close",
     "durum": "TAMAM",
     "kuru": false,
-    "uyarilar": [],
+    "uyarilar": [
+      "Yapay zekâ sınıflandırması yapılamadı (kota/hata); kural yedeği kullanıldı."
+    ],
     "son_bar": "2026-10-27"
   },
   "saglik": {
@@ -19,20 +21,20 @@
     "veri_bayat": false,
     "haber_ok": true,
     "yapay_zeka_ok": false,
-    "son_basarili": "2026-10-27T16:15:49+03:00"
+    "son_basarili": "2026-10-27T18:28:24+03:00"
   },
-  "haber_zamani": "2026-10-26T23:31:53+03:00",
+  "haber_zamani": "2026-10-27T18:28:24+03:00",
   "llm_ok": false,
   "pozisyon_durum": {},
   "cooldowns": {},
-  "guncelleme": "2026-10-27T16:15:49+03:00",
+  "guncelleme": "2026-10-27T18:28:24+03:00",
   "rejim": {
     "label": "RISK_OFF",
     "index": "XU030.IS",
-    "close": 14069.42,
-    "sma20": 14772.63,
-    "sma50": 15805.97,
-    "usdtry_1d_pct": 0.04,
+    "close": 13934.73,
+    "sma20": 14765.9,
+    "sma50": 15803.28,
+    "usdtry_1d_pct": 0.09,
     "fx_shock": false,
     "available": true
   },
