@@ -1,3 +1,4 @@
+
 """Gemini katmanı: toplu sınıflandırma ve (sınırlı) Google Search grounding.
 
 Kurallar:
@@ -11,6 +12,8 @@ from __future__ import annotations
 
 import json
 import logging
+import re
+import time
 from datetime import date
 from typing import Any, Optional
 
@@ -19,6 +22,10 @@ import news
 import utils
 
 log = logging.getLogger("llm")
+
+_sleep = time.sleep          # testlerde değiştirilir
+SON_HATA: Optional[str] = None   # son Gemini hatasının kısa özeti (panelde/özette gösterilir)
+GECICI_KODLAR = {429, 500, 502, 503, 504}
 
 YONLER = ["OLUMLU", "OLUMSUZ", "BELIRSIZ"]
 
@@ -176,6 +183,34 @@ def _is_quota_error(e: Exception) -> bool:
     return code == 429 or "RESOURCE_EXHAUSTED" in str(e) or "429" in str(e)[:40]
 
 
+def _err_code(e: Exception) -> Optional[int]:
+    code = getattr(e, "code", None) or getattr(e, "status_code", None)
+    try:
+        return int(code) if code is not None else None
+    except (TypeError, ValueError):
+        return None
+
+
+def _is_transient(e: Exception) -> bool:
+    """Kota dakikalık dolmuş / sunucu yoğun gibi, biraz sonra düzelebilecek hatalar."""
+    if _err_code(e) in GECICI_KODLAR:
+        return True
+    head = str(e)[:200]
+    return bool(re.search(r"\b(429|500|502|503|504)\b", head)
+                or re.search(r"UNAVAILABLE|RESOURCE_EXHAUSTED|overloaded|high demand", head, re.I))
+
+
+def _retry_delay(e: Exception, default: float) -> float:
+    m = re.search(r"retry in ([0-9.]+)\s*s", str(e), re.I)
+    return min(float(m.group(1)) + 1.0, 45.0) if m else default
+
+
+def short_error(e: Exception) -> str:
+    msg = re.sub(r"AIza[0-9A-Za-z_\-]{20,}", "***", str(e))
+    msg = " ".join(msg.split())
+    return f"{type(e).__name__}: {msg[:160]}"
+
+
 def _model_missing(e: Exception) -> bool:
     code = getattr(e, "code", None) or getattr(e, "status_code", None)
     msg = str(e).lower()
@@ -186,20 +221,28 @@ def generate(client, **kw):
     """Ana modeli dener; model kapatılmış/bulunamıyorsa (404) yedek modellere geçer."""
     last: Optional[Exception] = None
     for model in [config.GEMINI_MODEL, *config.GEMINI_YEDEK_MODELLER]:
-        try:
-            return client.models.generate_content(model=model, **kw)
-        except Exception as e:  # noqa: BLE001
-            if not _model_missing(e):
+        for attempt in range(3):
+            try:
+                return client.models.generate_content(model=model, **kw)
+            except Exception as e:  # noqa: BLE001
+                if _model_missing(e):
+                    log.warning("Gemini modeli kullanılamıyor (%s): %s", model, e)
+                    last = e
+                    break                      # sıradaki modele geç
+                if _is_transient(e) and attempt < 2:
+                    wait = _retry_delay(e, 10.0 * (attempt + 1))
+                    log.warning("Gemini geçici hata (%s), %.0f sn sonra yeniden: %s", model, wait, e)
+                    _sleep(wait)
+                    continue
                 raise
-            log.warning("Gemini modeli kullanılamıyor (%s): %s", model, e)
-            last = e
     raise last if last else RuntimeError("Gemini modeli yok")
 
 
 def classify(client, clusters_by_symbol: dict[str, list[dict]],
              general: Optional[list[dict]] = None) -> Optional[dict]:
     """Toplu sınıflandırma. Hata/kota -> None."""
-    if client is None or not any(clusters_by_symbol.values()):
+    global SON_HATA
+    if client is None or (not any(clusters_by_symbol.values()) and not general):
         return None
     from google.genai import types
 
@@ -213,10 +256,19 @@ def classify(client, clusters_by_symbol: dict[str, list[dict]],
                 response_mime_type="application/json",
                 response_json_schema=RESPONSE_SCHEMA,
                 temperature=0.0,
+                max_output_tokens=8192,
             ),
         )
-        raw = json.loads(resp.text)
+        text = getattr(resp, "text", None)
+        if not text:
+            try:
+                reason = resp.candidates[0].finish_reason
+            except Exception:  # noqa: BLE001
+                reason = None
+            raise RuntimeError(f"boş yanıt (bitiş nedeni: {reason})")
+        raw = json.loads(text)
     except Exception as e:  # noqa: BLE001
+        SON_HATA = short_error(e)
         log.warning("Gemini sınıflandırma hatası (kota=%s): %s", _is_quota_error(e), e)
         return None
     return validate_response(raw, clusters_by_symbol, general)
@@ -224,6 +276,7 @@ def classify(client, clusters_by_symbol: dict[str, list[dict]],
 
 def grounded_search(client, symbol: str) -> Optional[dict]:
     """Google Search destekli kısa doğrulama. Dönen: sahte küme (kanıt = arama kaynakları)."""
+    global SON_HATA
     if client is None:
         return None
     from google.genai import types
@@ -252,6 +305,7 @@ def grounded_search(client, symbol: str) -> Optional[dict]:
                 chunks.append({"uri": getattr(web, "uri", "") or "",
                                "domain": getattr(web, "domain", "") or getattr(web, "title", "") or ""})
     except Exception as e:  # noqa: BLE001
+        SON_HATA = short_error(e)
         log.warning("Gemini grounding hatası (kota=%s): %s", _is_quota_error(e), e)
         return None
     if not text or "önemli gelişme yok" in utils.tr_lower(text) or not chunks:
