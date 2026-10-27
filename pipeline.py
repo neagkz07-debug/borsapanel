@@ -1,3 +1,4 @@
+
 """Haber akışı: toplama -> kümeleme -> (Gemini | kural yedeği) -> sembol bazlı durum.
 
 Bot bu modülü yalnızca `open` ve `close` modlarında çağırır; `intraday` modunda
@@ -78,6 +79,7 @@ def refresh(*, symbols: list[str], deep_symbols: set[str], now: datetime, mode: 
             'warnings': [...], 'llm_ok': bool}
     """
     warnings: list[str] = []
+    llm.SON_HATA = None
     clusters_by_symbol: dict[str, list[dict]] = {}
     for sym in symbols:
         items = news.collect_rss_for_symbol(sym, sym in deep_symbols, now, fetch=rss_fetch, sleep=sleep)
@@ -98,16 +100,19 @@ def refresh(*, symbols: list[str], deep_symbols: set[str], now: datetime, mode: 
             gem = llm.bump_grounding(gem, today)
             if res is None:
                 # Ücretsiz katmanda arama doğrulaması kapalı olabilir; bugün bir daha deneme.
-                warnings.append("Arama doğrulaması kullanılamadı (ücretsiz katmanda kapalı olabilir); atlandı.")
+                warnings.append("Arama doğrulaması kullanılamadı (ücretsiz katmanda kapalı olabilir); atlandı"
+                                + (f" [{llm.SON_HATA}]" if llm.SON_HATA else ""))
                 break
             if res.get("cluster"):
                 clusters_by_symbol.setdefault(sym, []).append(res["cluster"])
 
     # --- Sınıflandırma
     llm_result = llm.classify(client, clusters_by_symbol, general) if client is not None else None
-    llm_ok = llm_result is not None or (client is not None and not any(clusters_by_symbol.values()))
-    if client is not None and not llm_ok and any(clusters_by_symbol.values()):
-        warnings.append("Yapay zekâ sınıflandırması yapılamadı (kota/hata); kural yedeği kullanıldı.")
+    anything = any(clusters_by_symbol.values()) or bool(general)
+    llm_ok = llm_result is not None or (client is not None and not anything)
+    if client is not None and not llm_ok:
+        warnings.append("Yapay zekâ sınıflandırması yapılamadı; kural yedeği kullanıldı"
+                        + (f" [{llm.SON_HATA}]" if llm.SON_HATA else "") + ".")
 
     raw: dict[str, dict] = {}
     for sym, clusters in clusters_by_symbol.items():
