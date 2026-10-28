@@ -6,13 +6,11 @@
     "ozet_gun": "2026-10-28"
   },
   "son_calisma": {
-    "zaman": "2026-10-28T19:11:34+03:00",
+    "zaman": "2026-10-28T23:19:02+03:00",
     "mod": "close",
     "durum": "TAMAM",
     "kuru": false,
-    "uyarilar": [
-      "Yapay zekâ sınıflandırması yapılamadı; kural yedeği kullanıldı [ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again ]."
-    ],
+    "uyarilar": [],
     "son_bar": "2026-10-28"
   },
   "saglik": {
@@ -20,31 +18,564 @@
     "veri_eksik": [],
     "veri_bayat": false,
     "haber_ok": true,
-    "yapay_zeka_ok": false,
-    "son_basarili": "2026-10-28T19:11:34+03:00"
+    "yapay_zeka_ok": true,
+    "son_basarili": "2026-10-28T23:19:02+03:00"
   },
-  "haber_zamani": "2026-10-28T19:11:34+03:00",
-  "llm_ok": false,
+  "haber_zamani": "2026-10-28T23:19:02+03:00",
+  "llm_ok": true,
   "pozisyon_durum": {},
   "cooldowns": {},
-  "guncelleme": "2026-10-28T19:11:34+03:00",
+  "guncelleme": "2026-10-28T23:19:02+03:00",
   "rejim": {
     "label": "RISK_OFF",
     "index": "XU030.IS",
     "close": 13960.89,
     "sma20": 14721.84,
     "sma50": 15750.85,
-    "usdtry_1d_pct": 0.1,
+    "usdtry_1d_pct": 0.11,
     "fx_shock": false,
     "available": true
   },
   "pozisyonlar": [],
   "adaylar": [],
   "izleme": [],
-  "haber": {},
+  "haber": {
+    "AKBNK": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "KAR_BILANCO",
+          "direction": "BELIRSIZ",
+          "severity": 4,
+          "confidence": 85,
+          "summary": "Akbank 3Ç net kârını %18 artırarak 45,9 milyar TL'ye yükseltti ancak kâr piyasa beklentilerinin altında kaldı.",
+          "source_count": 2,
+          "first_seen": "2026-10-27T18:34:54+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Akbank bilançosunu açıkladı: Net kar beklenti altında kaldı! İşte bilanço detayı",
+              "source": "cnbce.com",
+              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPU0FkNktSSXJ2TlVtQ1pnNHBlLVZucWdEMlR3QThMam9sY0E2WGpaeE9YQkRtV1o5NE9NbmNoZzE5SG1zYmgwTW9leHRWYzRqZ2JJMkd6TExRbFVOWXcxcHhEa05oOUtBSkdEUzdhUmlXOFVMR2tZMzUwckhhZGtOVDhJNUp1MUJBMm5WM2lzd09fR1RKQ1JCVXJ2U3A1NzJ4MHpOX2JSazBheFhNMWttd3Q4YWlDU3NmbmtvR25pRENlXzZt?oc=5",
+              "published": "2026-10-27T18:34:54+03:00",
+              "tier": "T2"
+            },
+            {
+              "title": "Akbank (AKBNK) net kârını yüzde 18 artırdı: 45,9 milyar TL...",
+              "source": "hisse.net",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOenJUa3RYSGdZV18zRjFXSnozQTBqMzJORlhXeEdZaEpnYkpUb0M2TWEyRjBrTFAtajhrTm1yS2cxcmtaSE5JS3ZKRWQ2d0VrWEpUV25JLUZnQ1JhYUtUbEVBNHQ5VDlaUkxWdndFbjdFclo1clVkOVNnci1zTDJZeDRHdlNWNDdaZ2RIQWVnRmlqMW5oRVo2dnBJbVNXRE8y0gGgAUFVX3lxTE56clRrdFhIZ1lXXzNGMVdKejNBMGozMk5GWFd4R1loSmdiSlRvQzZNYTJGMGtMUC1qOGtObXJLZzFya1pITklLdkpFZDZ3RWtYSlRXbkktRmdDUmFhS1RsRUE0dDlUOVpSTFZ2d0VuN0VyWjVyVWQ5U2dyLXNMMll4NEd2U1Y0N1pnZEhBZWdGaWoxbmhFWjZ2cEltU1dETzI?oc=5",
+              "published": "2026-10-27T18:37:51+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": true,
+      "summary": "3Ç net kârının piyasa beklentilerinin altında gerçekleşmesi hisse üzerinde satış baskısı yaratabilir.",
+      "confidence": null
+    },
+    "ASELS": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "KAR_BILANCO",
+          "direction": "OLUMLU",
+          "severity": 4,
+          "confidence": 90,
+          "summary": "Aselsan finansal sonuçlarında beklentileri aşarak kârını %75 artırdığını duyurdu.",
+          "source_count": 1,
+          "first_seen": "2026-10-27T18:56:31+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Borsa İstanbul'un devi Aselsan beklentileri aştı: Kar yüzde 75 fırladı",
+              "source": "cnbce.com",
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPek5KNWIxdzB6Zm1pcmIzRVBMQjF6b3FRem1XV21vczl2VmJmcFM1RjNTN1VsYUNKVVBPVm1Ubmhja1h0RUR6T0tEUl9YVGZ4VW9Wcjk5Wk9yMVlBdkdUMy0ycFdlNEtsU1k5OTdOYWFrcm5nZDdFWGd6bHhOOV9xOEVvR2dMMEM1clhXVmM3Z0I2UDlyTklaZDhLNEZ5QV9SUVBFa01UeXlpNE8yMTlld1JnYW0wZU0?oc=5",
+              "published": "2026-10-27T18:56:31+03:00",
+              "tier": "T2"
+            }
+          ],
+          "origin": "llm"
+        },
+        {
+          "event_type": "SOZLESME_SIPARIS",
+          "direction": "OLUMLU",
+          "severity": 2,
+          "confidence": 75,
+          "summary": "Aselsan rekor seviyedeki sipariş büyüklüklerinin etkisiyle yükseliş kaydetti.",
+          "source_count": 1,
+          "first_seen": "2026-10-28T13:07:58+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "ASELSAN Hisseleri Rekor Siparişlerle Yükselişte",
+              "source": "finanshatti.com",
+              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wM3pWZlNvQTIwVkpMUDdnQlpyRHl2Zkd6NWRWdkdVVEQwdWVseDA3SlE4MDRuTWVxVV9ndkkxeGo1LVB4SDE0WHVUS3pGbVFjWDNBTDFrTHNpOXM1VkxWT1FVaDVKRTV3WnpncjNPa3VDYzh5d1VqZXpBZw?oc=5",
+              "published": "2026-10-28T13:07:58+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Aselsan finansal sonuçlarında beklentileri aşarak kârını %75 artırdığını duyurdu.",
+      "confidence": null
+    },
+    "ASTOR": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "YONETIM_ORTAKLIK",
+          "direction": "BELIRSIZ",
+          "severity": 2,
+          "confidence": 60,
+          "summary": "Astor Enerji hakim ortağı hakkında basında para transferi ve kazanç iddiaları yer aldı.",
+          "source_count": 1,
+          "first_seen": "2026-10-27T21:22:02+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "'Geçgel, 5 milyar TL gönderdi 8.1 milyar TL geri aldı'",
+              "source": "urfabaraj.com",
+              "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQazM1ZHlUamRSNmVkMjdTNDhMZGIyMzk3TnFSSU9NRmp2bGZ2V3lhQ2dQalNYbmtLdDBMTm42WGN2bnJQSDZ1eUFWeko2QmgzMmdvRUk1RDVoUklDQkt1ckZYUFcwN0RteW1tZzZpeGo1cmdSQmF4dnFSVXhtUjZMQkNoSC1UdVBHRXc?oc=5",
+              "published": "2026-10-27T21:22:02+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": true,
+      "summary": "Şirket hakim ortağının şahsi fon transferlerine yönelik basında çıkan iddialar volatilite ve itibar riski oluşturabilir.",
+      "confidence": null
+    },
+    "ENKAI": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "YONETIM_ORTAKLIK",
+          "direction": "OLUMLU",
+          "severity": 2,
+          "confidence": 85,
+          "summary": "Mehmet Sinan Tara şirket paylarında ilave hisse alımı gerçekleştirdiğini açıkladı.",
+          "source_count": 1,
+          "first_seen": "2026-10-27T09:04:44+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Mehmet Sinan Tara’dan Enka İnşaat’ta (ENKAI) hisse alış açıklaması",
+              "source": "rotaborsa.com",
+              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQVlwWkhzVzktSkFzODNKajJSNG9CNUV5ZURHNUVfTWd2ODFNRk1zVEpmYmpjWUYyNzNleTVsUnhBVFJKbjc1aGE3VmFNTDRfVEY4c2pOVUw3dVNjeUM2UUpaTlc3TWZ3MXhPYUt6Zmk1ODNoaGhpdEZNaURlNXMybV9NempfMEI2d0RhUVY2cm5FZw?oc=5",
+              "published": "2026-10-27T09:04:44+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Mehmet Sinan Tara şirket paylarında ilave hisse alımı gerçekleştirdiğini açıkladı.",
+      "confidence": null
+    },
+    "FROTO": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "TEMETTU",
+          "direction": "OLUMLU",
+          "severity": 4,
+          "confidence": 95,
+          "summary": "Ford Otosan yaklaşık 10,8 milyar TL tutarında nakit temettü dağıtımı önerisinde bulundu.",
+          "source_count": 3,
+          "first_seen": "2026-10-27T18:34:04+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Ford Otosan'dan 10,8 milyar liralık temettü önerisi",
+              "source": "foreks.com",
+              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdGNmeWJibFN6aEd0bjRFYWZKOWR2enN0RjBMeWpjaEhKZjFBVkNvS251eGN6SXh6WFhFZ1FsMS1kOEY3a0w5dE1ES1FtUWRtS25NaWFmaGV2UFoyZk9NdUt4Q3hTd0NmWG5uZnp6azgtRzhnWUNiOTBiSnJVenBHdFk2Q1JYUlFxX09sMzh0cmNfVTdZbXNwSXJHY21MV1lzOUV5T1pWRDZoUFdYc3JJN3R3SHB3WTJDM2ZlRzFBYVh3QzFxcm1WYUlSMEc?oc=5",
+              "published": "2026-10-27T18:34:04+03:00",
+              "tier": "T2"
+            },
+            {
+              "title": "Ford Otosan’dan 10,77 milyar TL’lik temettü kararı haberi",
+              "source": "borsaningundemi.com",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRXBUQ2IxZWlfVU9lTGNSaXctbUpZWjRnVFl3TU9zX1B0dlo3Rm1PWXdBNWJRclR5S08xMWN4WjZaQ1V5S3NucllZSThZU0JEaG1Oa01RSWwxUTVzOVNVYy1QdDZva1ZUNi1UTDBfaEs3NW04VGdRRGRqQ1pSQmxvdnpyM3psM2Q5SkNzbGJHNEdnN2ZPV2hiVA?oc=5",
+              "published": "2026-10-27T18:50:04+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Ford Otosan’dan 10,77 milyar TL’lik temettü teklifi",
+              "source": "ekoturk.com",
+              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQUg3elY4RDFWb28xNVRXc1hkeUFvTHowUDJtbV9wZnNfWENVSVR2bDZKSDJkNGkwcVhJM3owT3NMTkdmVHlWQnZXbzdGczNsVjJwSFRBTVhpU0I1YS1jd0ZLMUEzMFE4ZllMenYyY2ppeEdSRWtOS1FOZXlOOFNCMjAwRUo4Zw?oc=5",
+              "published": "2026-10-28T03:02:23+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Ford Otosan yaklaşık 10,8 milyar TL tutarında nakit temettü dağıtımı önerisinde bulundu.",
+      "confidence": null
+    },
+    "GARAN": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "KAR_BILANCO",
+          "direction": "BELIRSIZ",
+          "severity": 2,
+          "confidence": 80,
+          "summary": "Garanti Bankası 2026 yılı 3. çeyrek finansal sonuçlarını Kamuyu Aydınlatma Platformu'nda açıkladı.",
+          "source_count": 1,
+          "first_seen": "2026-10-28T20:10:50+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Garanti Bankası (GARAN) 2026 yılı 3. çeyrek bilançosunu açıkladı! İşte detaylar",
+              "source": "rotaborsa.com",
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVU1VcTBZekZMN3kwTWV0aElnbTRodVFUSk80YlFBVElkZlFGS1Y1ckNrY0ppd2xFNUEzRlVYRkFidnJfMVowNUM0T01VaHdVMmlnMThSSzVFbHFaTXZZYUZabTNDeFpkd1luOHgta0JNeXlfa0dSZXhEODNIT3ZWUU9QcmJFQXlySmQyYW9oLXF3dE5LZXBSV1Nua3JZWUU?oc=5",
+              "published": "2026-10-28T20:10:50+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Garanti Bankası 2026 yılı 3. çeyrek finansal sonuçlarını Kamuyu Aydınlatma Platformu'nda açıkladı.",
+      "confidence": null
+    },
+    "GUBRF": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "YONETIM_ORTAKLIK",
+          "direction": "OLUMLU",
+          "severity": 2,
+          "confidence": 90,
+          "summary": "Gübre Fabrikaları azami 4 milyar TL fon ayrılan pay geri alım programı başlattığını bildirdi.",
+          "source_count": 2,
+          "first_seen": "2026-10-27T16:55:15+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Gübre Fabrikaları’ndan 4 Milyar TL Üst Limitli Pay Geri Alım Programı: KAP Açıklaması",
+              "source": "sigortahaber.com",
+              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaERiTi1oNVlYUjBobmx1b0JKMUlidmVUbGtfUFZXWTVKVVBRWklNdkpWeE5uSTVkS1VoaEVkRHducG55bHFrWkdYV3diRHFPeGJvanVoNkMxZnNGd3VYN01FVGpEVE9Sc0NtM1M1VWwyOUQ0UmsxOG9wT1FVQzNBVGI4a1VkajJObk5lR1Q4RV9Fd2xIOU4yTl9zZUEydjVNU3p4SmhKc1RyU25jbmtv?oc=5",
+              "published": "2026-10-27T16:55:15+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Gübre Fabrikaları'ndan pay geri alım kararı",
+              "source": "ekoturk.com",
+              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcE01M3J0YTNISFk0NW9yVk92N09vb05VaGI3LVJ4eUpaWWVocG82QWsyUGFubzNkUjRJckd2Z3l6TGk3aXJPWC1qQXRQdnczWW1YOXM0ZlNRX0tBSmhVZGZlaGg2R2Ewb3EzcHJDWnA5elN1d0Z6RmlMclZQdGphdU13?oc=5",
+              "published": "2026-10-27T19:02:23+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Gübre Fabrikaları azami 4 milyar TL fon ayrılan pay geri alım programı başlattığını bildirdi.",
+      "confidence": null
+    },
+    "SAHOL": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "YONETIM_ORTAKLIK",
+          "direction": "OLUMLU",
+          "severity": 2,
+          "confidence": 85,
+          "summary": "Sabancı Holding pay geri alım programı çerçevesinde işlem gerçekleştirdiğini açıkladı.",
+          "source_count": 1,
+          "first_seen": "2026-10-27T19:31:07+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Sabancı Holding (SAHOL) Pay Geri Alım Açıklaması",
+              "source": "finanshatti.com",
+              "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX24wZ0tpdWI2dm9tc0Y4ZjlFakxZdVc0T3JYWjNFVGJkaHFqbFMtdTJfOG9UT0lLbGF1dzBuTzAwUml3SVdmQjMtb0dRTVBTVDgtQzg5RWtGbllwc21iYUpTZzNyelJWdWotTlQ2ZjFUOHpiV1pfSkt1WjFPdkQ0bGpaVlc?oc=5",
+              "published": "2026-10-27T19:31:07+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Sabancı Holding pay geri alım programı çerçevesinde işlem gerçekleştirdiğini açıkladı.",
+      "confidence": null
+    },
+    "TAVHL": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "OPERASYONEL",
+          "direction": "OLUMLU",
+          "severity": 2,
+          "confidence": 85,
+          "summary": "TAV Havalimanları 9 ayda 89,4 milyon yolcu ağırlarken 1,46 milyar avro ciro elde etti.",
+          "source_count": 1,
+          "first_seen": "2026-10-27T23:27:09+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "TAV Havalimanları 2026 İlk 9 Ayda 89,4 Milyon Yolcuya Hizmet Verdi: Ciro 1,46 Milyar Avro",
+              "source": "sigortahaber.com",
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRDIxUzdVWkJlUDI5R09hMHJTa0ZHekJZQUZ5SF94YXlOdUdZdC15djRNeXJIYmxWTjJVQWUtLXYyUTA4MmMtTlhmLTFKY2pwZE5HQUxJOGJuMHpzYThzakhRc21WSlNxNmlTTzdMVm1VSzBoSzc3R2NtWVB5OEZZSTQ0UjQ4dzcweFBCY3M3X0FrYWVWdlpNbERScllOZlk?oc=5",
+              "published": "2026-10-27T23:27:09+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "TAV Havalimanları 9 ayda 89,4 milyon yolcu ağırlarken 1,46 milyar avro ciro elde etti.",
+      "confidence": null
+    },
+    "TCELL": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "YONETIM_ORTAKLIK",
+          "direction": "OLUMLU",
+          "severity": 2,
+          "confidence": 85,
+          "summary": "Turkcell pay geri alım programı dahilinde hisse alımlarına devam ettiğini bildirdi.",
+          "source_count": 3,
+          "first_seen": "2026-10-27T20:04:34+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Turkcell (TCELL) 27 Ekim'de 1.196.377 hisse geri aldı",
+              "source": "borsatek.com",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBaWERYbkpvUUtUck5XcDA0dWtzVF9BUmxPNjREZzJxVjNLMlM1VGJ3T2hBNWIzYVFOYUJJcEQ1YUZLU2NXYU4wQ1EzeDhNeGdyU1lZZnB1WldTUWU2MS1VT1Y4dExqUGplaElXTW9sSXR0Y3pfNnJr?oc=5",
+              "published": "2026-10-27T20:04:34+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Turkcell’den (TCELL) geri alım açıklaması",
+              "source": "rotaborsa.com",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFByNGlsWXBqY1lDOXpRSXdhVGZOZFVmX0g0cndQRkxfYVg1dXNuNmw1YXBSQkItaUYwT0p5Vmd3TnVCV1lHRmNDNVQtaWYwSjJXVkxOVmc2eGxNN2diNXhxbXdkVG9RbVJKWlFTNHJud0I?oc=5",
+              "published": "2026-10-27T20:07:07+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Turkcell bugün kaç lot hisse geri aldı? KAP açıklaması geldi",
+              "source": "paratic.com",
+              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZzZEcHVVMEMzbi1IeC11ZGota0loR00wQU5wNUdEY3dwZTdtNmxhOXRWc1YtLXc1Z1ZMelRld0V4OGpEZnpTaWViek83NHp4U28zSjliWnZJdDN5bjNnOExGeDN6T0kyb3lpOEFGRU16VXFKYXk5cTN3dTIxRWdRQlhJeGpEY0E?oc=5",
+              "published": "2026-10-28T18:37:38+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        },
+        {
+          "event_type": "YONETIM_ORTAKLIK",
+          "direction": "OLUMSUZ",
+          "severity": 2,
+          "confidence": 75,
+          "summary": "Turkcell yabancı ortaklarının TOGG tarafında yeni hisse alımına muhalefet ettiği bildirildi.",
+          "source_count": 1,
+          "first_seen": "2026-10-28T08:52:00+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Turkcell’in yabancı ortakları TOGG’da yeni hisse alımına karşı çıktı",
+              "source": "haberhurriyeti.com",
+              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPX0lTWjRYVktzTUxCTFZkcHY1SFduZHZJbHJLeWtkMl9uVm1sMVJPNTBfa3ItVXl0UFVxaGFZYjd0NW11M29YbUd0M2RoQ3BwQ2I1MUw1a043M1dSbG1kdGVMTEctbmhGTlR2OThVMUJiamFKMXBMTkk5T1FEdzFSN1pjdVRHU0RLa1l4VktHaTZwS1RpUmVrUl9XdkJhbjNCOF9MVTQ2bEt6ZWJDcDg1X2JB0gG3AUFVX3lxTFBXeGhSX1BCajY5eDRpWlZMUVJIaGNZbXFJaXhjbFRhVlRyWUMyWW44UzlKbThLclMtS0wwRm9QZU9fUXVqaU1kSlZabXFqakswRmtxc1FoT19fdVpLQVJiWVlad0hyMDNwNTI3dmJJb205Z2FWcEs0M2tfM2lnc29MdDZ2bDZGVndldkVyeWR4MmJQbWJPVUdGODBmZkM2SWRhd1lHM0VLc0Q2WlRQbHdFRW8tQ0R5OA?oc=5",
+              "published": "2026-10-28T08:52:00+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": true,
+      "summary": "Yabancı ortakların TOGG sermaye artırımı/hisse alımına karşı çıkması ortaklık yapısında anlaşmazlık riski taşıyor.",
+      "confidence": null
+    },
+    "THYAO": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "KREDI_BORC",
+          "direction": "OLUMLU",
+          "severity": 2,
+          "confidence": 90,
+          "summary": "JCR Avrasya, Türk Hava Yolları'nın ulusal kredi notlarını en yüksek seviyelerde teyit etti.",
+          "source_count": 1,
+          "first_seen": "2026-10-27T22:38:23+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Türk Hava Yolları’nın JCR Avrasya Kredi Notları Teyit Edildi: AAA(tr), J1+ ve BBB+",
+              "source": "sigortahaber.com",
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWUExa1ZJYzhqWkIwcTFoOE5ReDdaM0ZVUHNyRVVKcWgzazNDWGM3NS1VWWp5OGNENTRtdVlSMjlYdUwtc25oYTRNcnFTSVhvRG5ZWVc2UVZMbS1kMnU2bkF5NzBoUU9VcXluOUwxM0EzQl82VFo2VW83QW1iSFZOLVRXNWsyOXhXS1dYbHlYRnQ3dEdVR0g2NGdXSDNoRWdaYXo0OVJocF81dmMx?oc=5",
+              "published": "2026-10-27T22:38:23+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "JCR Avrasya, Türk Hava Yolları'nın ulusal kredi notlarını en yüksek seviyelerde teyit etti.",
+      "confidence": null
+    },
+    "VAKBN": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "YONETIM_ORTAKLIK",
+          "direction": "BELIRSIZ",
+          "severity": 2,
+          "confidence": 85,
+          "summary": "VakıfBank özellikli çalışanların prim ödemeleri kapsamında 143.761 adet hisse geri aldı.",
+          "source_count": 3,
+          "first_seen": "2026-10-27T18:18:15+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Türkiye Vakıflar Bankası (TVB) 143.761 hisse senedi geri aldı",
+              "source": "borsatek.com",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2TFh4eXJZOFlPYjV4RFYxY0NRc2NkTmR1QzUyS1c4RWpEYUU0dWRwTVFrNzZkM05YTV9DaHZGRlp0NWhtdFNqVmJFWUdPdE00NjEzWHk4UHBXZw?oc=5",
+              "published": "2026-10-27T18:18:15+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Vakıfbank 29.98 TL ortalama fiyattan toplam 143.761 adet bankamız hisse senedi geri alımı yapıldı",
+              "source": "tr.tradingview.com",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PeldYZHdzV1FXT0xqODQ1TVM1dmVkRnB5SUZYeVZfREhYZGNQdEtxWnpZd1hESjBIXzNsSHNOaHdPVzFXbkZTdk82UHRmWHowM1F3X1Q1cm44QUhLTE5TZ0VJUUhiaGMxRV8wNWVlR1o5dFRuTXlN?oc=5",
+              "published": "2026-10-27T18:33:58+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Vakıfbank, özellikli çalışanlara ödeme için 143.761 hisse geri aldı",
+              "source": "tr.investing.com",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNnkzSmFiOXVEQVg0eDZFSWxSaFBDNnVjemhtenl0TWswZnh6RXVXLThYbWdzckJnc1pQYUZKdlR2UGJkU1l3R0dJbThqb2ZiSUFBaGVzQUJ1S3NPYnl6aFdWTW5QMTRKQUVqQ3Awc09JYUpNQXUtdUtOOEJxbjhVYWV4UU9vc2dhcFYybWFkMkZKWXdFck1rWlZUZFVnMFYtcXdvdi1tSUU5Um5jdFN1UDhnNzF4dHZxSEUwRg?oc=5",
+              "published": "2026-10-28T12:25:22+03:00",
+              "tier": "T2"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "VakıfBank özellikli çalışanların prim ödemeleri kapsamında 143.761 adet hisse geri aldı.",
+      "confidence": null
+    }
+  },
   "haber_genel": {
-    "events": [],
-    "summary": ""
+    "events": [
+      {
+        "event_type": "MAKRO_SEKTOR",
+        "direction": "OLUMSUZ",
+        "severity": 3,
+        "confidence": 85,
+        "summary": "Borsa İstanbul, Tera Portföy'e ait üç yatırım fonunda pay işlemlerini durdurdu.",
+        "source_count": 3,
+        "first_seen": "2026-10-27T09:29:30+03:00",
+        "trusted": true,
+        "evidence": [
+          {
+            "title": "Borsa İstanbul, üç Tera fonunda işlemleri kapattı",
+            "source": "bloomberght.com",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTWV5ak5xSEtNa29MX3BzczVfSnJkZWJIaG02cXdzRXkwV3hXUlpxSk9YWk8yUFA2QVpNbXV5NnY0YzVkSmVBY0paMm9KbXdJUzlvSHA3SnJhVTFKamZYbFI4cFRVNTFwTHh6QmlMMVpDWWdRcXM2NW5zdkxmVmFaVkhxRENNaG1BMWhNZg?oc=5",
+            "published": "2026-10-27T09:29:30+03:00",
+            "tier": "T1"
+          },
+          {
+            "title": "Borsa İstanbul'dan Tera Portföy kararı: Üç Tera fonunda işlemleri kapattı",
+            "source": "haberturk.com",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMkxDbjVIREQ0Q05jbnFpR3dlQkNTYnFBeGpySU05UURrdHFxWmY3dXA2VU1xcGxadnRwSXFQUWtTMXRGR2xoZmN5VU92aFJXTTJFUDJ3NUxOQkFWR1p1VTdFSk1MM2R6QldCYmxjVGZORWlYTWdJNFBhSnkzeU5hMDlZRWRLQ3BmY3lRd05QUHlWdlEwU3U1ejl5TFl1S3B3enFMbkg2YVhSNC1YcGx0OE5HZHo?oc=5",
+            "published": "2026-10-27T10:06:11+03:00",
+            "tier": "T2"
+          },
+          {
+            "title": "Borsa İstanbul'dan Tera Portföy kararı: Üç Tera fonunda işlemleri kapattı",
+            "source": "ekonomi.haber7.com",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOVZwblZONnRLc3p0YVVtZ05sdG93NEJ6eERhRTlIdWdZYUZlMVc5empKd2NzUFhFM24wbklRT1FBMkV0TTUwbjl4Y0tCTUJTTEZQSmEyV1MwWTBkb25EVTFHSjNUMXJzZmZNUUVxRXBJY0pNdXhzYWNrYy0tYzBfMTVlLTVtWjRuN2FJX3pSWFo0d2doeVBfUXhaOUdQN0hpV21Tck5NcU9fNkh6RkFPUlpQaEtNWUN3Z05nOdIBvwFBVV95cUxQYldvcWk5cnlLdXhFTnJWTlBvXzNRajJRNk85QkZXRU1Dd1VZYVhDRmlGN293cmRnSk83blNUanRKMmc0RlFtX3RaUWh0SldDS015TVAzbDAtVS1yMTdZTDBBaDRGbzVBRkI3eWxUTXlybGNCMExXaVVqOUNtbno5WndPNmtubHV2aWl2cGpUZlprZmZkV2pESTdxbkNQaUkwc0UzYjBBaHM1dVRpY1hoNTg1ZUJuMndlRWItM1lrZw?oc=5",
+            "published": "2026-10-27T11:14:00+03:00",
+            "tier": "T3"
+          }
+        ],
+        "origin": "llm"
+      },
+      {
+        "event_type": "MAKRO_SEKTOR",
+        "direction": "OLUMSUZ",
+        "severity": 3,
+        "confidence": 80,
+        "summary": "TCMB'nin döviz müdahaleleri ve satışlarının 16 milyar dolar eşiğini aştığı bildirildi.",
+        "source_count": 4,
+        "first_seen": "2026-10-28T00:00:00+03:00",
+        "trusted": true,
+        "evidence": [
+          {
+            "title": "TCMB'nin kriz sonrası döviz satışı 16 milyar doları aştı",
+            "source": "ekonomim.com",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbHFNSi1FRERRVm1tVDNTY1JsQmRYM1lVT05JRzlJblBUVUlvNEtZZXg3bVR1aUhYRmJ1NlJZNG1BT3hBUDY0bGhjelk2aHlRNG1RcVdaMEJSampuZVJDa1RYbS1IOUtSbGR2aVBiVnUwejliOVVYV3haTzNkOURCWWN0bjRiUlc1THdCOURrT1BBOTJFSFhfYTVmNERKd0VtU2pQdQ?oc=5",
+            "published": "2026-10-28T00:00:00+03:00",
+            "tier": "T1"
+          },
+          {
+            "title": "TCMB’nin döviz satışı 16 milyar doları aştı haberi",
+            "source": "borsaningundemi.com",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMkZqaWs3TkRFVGRYU1VDZTJFazVpdmJMRlowemx3UlZKY2IwQXVvUzVZRGxpOEx5d1Vhckp5TVdQYkhVYlU2ZHpMTV83NnkyZjZmQVNrSmJ0V0RRY19fWkt2TUFBVGkwZVBzWVl6dlNJRm5rVm1NeHh6Rm9ibU91M1p3bWxlbzVXQW1vdHd3LUFRUQ?oc=5",
+            "published": "2026-10-28T06:13:45+03:00",
+            "tier": "T3"
+          },
+          {
+            "title": "Rezervlerde kayıp büyüyor: TCMB’nin döviz satışı 16 milyar doları geçti",
+            "source": "haberhurriyeti.com",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZTBRUmhJTVJpSWRzVjY0ZVA2OVFfdVlMTUNmX183NHZBSV9CZWpDNVNzekJtM1NYTmQ3UkI2QWhaa1pVX0NMTzUtenZwY1BRNHVjNXd2bVRORDJCRVlIb2owS3NXM2c3UmY1ZEp4R0Nab2dUVDI2dWVyaFdxbzkxVE0tV3hzVTFTeWdoZFp3OEVvdXVLbjA2SlZ0WXZpaWQ5UlJxc1RRMWZWY21LbjdFd3ZXNkxiUdIBuwFBVV95cUxOMEJmV05nN0RWUmVGLXdVd1llTm9xSld3V3FpU2FnbHlBQUkyWjlqTm9EZ0tFa0tvTTNVX3Y2TXhwSmctb3VVdjZFRW41NTRMeFQ0cGwzaXlEVm8yQ2o0N0dmbHZ3d0s4aFhkY1RZQkdwNTdMdUJtdXJOS1FTU2JqcDBoS19jU2ktRUlsbUlKUWdvZnFCM09GVGdPMjJRQUV0N0pJazJNZ1EzbzRhLTVNYTkzTFRhRjdKZm00?oc=5",
+            "published": "2026-10-28T06:15:00+03:00",
+            "tier": "T3"
+          },
+          {
+            "title": "Fon ateşi rezervlere düştü: TCMB’de satış 16 milyar doları...",
+            "source": "hisse.net",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeFozS2wwR1JNekFnamdNcm1zMF94TXpuRS1Mb1cwdEp0MW16b1Btb204R1hjZG05Qmgtc3NfdThKTUJheXhXeFkxckFmM2pqVW9NNE81ODhFSldXYndFMmhRQzhZOHA0b2t4UGs4a2VyMGptUzZrWnFUakFIRE1qQlRwU3k1ampjZEdzRlNidVM0bVphTHdmUER6Rm1iUdIBowFBVV95cUxOQ2ZDYnlnRXBEQ0VuWHo0azh4OXdvLWNlaUxQLUE2YTRaQkVrVzlkak4weDAxYXR4NFkzd1FCUVM3Y3YtMkRxay1oUElwd0U0elp6T3hhdV9pR09HVjlZTTJuSzJPMG92OXR0NFNPVEdZcUFnTVZkdXVpcC01R2hEdVNqeUtMclg3Ung2a3pMV1pFbUJJWmt6ckZMUFRPTzJjWVhN?oc=5",
+            "published": "2026-10-28T10:01:26+03:00",
+            "tier": "T3"
+          }
+        ],
+        "origin": "llm"
+      }
+    ],
+    "summary": "Borsa İstanbul, Tera Portföy'e ait üç yatırım fonunda pay işlemlerini durdurdu."
   },
   "gemini": {},
   "makro": [
