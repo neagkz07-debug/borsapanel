@@ -6,12 +6,12 @@
     "ozet_gun": "2026-10-27"
   },
   "son_calisma": {
-    "zaman": "2026-10-27T23:07:25+03:00",
-    "mod": "close",
+    "zaman": "2026-10-28T17:03:54+03:00",
+    "mod": "intraday",
     "durum": "TAMAM",
     "kuru": false,
     "uyarilar": [],
-    "son_bar": "2026-10-27"
+    "son_bar": "2026-10-28"
   },
   "saglik": {
     "ardisik_hata": 0,
@@ -19,20 +19,20 @@
     "veri_bayat": false,
     "haber_ok": true,
     "yapay_zeka_ok": true,
-    "son_basarili": "2026-10-27T23:07:25+03:00"
+    "son_basarili": "2026-10-28T17:03:54+03:00"
   },
   "haber_zamani": "2026-10-27T23:07:25+03:00",
   "llm_ok": true,
   "pozisyon_durum": {},
   "cooldowns": {},
-  "guncelleme": "2026-10-27T23:07:25+03:00",
+  "guncelleme": "2026-10-28T17:03:54+03:00",
   "rejim": {
     "label": "RISK_OFF",
     "index": "XU030.IS",
-    "close": 13934.73,
-    "sma20": 14765.9,
-    "sma50": 15803.28,
-    "usdtry_1d_pct": 0.09,
+    "close": 13960.89,
+    "sma20": 14721.84,
+    "sma50": 15750.85,
+    "usdtry_1d_pct": 0.1,
     "fx_shock": false,
     "available": true
   },
@@ -138,25 +138,6 @@
       "sentiment": "NOTR",
       "risk_flag": false,
       "events": [
-        {
-          "event_type": "DIGER",
-          "direction": "OLUMLU",
-          "severity": 1,
-          "source_count": 1,
-          "first_seen": "2026-10-26T13:19:14+03:00",
-          "trusted": true,
-          "origin": "manuel",
-          "summary": "Bak buna",
-          "evidence": [
-            {
-              "title": "Bak buna",
-              "source": "KAP (manuel)",
-              "url": "",
-              "published": "2026-10-26T13:19:14+03:00",
-              "tier": "T1"
-            }
-          ]
-        },
         {
           "event_type": "SOZLESME_SIPARIS",
           "direction": "OLUMLU",
