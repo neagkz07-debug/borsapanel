@@ -6,12 +6,9 @@
     "ozet_gun": "2026-10-28"
   },
   "son_calisma": {
-    "zaman": "2026-10-28T23:19:02+03:00",
-    "mod": "close",
-    "durum": "TAMAM",
-    "kuru": false,
-    "uyarilar": [],
-    "son_bar": "2026-10-28"
+    "zaman": "2026-10-29T17:24:30+03:00",
+    "mod": "intraday",
+    "durum": "ATLANDI_TATIL"
   },
   "saglik": {
     "ardisik_hata": 0,
