@@ -3,11 +3,11 @@
     "hata_gun": "2026-10-26",
     "haber": [],
     "pazartesi_gun": "2026-10-26",
-    "ozet_gun": "2026-10-28"
+    "ozet_gun": "2026-10-30"
   },
   "son_calisma": {
-    "zaman": "2026-10-30T17:14:05+03:00",
-    "mod": "intraday",
+    "zaman": "2026-10-30T19:05:57+03:00",
+    "mod": "close",
     "durum": "TAMAM",
     "kuru": false,
     "uyarilar": [],
@@ -19,19 +19,19 @@
     "veri_bayat": false,
     "haber_ok": true,
     "yapay_zeka_ok": true,
-    "son_basarili": "2026-10-30T17:14:05+03:00"
+    "son_basarili": "2026-10-30T19:05:57+03:00"
   },
-  "haber_zamani": "2026-10-28T23:19:02+03:00",
+  "haber_zamani": "2026-10-30T19:05:57+03:00",
   "llm_ok": true,
   "pozisyon_durum": {},
   "cooldowns": {},
-  "guncelleme": "2026-10-30T17:14:05+03:00",
+  "guncelleme": "2026-10-30T19:05:57+03:00",
   "rejim": {
     "label": "RISK_OFF",
     "index": "XU030.IS",
-    "close": 13631.98,
-    "sma20": 14642.51,
-    "sma50": 15693.31,
+    "close": 13419.68,
+    "sma20": 14631.9,
+    "sma50": 15689.06,
     "usdtry_1d_pct": 0.23,
     "fx_shock": false,
     "available": true
@@ -39,39 +39,429 @@
   "pozisyonlar": [],
   "adaylar": [],
   "izleme": [],
-  "haber": {},
+  "haber": {
+    "AKBNK": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "KAR_BILANCO",
+          "direction": "BELIRSIZ",
+          "severity": 2,
+          "confidence": 70,
+          "summary": "Akbank için 3Ç bilanço yorumları ve aracı kurum hedef fiyat güncellemeleri yayımlandı.",
+          "source_count": 2,
+          "first_seen": "2026-10-29T14:50:39+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Akbank (AKBNK) bilanço yorumu",
+              "source": "rotaborsa.com",
+              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE44dldFVzlJa3JhTWVUdlZSbjJoX1BkclBIeU1HbDZaUVplT0dIZTU0TV9wU2lKTGZ4WGpCTnlIM2ZMODNOQlVuSWQ3NEUtUEw5eFZ4ZFlVLUIzdjBIX0dYLWhB?oc=5",
+              "published": "2026-10-29T14:50:39+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Yapı Kredi Yatırım, Akbank için hedef fiyatını ve tahminlerini güncelledi",
+              "source": "borsatek.com",
+              "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBvem5ZaEx4T3JUclBwcmoyWGJoZnl1MjZpUmQzcThkY0RoNDdWMHY1cTU1aWl6akl5SFlWMDdiRzgzWTV5elBlM2w0UF9HRm9ORXFPOHdqOF9LbGtaYnlhWWRqV1dTS0d5OWJBdDhocXdPWkZQcTJUS0s0M2VTQQ?oc=5",
+              "published": "2026-10-29T15:55:35+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Akbank için 3Ç bilanço yorumları ve aracı kurum hedef fiyat güncellemeleri yayımlandı.",
+      "confidence": null
+    },
+    "ASELS": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "TEMETTU",
+          "direction": "OLUMLU",
+          "severity": 2,
+          "confidence": 75,
+          "summary": "ASELSAN'ın temettü dağıtacak şirketler arasında yer aldığı bildirildi.",
+          "source_count": 1,
+          "first_seen": "2026-10-29T15:37:12+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "ASELSAN’dan Ford Otosan’a: 11 şirket temettü dağıtacak",
+              "source": "hisse.net",
+              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPa2VYcV9oTHZKSklUald5TW5KV2NGRVlWMVhEVEZaSDQ0UTBVRXBsQ0J4MmswWGF4VG1vMThMS3RUV3pzX0Z3X0NfZVc2VXpBVkZaV21aaEhKUG5oOXZtc25KUS1HN2E5ZVl6cG1KQWtTcjkzcGdqR09XRjJubGZoSDZ0SWUtMzBXbzRDS2taUVlHZ9IBlwFBVV95cUxQaDgtN2pyLTVrV1BmZ0IwR3lJOGZvMmxzYW9oMWV6cjItYm55cTlUdHVBdHBJVTlqekVmZnJNbHBIQVJSZUNYaWxpX2tid09FaXRDUmdHaTNaaFFpbDhMX3Q2akZZR2ZTcVJjbHFaVDQwSkVUWVBodVZIdEZhWHBCME1NbmU3akhMSkFMSVV3Qkp2WVZONVVv?oc=5",
+              "published": "2026-10-29T15:37:12+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "ASELSAN'ın temettü dağıtacak şirketler arasında yer aldığı bildirildi.",
+      "confidence": null
+    },
+    "ASTOR": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "KAR_BILANCO",
+          "direction": "BELIRSIZ",
+          "severity": 2,
+          "confidence": 65,
+          "summary": "Astor Enerji için 2026 yılı 3. çeyrek bilanço beklentileri yayımlandı.",
+          "source_count": 1,
+          "first_seen": "2026-10-30T17:00:35+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Astor Enerji (ASTOR) 2026 3. Çeyrek Bilanço Beklentisi",
+              "source": "finanshatti.com",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBoajVRTHl5VWR4c3B5WWNNZ2lfV2txbFlGMl9GVExqZmozeFpFZUFkY3Fzazh2S3VCQjhHYnF1QnRwakFSS25sVk44LU9qRko4RUF2YWdVakJzSzVfQjdJRkpNVzhQMzl0dXhSV2xJaHBlckU?oc=5",
+              "published": "2026-10-30T17:00:35+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Astor Enerji için 2026 yılı 3. çeyrek bilanço beklentileri yayımlandı.",
+      "confidence": null
+    },
+    "ENKAI": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "YONETIM_ORTAKLIK",
+          "direction": "OLUMLU",
+          "severity": 2,
+          "confidence": 90,
+          "summary": "Mehmet Sinan Tara, Enka İnşaat paylarında hisse alımı gerçekleştirdiğini açıkladı.",
+          "source_count": 2,
+          "first_seen": "2026-10-30T08:52:01+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Mehmet Sinan Tara’dan Enka İnşaat’ta (ENKAI) hisse alış açıklaması",
+              "source": "rotaborsa.com",
+              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWVc5UHl4NlRMUWlqZkRRcGR4OUlaWWhOTmRqM1VXMkdBQ2ZUQTV1TVJLUFNXTjFvblZ6ckRSVHpKaHFNZWlyNmQzYm5id1hXYlQ3bllBOE81d19qVHZfdFdwdUU0V2NSdUFQV2plclVkdzNxLXQ0NVBhUmZ1TUNVYlh3aTE0YW9QWDRreDRqSTYzZw?oc=5",
+              "published": "2026-10-30T08:52:01+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Enka İnşaat (ENKAI) Ortağından Hisse Alımı: Güven Tazeledi",
+              "source": "finanshatti.com",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03bVBUZXhHU21LN29qMmNRUGpETFU3Zzhmb0F3b2pFMHFCU3YwTFN6Y2M1Y2haQ2k1cF91a18wRWFWZ3R2VHZyaUc3YWNSUC03WHp0QklvWmQ0MXMwVGh0YWVBd0ltV0dhMTFoRTU1di1WTk0?oc=5",
+              "published": "2026-10-30T09:00:06+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Mehmet Sinan Tara, Enka İnşaat paylarında hisse alımı gerçekleştirdiğini açıkladı.",
+      "confidence": null
+    },
+    "FROTO": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "TEMETTU",
+          "direction": "OLUMLU",
+          "severity": 2,
+          "confidence": 95,
+          "summary": "Ford Otosan, 10,77 milyar TL tutarında temettü dağıtma kararı aldı.",
+          "source_count": 2,
+          "first_seen": "2026-10-29T15:37:12+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "ASELSAN’dan Ford Otosan’a: 11 şirket temettü dağıtacak",
+              "source": "hisse.net",
+              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPa2VYcV9oTHZKSklUald5TW5KV2NGRVlWMVhEVEZaSDQ0UTBVRXBsQ0J4MmswWGF4VG1vMThMS3RUV3pzX0Z3X0NfZVc2VXpBVkZaV21aaEhKUG5oOXZtc25KUS1HN2E5ZVl6cG1KQWtTcjkzcGdqR09XRjJubGZoSDZ0SWUtMzBXbzRDS2taUVlHZ9IBlwFBVV95cUxQaDgtN2pyLTVrV1BmZ0IwR3lJOGZvMmxzYW9oMWV6cjItYm55cTlUdHVBdHBJVTlqekVmZnJNbHBIQVJSZUNYaWxpX2tid09FaXRDUmdHaTNaaFFpbDhMX3Q2akZZR2ZTcVJjbHFaVDQwSkVUWVBodVZIdEZhWHBCME1NbmU3akhMSkFMSVV3Qkp2WVZONVVv?oc=5",
+              "published": "2026-10-29T15:37:12+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Ford Otosan’dan 10,77 milyar TL’lik temettü kararı",
+              "source": "ekonomi.haber7.com",
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPX0FTQjBUek5aeDRnblAtSkxYOXdJdjZQbC1rWWxWUWJyd19TV1pWem9BTXZOM0Rfbk1majhqR0Y5c2JJdWtBMVdjMU82NGtGWDV5YTRLbERGdjE1dmJlMEtkTU44Tk0ydWk4d3JfeTNUcC02WHloTUZHM25XcGJhUE9WNHFCWFNJNmY2aWFBNF8zRkZOMWpPOGZpcDLSAZ8BQVVfeXFMTXJiYWtYODJfbEVqMEp6M0hVQzg2WmZ5RFFnVlZBejVkRkQyZWtmUlNZc2R3OVNadXpnU1hGOUEyeVhhTkE2WEJpakY0elVyMDh1Y28tUGNXNVRaVm1ETHF4RkxPckVwTjFJaDNOczVuVGxSQTdiVktKVDNJSlk2dk9RakJxaVk3NnJINFBUb1FKOEdUOVJkb3FVUG1Kb1R3?oc=5",
+              "published": "2026-10-29T20:21:00+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Ford Otosan, 10,77 milyar TL tutarında temettü dağıtma kararı aldı.",
+      "confidence": null
+    },
+    "GARAN": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "KAR_BILANCO",
+          "direction": "OLUMLU",
+          "severity": 2,
+          "confidence": 95,
+          "summary": "Garanti Bankası, 2026 3. çeyrek finansal sonuçlarını ve yatırımcı sunumunu açıkladı.",
+          "source_count": 2,
+          "first_seen": "2026-10-28T20:10:50+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Garanti Bankası (GARAN) 2026 yılı 3. çeyrek bilançosunu açıkladı! İşte detaylar",
+              "source": "rotaborsa.com",
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVU1VcTBZekZMN3kwTWV0aElnbTRodVFUSk80YlFBVElkZlFGS1Y1ckNrY0ppd2xFNUEzRlVYRkFidnJfMVowNUM0T01VaHdVMmlnMThSSzVFbHFaTXZZYUZabTNDeFpkd1luOHgta0JNeXlfa0dSZXhEODNIT3ZWUU9QcmJFQXlySmQyYW9oLXF3dE5LZXBSV1Nua3JZWUU?oc=5",
+              "published": "2026-10-28T20:10:50+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Garanti Bankası’ndan (GARAN) yatırımcı bilgilendirme sunumu",
+              "source": "rotaborsa.com",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcXdQWkNQcE9OcWRPaTBPY1BGWEdkUU1ZTlU5NVhFVV9MVmtaNzR0WVJRejVCamtSajFxZXpjOWdmd3kzR3RDTUhHajMwYURUNDhxQkZtd05GblhNa0hXSy1qQ3pka1NNT1B1NHp1QzhaOVh5anhTejFWa092YjY5Um9rT2RNWTBn?oc=5",
+              "published": "2026-10-29T17:32:50+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Garanti Bankası (GARAN) 2026 Finansal Sonuç Sunumu",
+              "source": "finanshatti.com",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5nWkVtMGhob2lvRHdvX3FqR19ZblJMTkhTTUx4OUJGYWpBdG9FbExpejJzQmFiM01rUC1oRTVmeG9IUjU4enA5NTVyemNpMlRWWlNxRVB5Y0Zvb2F6Y2FZdDVnVnFkb2JSUmVHbUhhQnhWbnJ0WFhB?oc=5",
+              "published": "2026-10-29T17:45:08+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        },
+        {
+          "event_type": "DIGER",
+          "direction": "BELIRSIZ",
+          "severity": 2,
+          "confidence": 80,
+          "summary": "Garanti Bankası bilançosu sonrası çok sayıda aracı kurum yeni hedef fiyat belirledi.",
+          "source_count": 2,
+          "first_seen": "2026-10-30T13:22:00+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "GARAN hissesi için 7 aracı kurumdan yeni hedef fiyat",
+              "source": "borsamatik.com.tr",
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWG1rak91RDhNTjEtVlVsZ0thdXY5U05KbGllVmcySXB2YzhiQWtqaDVkMHFhYk9rSFVEcHAzQm5ZSVlGVllnNDVma2s4YlhMaWhNR0txcXRSSmNVb25aUmdJMzhsbTh1WWFLZnRiT3JrclZmUnZ5WnB0X01La0x0M3dQaFJDR0pETnBUaG9LR0pqVDByb19lSnBSSC1KTjFVa25ORkFZa3g5bjNw0gGyAUFVX3lxTE5sakRuZGtJTk8yVVZpc0tZcTQ3aXZROHJLZGNfTnpOTVVmVXVXcWR6OGhiU2RSYUZNRHdEWGh6RzIzcUt3QkhrWWVoZVJhald3WExoZW5qWWRfWnZFQnFnV2MzZXBabTdiWlJtRE9xVTRlUGxhR1pyTk9yN3BzU2hRaUNJYk5icG82aW9aLTZkclFCcU1tS1lQb2FiUnNBeE5VcV9VY2diOGJHZ0hvV2lQWmc?oc=5",
+              "published": "2026-10-30T13:22:00+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Garanti Bankası (GARAN) hisse hedef fiyat 2027! 6 aracı kurum açıkladı",
+              "source": "rotaborsa.com",
+              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVko1UExWcXB4bFN3UEtrQXUwd3FPYXhBV3RCa1lOSzNpZ2FzczRadzBpMDkzYy1aMmxrZjVrcnFPckZyNTlKUHF0VV9MLXA2cjlPLW1SdkR3MFFqY1UtMHE3dG50Z3Q0X1FzVWcyVHNVT2UzV1JRNVdJV0lVMEFwOUx3NGcxRld1TWR3TzRnMHBkc21T?oc=5",
+              "published": "2026-10-30T14:26:06+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Garanti Bankası, 2026 3. çeyrek finansal sonuçlarını ve yatırımcı sunumunu açıkladı.",
+      "confidence": null
+    },
+    "KCHOL": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "OPERASYONEL",
+          "direction": "OLUMLU",
+          "severity": 2,
+          "confidence": 75,
+          "summary": "Koç Holding ortaklığı Stellantis, güçlü 3. çeyrek sonuçlarıyla %14,3 yükseldi.",
+          "source_count": 1,
+          "first_seen": "2026-10-29T10:53:22+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Koç Holding'in ortağı Stellantis, üçüncü çeyrek sonuçlarıyla, hedge fonların algısını kırdı, hisseler bir günde yüzde 14,3 yükseldi",
+              "source": "patronlardunyasi.com",
+              "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNeGQ0N2RUZmJEUXVLc21LTmU0Wm9RdUdTaXZZZW5xMXZwSGloaElTYXRQQlFRR2pucnB0ZlJWTHhMVkZoUmxXNzdBcXZzMzQ0dkVpaHVScEppQVB6NHN5bEo5RzJzRVV4NjNsNjlkWkdnMlpCeFM1elIwY0Q3R29PR3hERXZnMF9kbjNuMHVtb3dxWTg2aktabllaTmpSYUVFbGNlNlQxSGZJa1NjWUp5Tmd2NEFLVWYzZm5yMGp2dlhFT3dtRTNPZ1otZTdCcy1NeTVGSC1Ga0pUQ21RWXBiUDB2RTY0SnJrZnpPckRYZHRtZw?oc=5",
+              "published": "2026-10-29T10:53:22+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        },
+        {
+          "event_type": "KAR_BILANCO",
+          "direction": "BELIRSIZ",
+          "severity": 2,
+          "confidence": 70,
+          "summary": "Koç Holding 2026 3. çeyrek bilanço kar beklentileri paylaşıldı.",
+          "source_count": 2,
+          "first_seen": "2026-10-29T21:24:11+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Koç Holding (KCHOL) 2026 3. çeyrek bilanço beklentisi",
+              "source": "rotaborsa.com",
+              "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBzQ2g3akVqRWtoV3diWjd2WDBpcU54amYzekE5TUdMQkpFeDg0anM4cXpfQ2tsSXJSZDN6ekFfRHpNc2JrdHNqdk40TWg1TzFhSGt6bjN4Nk93MUxPTDFXQmZaMm1aSE5EUXJzV3h0cFZpNFdkNEFnVWZHY0xGUQ?oc=5",
+              "published": "2026-10-29T21:24:11+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Koç Holding (KCHOL) 3Ç26 Bilanço Kar Beklentileri",
+              "source": "finanshatti.com",
+              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQURnU0l2eWtKTVdXZG03amx4dE8tSzdOWks3VUk3STE2SW1adHM4REMwa1hzeGFsQXhLaDFvRDdiWHZEQVpKVFRGVkJRdkZKeGJXUzItLXJsRXBRckR1dEdpWVlnMlhRRGFybnVVSDA3WEduck1nTWNoRVFhY3I2VmVDSnNUZw?oc=5",
+              "published": "2026-10-29T22:00:48+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Koç Holding ortaklığı Stellantis, güçlü 3. çeyrek sonuçlarıyla %14,3 yükseldi.",
+      "confidence": null
+    },
+    "PGSUS": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "KAR_BILANCO",
+          "direction": "BELIRSIZ",
+          "severity": 2,
+          "confidence": 65,
+          "summary": "Pegasus için 2026 yılı 3. çeyrek bilanço beklentileri yayımlandı.",
+          "source_count": 1,
+          "first_seen": "2026-10-29T21:59:00+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Pegasus (PGSUS) 2026 3. çeyrek bilanço beklentisi",
+              "source": "rotaborsa.com",
+              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5hcXZGbnFPX2lMekc3bHVYcjBsNGR6VVViTllYUm1SSFFoT1ZtbTUwYk5aeW4wSGlGU1hwWU1ZaEJDeEE4cktNNUtMaDV1NnRzWHh4Rkp6QWxVblIyZFRQNFFGRkFMWnh5M1pXM3REcTJYejlScVR4Tg?oc=5",
+              "published": "2026-10-29T21:59:00+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Pegasus için 2026 yılı 3. çeyrek bilanço beklentileri yayımlandı.",
+      "confidence": null
+    },
+    "SAHOL": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "YONETIM_ORTAKLIK",
+          "direction": "OLUMSUZ",
+          "severity": 2,
+          "confidence": 80,
+          "summary": "Sabancı Holding'in CarrefourSA satışı ve ilişkili ödeme işlemine dair haberler yer aldı.",
+          "source_count": 1,
+          "first_seen": "2026-10-30T13:16:00+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Sabancı CarrefourSA'yı sattı, üstüne 92 milyon dolar ödedi! Peki ama neden?",
+              "source": "ekovitrin.com",
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRnkzRnVqOUN5ZDVkdkUxSm9tbDFLVG9RSmlDZ0FoYWpJdDIzaWxaZkpaa2pRUzJBdUgxSm12dHNndXJqUkxHejk1Zmo1eHNGLXNMV08wUXBScVNfU3pCM2FpMnpqczBQTDVaRHp3ajVCcFo0NXRfc29QVGZlczhvNGdYbXVSQnlnVXY2dzk0RFVSZlBYVHJtSVAzS1NKQQ?oc=5",
+              "published": "2026-10-30T13:16:00+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": true,
+      "summary": "CarrefourSA devri kapsamında ortaya çıkan 92 milyon dolarlık ödeme işlemi finansal yük ve soru işaretleri oluşturuyor.",
+      "confidence": null
+    },
+    "TRALT": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "KAR_BILANCO",
+          "direction": "BELIRSIZ",
+          "severity": 2,
+          "confidence": 65,
+          "summary": "Türk Altın İşletmeleri için 3. çeyrek bilanço beklentisi açıklandı.",
+          "source_count": 1,
+          "first_seen": "2026-10-30T17:19:52+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Türk Altın İşletmeleri (TRALT) 2026 3. çeyrek bilanço beklentisi",
+              "source": "rotaborsa.com",
+              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeHM0U1dCekFpOEo3Z1gtNGhHTFdJSTFSS0tTWERqWExLZEplRjRNNzN0YTdYQ01kZzBzUEptZUdObTV6TmswRnBhTU1qNzc1c0x4dk5uN3h0ak9SeFMwNVkyRnZiOWNuVlFSSmNnVWVSRmk1eUp1M2w4LVBCbVpsSmhEZ1R3MjUxYUllRQ?oc=5",
+              "published": "2026-10-30T17:19:52+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Türk Altın İşletmeleri için 3. çeyrek bilanço beklentisi açıklandı.",
+      "confidence": null
+    }
+  },
   "haber_genel": {
     "events": [
       {
         "event_type": "MAKRO_SEKTOR",
         "direction": "OLUMSUZ",
         "severity": 3,
-        "confidence": 85,
-        "summary": "Borsa İstanbul, Tera Portföy'e ait üç yatırım fonunda pay işlemlerini durdurdu.",
+        "confidence": 90,
+        "summary": "BIST 100 endeksi satış baskısıyla gerileyerek 11.000 puanın altına indi.",
         "source_count": 3,
-        "first_seen": "2026-10-27T09:29:30+03:00",
+        "first_seen": "2026-10-30T10:09:00+03:00",
         "trusted": true,
         "evidence": [
           {
-            "title": "Borsa İstanbul, üç Tera fonunda işlemleri kapattı",
-            "source": "bloomberght.com",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTWV5ak5xSEtNa29MX3BzczVfSnJkZWJIaG02cXdzRXkwV3hXUlpxSk9YWk8yUFA2QVpNbXV5NnY0YzVkSmVBY0paMm9KbXdJUzlvSHA3SnJhVTFKamZYbFI4cFRVNTFwTHh6QmlMMVpDWWdRcXM2NW5zdkxmVmFaVkhxRENNaG1BMWhNZg?oc=5",
-            "published": "2026-10-27T09:29:30+03:00",
+            "title": "Borsa İstanbul güne düşüşle başladı: BIST 100 endeksi 11.100 puanın altında",
+            "source": "dunya.com",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPT0RrLUhCNXhBXzA0QjVibFMtSnhOaGhJVm40b19reC1KUk5EcXl2aTlKanFPQVNqQUlzTENFcnBFQUhINzJpOTA2NVZ3Y3ZVOExEMjV1Z3RWSTdPRUQ1ZGRYY2V3WUNvRjF1ZGI4XzF4WmxKSGJZRHZkcFFnUXVGNUF2c3hMSFU3LXdCV0VFV3d5dVhoOVdqVGtVUjJ0ZTl2TFl4blZKX3dPQTdoeS1ydW5XOFpFaWlrLUV4ZVlFTQ?oc=5",
+            "published": "2026-10-30T10:09:00+03:00",
             "tier": "T1"
           },
           {
-            "title": "Borsa İstanbul'dan Tera Portföy kararı: Üç Tera fonunda işlemleri kapattı",
-            "source": "haberturk.com",
-            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMkxDbjVIREQ0Q05jbnFpR3dlQkNTYnFBeGpySU05UURrdHFxWmY3dXA2VU1xcGxadnRwSXFQUWtTMXRGR2xoZmN5VU92aFJXTTJFUDJ3NUxOQkFWR1p1VTdFSk1MM2R6QldCYmxjVGZORWlYTWdJNFBhSnkzeU5hMDlZRWRLQ3BmY3lRd05QUHlWdlEwU3U1ejl5TFl1S3B3enFMbkg2YVhSNC1YcGx0OE5HZHo?oc=5",
-            "published": "2026-10-27T10:06:11+03:00",
+            "title": "Borsa İstanbul'da satış baskısı",
+            "source": "bigpara.hurriyet.com.tr",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcEZSV1FvLXZJcVluR2VLZ3dmNkVEYzE4bVdRaVdmOTJIdk9tRXVzN28zSUZWSmRTLXctRGhnUmUwX0EyYWZGQzZhdjFBZjYwTlNkVXBsakNEMVI1dnZndjEzZWJNT3hRZlB2ZllkTXRXMEJ6X3R5ZnpOekNpZjdtQkNsOXJIVElpVnU0NmZSNjJtVVlqaFlWRDFDX0xIOERFQktYNnlJQzV1WEtGNnc?oc=5",
+            "published": "2026-10-30T10:56:00+03:00",
             "tier": "T2"
           },
           {
-            "title": "Borsa İstanbul'dan Tera Portföy kararı: Üç Tera fonunda işlemleri kapattı",
-            "source": "ekonomi.haber7.com",
-            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOVZwblZONnRLc3p0YVVtZ05sdG93NEJ6eERhRTlIdWdZYUZlMVc5empKd2NzUFhFM24wbklRT1FBMkV0TTUwbjl4Y0tCTUJTTEZQSmEyV1MwWTBkb25EVTFHSjNUMXJzZmZNUUVxRXBJY0pNdXhzYWNrYy0tYzBfMTVlLTVtWjRuN2FJX3pSWFo0d2doeVBfUXhaOUdQN0hpV21Tck5NcU9fNkh6RkFPUlpQaEtNWUN3Z05nOdIBvwFBVV95cUxQYldvcWk5cnlLdXhFTnJWTlBvXzNRajJRNk85QkZXRU1Dd1VZYVhDRmlGN293cmRnSk83blNUanRKMmc0RlFtX3RaUWh0SldDS015TVAzbDAtVS1yMTdZTDBBaDRGbzVBRkI3eWxUTXlybGNCMExXaVVqOUNtbno5WndPNmtubHV2aWl2cGpUZlprZmZkV2pESTdxbkNQaUkwc0UzYjBBaHM1dVRpY1hoNTg1ZUJuMndlRWItM1lrZw?oc=5",
-            "published": "2026-10-27T11:14:00+03:00",
-            "tier": "T3"
+            "title": "Borsa İstanbul'da kayıplar artıyor: BIST 100, 11 bin puanın altına geriledi",
+            "source": "birgun.net",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOUp4WHdWMW0xS2lBRjFVTkNYQk9JaWtZSWcxXzRJUGk1SDRHX0ZDem1BcHExN3RXZ3BvTkFZR3FDWlNHZ09ud21QbG81bFJ2M3hoV0xEbFgyUWdGZmMyMEF2NW43Q2Jjd3JCT0RuZDQ3ckRudm5zUmhZUEthWXNIT1FXamhxU09QUzNkR2gyUzhFOUJqeTlpSi1ZeER6MlNDYWQzUUQzVlk5UjczbWc?oc=5",
+            "published": "2026-10-30T13:58:00+03:00",
+            "tier": "T2"
           }
         ],
         "origin": "llm"
@@ -80,45 +470,31 @@
         "event_type": "MAKRO_SEKTOR",
         "direction": "OLUMSUZ",
         "severity": 3,
-        "confidence": 80,
-        "summary": "TCMB'nin döviz müdahaleleri ve satışlarının 16 milyar dolar eşiğini aştığı bildirildi.",
-        "source_count": 4,
-        "first_seen": "2026-10-28T00:00:00+03:00",
+        "confidence": 85,
+        "summary": "TCMB rezervlerinde 6,9 milyar dolarlık erime yaşanarak son 4 ayın en düşük seviyesi görüldü.",
+        "source_count": 2,
+        "first_seen": "2026-10-30T14:49:03+03:00",
         "trusted": true,
         "evidence": [
           {
-            "title": "TCMB'nin kriz sonrası döviz satışı 16 milyar doları aştı",
-            "source": "ekonomim.com",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbHFNSi1FRERRVm1tVDNTY1JsQmRYM1lVT05JRzlJblBUVUlvNEtZZXg3bVR1aUhYRmJ1NlJZNG1BT3hBUDY0bGhjelk2aHlRNG1RcVdaMEJSampuZVJDa1RYbS1IOUtSbGR2aVBiVnUwejliOVVYV3haTzNkOURCWWN0bjRiUlc1THdCOURrT1BBOTJFSFhfYTVmNERKd0VtU2pQdQ?oc=5",
-            "published": "2026-10-28T00:00:00+03:00",
+            "title": "TCMB rezervleri 4 ayın en düşük seviyesinde",
+            "source": "bloomberght.com",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZU55U0tsYlZZRzhqY1JjRHppbGkyUnNPRURaMEQwQjAzWkIxeWpvVF9Lc2NseDFmckwzNVdhX1JRc1lTVkNXQkFmU01BajBXOHpQUFJXbGxCajlkMHgxSjVxY2VIS3BvYTR1amhSZmJqVkZrVEY2NmlWc091U0dxcGZLNXYtdw?oc=5",
+            "published": "2026-10-30T14:49:03+03:00",
             "tier": "T1"
           },
           {
-            "title": "TCMB’nin döviz satışı 16 milyar doları aştı haberi",
-            "source": "borsaningundemi.com",
-            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMkZqaWs3TkRFVGRYU1VDZTJFazVpdmJMRlowemx3UlZKY2IwQXVvUzVZRGxpOEx5d1Vhckp5TVdQYkhVYlU2ZHpMTV83NnkyZjZmQVNrSmJ0V0RRY19fWkt2TUFBVGkwZVBzWVl6dlNJRm5rVm1NeHh6Rm9ibU91M1p3bWxlbzVXQW1vdHd3LUFRUQ?oc=5",
-            "published": "2026-10-28T06:13:45+03:00",
-            "tier": "T3"
-          },
-          {
-            "title": "Rezervlerde kayıp büyüyor: TCMB’nin döviz satışı 16 milyar doları geçti",
-            "source": "haberhurriyeti.com",
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZTBRUmhJTVJpSWRzVjY0ZVA2OVFfdVlMTUNmX183NHZBSV9CZWpDNVNzekJtM1NYTmQ3UkI2QWhaa1pVX0NMTzUtenZwY1BRNHVjNXd2bVRORDJCRVlIb2owS3NXM2c3UmY1ZEp4R0Nab2dUVDI2dWVyaFdxbzkxVE0tV3hzVTFTeWdoZFp3OEVvdXVLbjA2SlZ0WXZpaWQ5UlJxc1RRMWZWY21LbjdFd3ZXNkxiUdIBuwFBVV95cUxOMEJmV05nN0RWUmVGLXdVd1llTm9xSld3V3FpU2FnbHlBQUkyWjlqTm9EZ0tFa0tvTTNVX3Y2TXhwSmctb3VVdjZFRW41NTRMeFQ0cGwzaXlEVm8yQ2o0N0dmbHZ3d0s4aFhkY1RZQkdwNTdMdUJtdXJOS1FTU2JqcDBoS19jU2ktRUlsbUlKUWdvZnFCM09GVGdPMjJRQUV0N0pJazJNZ1EzbzRhLTVNYTkzTFRhRjdKZm00?oc=5",
-            "published": "2026-10-28T06:15:00+03:00",
-            "tier": "T3"
-          },
-          {
-            "title": "Fon ateşi rezervlere düştü: TCMB’de satış 16 milyar doları...",
-            "source": "hisse.net",
-            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeFozS2wwR1JNekFnamdNcm1zMF94TXpuRS1Mb1cwdEp0MW16b1Btb204R1hjZG05Qmgtc3NfdThKTUJheXhXeFkxckFmM2pqVW9NNE81ODhFSldXYndFMmhRQzhZOHA0b2t4UGs4a2VyMGptUzZrWnFUakFIRE1qQlRwU3k1ampjZEdzRlNidVM0bVphTHdmUER6Rm1iUdIBowFBVV95cUxOQ2ZDYnlnRXBEQ0VuWHo0azh4OXdvLWNlaUxQLUE2YTRaQkVrVzlkak4weDAxYXR4NFkzd1FCUVM3Y3YtMkRxay1oUElwd0U0elp6T3hhdV9pR09HVjlZTTJuSzJPMG92OXR0NFNPVEdZcUFnTVZkdXVpcC01R2hEdVNqeUtMclg3Ung2a3pMV1pFbUJJWmt6ckZMUFRPTzJjWVhN?oc=5",
-            "published": "2026-10-28T10:01:26+03:00",
-            "tier": "T3"
+            "title": "Merkez Bankası rezervlerinde 6,9 milyar dolarlık erime",
+            "source": "ekonomim.com",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQWxkMUhlekhhLXZza0ZZcUl2NXMwaGt6TC1PSU1NcW00ajFQNGlwTmliWUl5aThiWjF5Qk9BQXRVRUNsNlRlX1IxVlpwaU5RT1NMTThGWFFqV3pkN3g4eDhVQ2trQjdvWFg5dF9scGNlSkY2SF9qbThKdTI3UXN2T3daWnQ5THlNS2NhdXpzVFczSVF6MGo4ZHNiSWJzaWNvQlE?oc=5",
+            "published": "2026-10-30T16:20:00+03:00",
+            "tier": "T1"
           }
         ],
         "origin": "llm"
       }
     ],
-    "summary": "Borsa İstanbul, Tera Portföy'e ait üç yatırım fonunda pay işlemlerini durdurdu."
+    "summary": "BIST 100 endeksi satış baskısıyla gerileyerek 11.000 puanın altına indi."
   },
   "gemini": {},
   "makro": [
