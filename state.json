@@ -3,17 +3,17 @@
     "hata_gun": "2026-10-26",
     "haber": [],
     "pazartesi_gun": "2026-10-26",
-    "ozet_gun": "2026-11-05"
+    "ozet_gun": "2026-11-06"
   },
   "son_calisma": {
-    "zaman": "2026-11-05T20:30:18+03:00",
+    "zaman": "2026-11-06T18:06:59+03:00",
     "mod": "close",
     "durum": "TAMAM",
     "kuru": false,
     "uyarilar": [
       "Yapay zekâ sınıflandırması yapılamadı; kural yedeği kullanıldı [ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again ]."
     ],
-    "son_bar": "2026-11-05"
+    "son_bar": "2026-11-06"
   },
   "saglik": {
     "ardisik_hata": 0,
@@ -21,20 +21,20 @@
     "veri_bayat": false,
     "haber_ok": true,
     "yapay_zeka_ok": false,
-    "son_basarili": "2026-11-05T20:30:18+03:00"
+    "son_basarili": "2026-11-06T18:06:59+03:00"
   },
-  "haber_zamani": "2026-11-05T20:30:18+03:00",
+  "haber_zamani": "2026-11-06T18:06:59+03:00",
   "llm_ok": false,
   "pozisyon_durum": {},
   "cooldowns": {},
-  "guncelleme": "2026-11-05T20:30:18+03:00",
+  "guncelleme": "2026-11-06T18:06:59+03:00",
   "rejim": {
     "label": "RISK_OFF",
     "index": "XU030.IS",
-    "close": 14101.0,
-    "sma20": 14373.13,
-    "sma50": 15465.65,
-    "usdtry_1d_pct": 0.06,
+    "close": 14292.48,
+    "sma20": 14330.87,
+    "sma50": 15416.28,
+    "usdtry_1d_pct": 0.23,
     "fx_shock": false,
     "available": true
   },
