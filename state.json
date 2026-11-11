@@ -6,7 +6,7 @@
     "ozet_gun": "2026-11-11"
   },
   "son_calisma": {
-    "zaman": "2026-11-11T18:16:43+03:00",
+    "zaman": "2026-11-11T20:19:28+03:00",
     "mod": "close",
     "durum": "TAMAM",
     "kuru": false,
@@ -19,19 +19,19 @@
     "veri_bayat": false,
     "haber_ok": true,
     "yapay_zeka_ok": true,
-    "son_basarili": "2026-11-11T18:16:43+03:00"
+    "son_basarili": "2026-11-11T20:19:28+03:00"
   },
-  "haber_zamani": "2026-11-11T18:16:43+03:00",
+  "haber_zamani": "2026-11-11T20:19:28+03:00",
   "llm_ok": true,
   "pozisyon_durum": {},
   "cooldowns": {},
-  "guncelleme": "2026-11-11T18:16:43+03:00",
+  "guncelleme": "2026-11-11T20:19:28+03:00",
   "rejim": {
     "label": "RISK_OFF",
     "index": "XU030.IS",
-    "close": 14649.12,
-    "sma20": 14257.24,
-    "sma50": 15298.67,
+    "close": 14644.23,
+    "sma20": 14256.99,
+    "sma50": 15298.57,
     "usdtry_1d_pct": 0.02,
     "fx_shock": false,
     "available": true
@@ -40,36 +40,6 @@
   "adaylar": [],
   "izleme": [],
   "haber": {
-    "AEFES": {
-      "sentiment": "NOTR",
-      "risk_flag": false,
-      "events": [
-        {
-          "event_type": "KREDI_BORC",
-          "direction": "BELIRSIZ",
-          "severity": 2,
-          "confidence": 80,
-          "summary": "Fitch Ratings, Anadolu Efes'in kredi derecelendirme notunu açıkladı.",
-          "source_count": 1,
-          "first_seen": "2026-11-09T18:26:18+03:00",
-          "trusted": false,
-          "evidence": [
-            {
-              "title": "Fitch Ratings, Anadolu Efes (AEFES) kredi derecelendirme notunu açıkladı",
-              "source": "rotaborsa.com",
-              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQanJpN2JlekVqLTMwRkpTcjBPckF4UG1jdGFZNEdWdzNxOHlzT1hZQkdNTmFtazRwTDU5NUdrYWxQWFRLRnVPSjBGdTIwN3hTb1J1bTByQjVxVnZlZnlwUjNBOHo5Um1WY0ZQclRRckxzbjgwOTZnT1lzQnVZYXpsNWxHTndDX0dKRVFPVTctTTY2NTJKNE5Eak1B?oc=5",
-              "published": "2026-11-09T18:26:18+03:00",
-              "tier": "T3"
-            }
-          ],
-          "origin": "llm"
-        }
-      ],
-      "gdelt": null,
-      "llm_risk_flag": false,
-      "summary": "Fitch Ratings, Anadolu Efes'in kredi derecelendirme notunu açıkladı.",
-      "confidence": null
-    },
     "ASTOR": {
       "sentiment": "NOTR",
       "risk_flag": false,
@@ -78,8 +48,8 @@
           "event_type": "KAR_BILANCO",
           "direction": "OLUMSUZ",
           "severity": 4,
-          "confidence": 95,
-          "summary": "Astor Enerji 3. çeyrekte 3,17 milyon TL zarar açıkladı; kârı geçen yıla kıyasla geriledi.",
+          "confidence": 90,
+          "summary": "Astor Enerji 3. çeyrekte 3,17 milyon TL zarar açıkladı; net kâr yıllık bazda %73 geriledi.",
           "source_count": 2,
           "first_seen": "2026-11-09T22:52:30+03:00",
           "trusted": false,
@@ -107,38 +77,11 @@
             }
           ],
           "origin": "llm"
-        },
-        {
-          "event_type": "DIGER",
-          "direction": "BELIRSIZ",
-          "severity": 2,
-          "confidence": 85,
-          "summary": "Bilanço sonrası aracı kurumlar Astor Enerji için hedef fiyat revizyonları paylaştı.",
-          "source_count": 2,
-          "first_seen": "2026-11-10T15:39:38+03:00",
-          "trusted": false,
-          "evidence": [
-            {
-              "title": "Astor Enerji bilançosu sonrası hedef fiyat revizyonu geldi",
-              "source": "paratic.com",
-              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPellGNjAtTWp5VjBuWklPT2YtZEJFLVBxYy0yTGhUalRIOHlnSnJWdFp3XzRaWlgwbGVLNU9MaklJZFBMM0RaZktkOVFRYWozc3pIN0owOUM5Q3p6QjZZUExILTBMbExhRllfWXVaZk1VZHBDTUlLVmZRUFJJdkNtSEJlcnRDUQ?oc=5",
-              "published": "2026-11-10T15:39:38+03:00",
-              "tier": "T3"
-            },
-            {
-              "title": "Astor Enerji (ASTOR) hisse hedef fiyat 2027! 4 aracı kurum açıkladı",
-              "source": "rotaborsa.com",
-              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUktrc0Y0ZUZETVlPeWFzdkYzSTU4UFZiNlRCWFN5R3FLcHRDVFBLRlhpQ3BXUFlKNmE1Rzhnak1jT0RGclZoU01ZTk5aZFU1X25mUzNVZDVWM3ZmTEpCUWxYdFdOc19oYkdWMTVxZy1JRHhkbUg4WVhkbTZLMjZ4QkNmRE40M3lYYzJzZngtUjY?oc=5",
-              "published": "2026-11-10T16:53:17+03:00",
-              "tier": "T3"
-            }
-          ],
-          "origin": "llm"
         }
       ],
       "gdelt": null,
       "llm_risk_flag": true,
-      "summary": "3. çeyrekte net zarar açıklanması ve kârlılıkta sert düşüş.",
+      "summary": "3. çeyrekte net zarar açıklaması ve net kârında %73'lük sert daralma görülmesi.",
       "confidence": null
     },
     "EKGYO": {
@@ -149,8 +92,8 @@
           "event_type": "OPERASYONEL",
           "direction": "OLUMLU",
           "severity": 2,
-          "confidence": 90,
-          "summary": "Emlak Konut, 295 konut ve 20 ticari üniteden oluşan proje için ruhsat alındığını duyurdu.",
+          "confidence": 85,
+          "summary": "Emlak Konut, 295 konut ve 20 ticari ünite için inşaat ruhsatı alındığını duyurdu.",
           "source_count": 1,
           "first_seen": "2026-11-11T14:00:42+03:00",
           "trusted": false,
@@ -168,7 +111,7 @@
       ],
       "gdelt": null,
       "llm_risk_flag": false,
-      "summary": "Emlak Konut, 295 konut ve 20 ticari üniteden oluşan proje için ruhsat alındığını duyurdu.",
+      "summary": "Emlak Konut, 295 konut ve 20 ticari ünite için inşaat ruhsatı alındığını duyurdu.",
       "confidence": null
     },
     "ENKAI": {
@@ -180,7 +123,7 @@
           "direction": "OLUMLU",
           "severity": 2,
           "confidence": 90,
-          "summary": "Mehmet Sinan Tara ve Şarık Ömer Tara ENKAI paylarında alım gerçekleştirdiklerini açıkladı.",
+          "summary": "Mehmet Sinan Tara ve Şarık Ömer Tara, Enka İnşaat paylarında alım yaptıklarını bildirdi.",
           "source_count": 1,
           "first_seen": "2026-11-10T09:14:50+03:00",
           "trusted": false,
@@ -205,7 +148,7 @@
       ],
       "gdelt": null,
       "llm_risk_flag": false,
-      "summary": "Mehmet Sinan Tara ve Şarık Ömer Tara ENKAI paylarında alım gerçekleştirdiklerini açıkladı.",
+      "summary": "Mehmet Sinan Tara ve Şarık Ömer Tara, Enka İnşaat paylarında alım yaptıklarını bildirdi.",
       "confidence": null
     },
     "EREGL": {
@@ -216,8 +159,8 @@
           "event_type": "OPERASYONEL",
           "direction": "BELIRSIZ",
           "severity": 2,
-          "confidence": 85,
-          "summary": "Erdemir Ereğli Demir Çelik, altın madeni projesine ilişkin açıklamada bulundu.",
+          "confidence": 80,
+          "summary": "Erdemir Ereğli Demir Çelik, altın madeni arama ve işletme faaliyetlerine ilişkin açıklamada bulundu.",
           "source_count": 1,
           "first_seen": "2026-11-10T18:17:24+03:00",
           "trusted": false,
@@ -235,7 +178,7 @@
       ],
       "gdelt": null,
       "llm_risk_flag": false,
-      "summary": "Erdemir Ereğli Demir Çelik, altın madeni projesine ilişkin açıklamada bulundu.",
+      "summary": "Erdemir Ereğli Demir Çelik, altın madeni arama ve işletme faaliyetlerine ilişkin açıklamada bulundu.",
       "confidence": null
     },
     "GUBRF": {
@@ -243,38 +186,11 @@
       "risk_flag": false,
       "events": [
         {
-          "event_type": "KAR_BILANCO",
-          "direction": "OLUMLU",
-          "severity": 2,
-          "confidence": 95,
-          "summary": "Gübre Fabrikaları 3. çeyrek bilançosunda 7,5 milyar TL net kâr açıkladı.",
-          "source_count": 2,
-          "first_seen": "2026-11-09T18:28:21+03:00",
-          "trusted": false,
-          "evidence": [
-            {
-              "title": "Gübretaş (GUBRF) 2026 yılı 3. çeyrek bilançosunu açıkladı! İşte detaylar",
-              "source": "rotaborsa.com",
-              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeXY4Q1JxSVkzdFJ3ZFBKMkhyQUowakJzSm1xNExwSF9zakxxMVkxYjhwMnNISUR0eUpTNGtQOU9rS3J0R3FUZlhzel9OdVZZWjFyQXktb2lmT2RJZXNHV0RXcm00bklkcmt0cDZjS0lHZHdzZFhKV2lGZ2VWeGxyd0NCZUZmTHYzQnV4RERHekJNZWhYQ2c?oc=5",
-              "published": "2026-11-09T18:28:21+03:00",
-              "tier": "T3"
-            },
-            {
-              "title": "Gübre Fabrikaları (GUBRF) bilanço: 7,5 milyar TL kar açıkladı",
-              "source": "paratic.com",
-              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdE9BaTlHZVJsMkhZZGxjcXMtWWpySGk0QXc2VkxyN3dDUXpRWXdZZ2NMMnVwVW9KdHR0TWlUYUVzbDJycGZmenl1VXFsemRCRlFkbGMzRHpvTXIwNGtGQWNwY2FPR1JBOURSRnk1REZObExGb21yM2djZ0U4SnNlRUZMdW9Vdw?oc=5",
-              "published": "2026-11-09T18:52:32+03:00",
-              "tier": "T3"
-            }
-          ],
-          "origin": "llm"
-        },
-        {
-          "event_type": "DIGER",
+          "event_type": "YONETIM_ORTAKLIK",
           "direction": "OLUMLU",
           "severity": 2,
           "confidence": 90,
-          "summary": "Gübre Fabrikaları 50 bin TL nominal değerli pay geri alımı gerçekleştirdi.",
+          "summary": "Gübre Fabrikaları, şirket pay geri alım programı kapsamında 50 bin TL nominal değerli pay aldı.",
           "source_count": 1,
           "first_seen": "2026-11-10T20:22:07+03:00",
           "trusted": false,
@@ -292,7 +208,7 @@
       ],
       "gdelt": null,
       "llm_risk_flag": false,
-      "summary": "Gübre Fabrikaları 3. çeyrek bilançosunda 7,5 milyar TL net kâr açıkladı.",
+      "summary": "Gübre Fabrikaları, şirket pay geri alım programı kapsamında 50 bin TL nominal değerli pay aldı.",
       "confidence": null
     },
     "KCHOL": {
@@ -302,32 +218,18 @@
         {
           "event_type": "KAR_BILANCO",
           "direction": "OLUMLU",
-          "severity": 4,
-          "confidence": 95,
-          "summary": "Koç Holding 3. çeyrekte beklentileri aşarak 9 ayda yüzde 200'ü aşan kâr artışı bildirdi.",
-          "source_count": 4,
-          "first_seen": "2026-11-09T18:30:00+03:00",
+          "severity": 2,
+          "confidence": 90,
+          "summary": "Koç Holding 3. çeyrekte beklentilerin üzerinde %203 kâr artışı bildirdi.",
+          "source_count": 3,
+          "first_seen": "2026-11-10T10:55:46+03:00",
           "trusted": false,
           "evidence": [
             {
-              "title": "Koç Holding (KCHOL) 3. çeyrekte beklentileri aştı: İşte dev holdingin bilançosu",
-              "source": "cnbce.com",
-              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQajQ3TnhlQnBwVzdKSFMzSG1IczMwY1BGY0lfTEVVTG1wSFpTMzNtZ0E0S2tVUnJfVUp1MVhZcmFJWFhrbXpHeF9JUVlKTzE3WXZYcWNoTF9mcE1CdUx1RzNrOXFPdUZKc3VDUnUyU191dWtqU1lOTDI4RVU0aHpRd0ZlenF1c3VVOXFfQjgtQmpNeXJlOFJaUzRzUUlUdUN1d09TMEd5RlgySklxWXk3UzZBQnJxT3RfMW9mNFdQZllwUDU0b0pjdmlPanQ?oc=5",
-              "published": "2026-11-09T18:30:00+03:00",
-              "tier": "T2"
-            },
-            {
-              "title": "Koç Holding’den güçlü bilanço: 9 ayda yüzde 200’ü aşan artış",
-              "source": "hisse.net",
-              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNlVMR3B6M0IxMzVoWlB2UXQxcmRHaEg3VTFMMVFfUzF1OWdWeE9nZWZ3czN5ZVdzU0FyaUZPSFJUNkF1eGRFbG9odU5kWlBwMzQ1LWUzZjN1cUI4WEgyNlE1b080MzdxSlhDTTl4Z2JTMUZqUVB4WmdzaVBVV2YtWmZGLWRFbHlobkxHbGszRzBtWjh4M2c5WkhB0gGfAUFVX3lxTFBMMUpaOHlKX3FvRl9raEFyNXVjZ2EzaS1Gb1JnUVBnQy1PWm5TU1hTTUQ1aE5ZelN0R083VU1FajIwUE5ZOV9MNkVBdEJmVnlhNE1qRHZybE55RTRQVVVka0FJX0hkVkNmQ3dOeDJubFZ0dVRXRVd5Ml9oWWNDNXZPS1R4cGhaUllaQ3FweEJWSVJ6NmdRa1VORkRQLXNiWQ?oc=5",
-              "published": "2026-11-09T19:12:40+03:00",
-              "tier": "T3"
-            },
-            {
-              "title": "Koç Holding'den 9 ayda 2,7 milyar dolar yatırım",
-              "source": "egealternatif.com",
-              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQVcyU29GMjhCV3NyRFdfWDBwcWRmN0lNWnJuUldBMEdkX0ZPQlE0UDFlWlphQzltdXlFQllRZnpBdTc2dkRaUGg2VlZjRTIwcEFuY2R5dE9xV0otWWUzMWlnQ2JaeFJpUlRLNU5FZzJhcExqZ3pEZkVUUjdJeVY3a0pMV3U0alktSE9OYm80OWNoZ1pDVHc?oc=5",
-              "published": "2026-11-10T11:20:00+03:00",
+              "title": "Koç Holding bilançosu beklentileri aştı: Hedef fiyatlar açıklandı",
+              "source": "paratic.com",
+              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWm9uNnEyNlNka0xvOUZsZFkwTmpnOEpELVowYXdsSnFIaXlsYmZtWlRKUHUyemVHOFA2ZmVXRXI3azBXcV9zbVVfV1Y4T3dYd29mTWNMcTZ5OXJ0SUNjaHd1ZFE4RGwzUlF4cmpwS0RlU1VoSW5LUTlMUDh0cnhFZWRXWFoxVEdXT0ZPbmR3?oc=5",
+              "published": "2026-11-10T10:55:46+03:00",
               "tier": "T3"
             },
             {
@@ -346,11 +248,61 @@
             }
           ],
           "origin": "llm"
+        },
+        {
+          "event_type": "OPERASYONEL",
+          "direction": "OLUMLU",
+          "severity": 2,
+          "confidence": 85,
+          "summary": "Koç Holding yılın ilk 9 ayında 2,7 milyar dolar tutarında kombine yatırım gerçekleştirdi.",
+          "source_count": 1,
+          "first_seen": "2026-11-10T11:20:00+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Koç Holding'den 9 ayda 2,7 milyar dolar yatırım",
+              "source": "egealternatif.com",
+              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQVcyU29GMjhCV3NyRFdfWDBwcWRmN0lNWnJuUldBMEdkX0ZPQlE0UDFlWlphQzltdXlFQllRZnpBdTc2dkRaUGg2VlZjRTIwcEFuY2R5dE9xV0otWWUzMWlnQ2JaeFJpUlRLNU5FZzJhcExqZ3pEZkVUUjdJeVY3a0pMV3U0alktSE9OYm80OWNoZ1pDVHc?oc=5",
+              "published": "2026-11-10T11:20:00+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
         }
       ],
       "gdelt": null,
       "llm_risk_flag": false,
-      "summary": "Koç Holding 3. çeyrekte beklentileri aşarak 9 ayda yüzde 200'ü aşan kâr artışı bildirdi.",
+      "summary": "Koç Holding 3. çeyrekte beklentilerin üzerinde %203 kâr artışı bildirdi.",
+      "confidence": null
+    },
+    "MGROS": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "KAR_BILANCO",
+          "direction": "BELIRSIZ",
+          "severity": 2,
+          "confidence": 85,
+          "summary": "Migros'un net kârı %34 daralırken, şirket hisse başına net 6,48 TL nakit temettü dağıttı.",
+          "source_count": 1,
+          "first_seen": "2026-11-11T20:00:00+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Migros Karını %34 Azalttı Bugün Pay Başına 6,48 TL Nakit Temettü Ödedi",
+              "source": "paraajansi.com.tr",
+              "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON284bXpHSlFRWng2TmVxdFIxTzRzRmZHbmJqOFpSa3VCcHppLURkaEhUN3ppaDc4dzBPQnc1SklkclNnOWlFVzZhRlFJQW14dmFwMGYzbWtpMnFMUU5GcGo2YVdBVFpCaVBySlhTVkRPLUJJWlhZa3ItZTZJY0NiZ3BzT0t3U3hFT05uZi1RQnpIRXlGM09DNk9ZQm5FZ0dXdUp5d2JuQ1pncFVFRmFQN3R5aEdHbVAyUk5Pd3BR?oc=5",
+              "published": "2026-11-11T20:00:00+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": true,
+      "summary": "Şirketin 3. çeyrek kârlılığında %34 oranında geri çekilme kaydedilmesi.",
       "confidence": null
     },
     "PGSUS": {
@@ -361,19 +313,12 @@
           "event_type": "KAR_BILANCO",
           "direction": "OLUMLU",
           "severity": 2,
-          "confidence": 95,
-          "summary": "Pegasus, 2026 yılı 3. çeyreğinde beklentileri aşan net kâr açıkladı.",
-          "source_count": 2,
-          "first_seen": "2026-11-09T19:41:55+03:00",
+          "confidence": 85,
+          "summary": "Pegasus'un 3. çeyrek net kârı piyasa beklentilerini geride bıraktı.",
+          "source_count": 1,
+          "first_seen": "2026-11-10T15:00:00+03:00",
           "trusted": false,
           "evidence": [
-            {
-              "title": "Pegasus (PGSUS) 2026 yılı 3. çeyrek bilançosunu açıkladı! İşte detaylar",
-              "source": "rotaborsa.com",
-              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQlI1Ml8wa1R2OVdCYXkxa3ZiUlRRRTBKdUR1bXhSWF90MDFwMy1VNEdWN0hsa2ptZU9Vbnh2NTRaUXpMN1lXQ2NCTEh6cmxMN3NYaEF1ZnhXMFV6a0FreVJYVzhPYWExVDJZUVRwOEZ5YXJtNmdZcEFNV2MwVUNtVHNGcUhnaWM5aUxMU1lwXzFZeXVO?oc=5",
-              "published": "2026-11-09T19:41:55+03:00",
-              "tier": "T3"
-            },
             {
               "title": "Pegasus’un Net Kârı Beklentileri Aştı: Hedef Fiyat 271,90 TL!",
               "source": "paraajansi.com.tr",
@@ -387,7 +332,7 @@
       ],
       "gdelt": null,
       "llm_risk_flag": false,
-      "summary": "Pegasus, 2026 yılı 3. çeyreğinde beklentileri aşan net kâr açıkladı.",
+      "summary": "Pegasus'un 3. çeyrek net kârı piyasa beklentilerini geride bıraktı.",
       "confidence": null
     },
     "SAHOL": {
@@ -398,19 +343,12 @@
           "event_type": "DIGER",
           "direction": "OLUMSUZ",
           "severity": 2,
-          "confidence": 80,
-          "summary": "HSBC, MSCI Türkiye Endeksi'nden ASTOR ve SAHOL'ün çıkarılabileceği ve pasif satış gelebileceğini öngördü.",
-          "source_count": 2,
-          "first_seen": "2026-11-11T13:27:12+03:00",
+          "confidence": 75,
+          "summary": "HSBC, olası MSCI endeks revizyonu nedeniyle ASTOR ve SAHOL'de pasif fon çıkışı yaşanabileceği uyarısı yaptı.",
+          "source_count": 1,
+          "first_seen": "2026-11-11T13:50:02+03:00",
           "trusted": false,
           "evidence": [
-            {
-              "title": "HSBC, MSCI Türkiye Endeksi’nden ASTOR ve SAHOL’ün çıkarılmasını bekliyor",
-              "source": "ekoturk.com",
-              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc3N3clo1em51Y19USGlBdnY2N3JnMERXV05FU1JrS1BkU0dqUEg2V3hHU1E3UmQ5NEZOemYtYy00TE9YY3ZIeWFDMnlZYXVjd3NGREhoTWYzblU5c3pVYXRrM3Vib3U5aW9tbHdqQTRaMW9lREQ2a3N0UWVfMzhtdGc1ZU82U2huYkhpekg3MW5GY1pFZGxXbG5US0JCRmJo?oc=5",
-              "published": "2026-11-11T13:27:12+03:00",
-              "tier": "T3"
-            },
             {
               "title": "HSBC'den MSCI uyarısı: ASTOR ve SAHOL için pasif fon satışı gelebilir",
               "source": "yatirimx.com.tr",
@@ -424,7 +362,7 @@
       ],
       "gdelt": null,
       "llm_risk_flag": true,
-      "summary": "MSCI Türkiye Endeksi'nden çıkarılma ve buna bağlı pasif fon çıkışı riski.",
+      "summary": "HSBC'nin MSCI endeks revizyonu kaynaklı pasif fon satışı riski uyarısı.",
       "confidence": null
     },
     "SASA": {
@@ -435,8 +373,8 @@
           "event_type": "KAR_BILANCO",
           "direction": "OLUMSUZ",
           "severity": 2,
-          "confidence": 90,
-          "summary": "SASA'nın 3. çeyrekte ciro ve FAVÖK'ü artış gösterse de net zarar rakamı yükseldi.",
+          "confidence": 85,
+          "summary": "SASA 3. çeyrekte ciro ve FAVÖK artışına karşın net zarar rakamında yükseliş bildirdi.",
           "source_count": 2,
           "first_seen": "2026-11-11T16:53:57+03:00",
           "trusted": false,
@@ -461,7 +399,7 @@
       ],
       "gdelt": null,
       "llm_risk_flag": true,
-      "summary": "Artan maliyetler ve finansman giderleri nedeniyle net zararın yükselmesi.",
+      "summary": "Ciro büyümesine rağmen şirketin net dönem zararının artış göstermesi.",
       "confidence": null
     },
     "TAVHL": {
@@ -473,7 +411,7 @@
           "direction": "OLUMLU",
           "severity": 3,
           "confidence": 90,
-          "summary": "Goldman Sachs'ın TAV Havalimanları'ndaki payı yüzde 3 seviyesini aştı.",
+          "summary": "Goldman Sachs, TAV Havalimanları sermayesindeki ortaklık payını %3'ün üzerine taşıdı.",
           "source_count": 3,
           "first_seen": "2026-11-10T09:32:02+03:00",
           "trusted": true,
@@ -507,7 +445,7 @@
           "direction": "OLUMLU",
           "severity": 3,
           "confidence": 90,
-          "summary": "TAV Havalimanları ilk 10 ayda 100,9 milyon yolcu trafiğine ulaştığını duyurdu.",
+          "summary": "TAV Havalimanları 2026'nın ilk 10 ayında 100,9 milyon yolcu trafiğine ulaştığını açıkladı.",
           "source_count": 3,
           "first_seen": "2026-11-10T09:38:04+03:00",
           "trusted": false,
@@ -539,7 +477,7 @@
       ],
       "gdelt": null,
       "llm_risk_flag": false,
-      "summary": "Goldman Sachs'ın TAV Havalimanları'ndaki payı yüzde 3 seviyesini aştı.",
+      "summary": "Goldman Sachs, TAV Havalimanları sermayesindeki ortaklık payını %3'ün üzerine taşıdı.",
       "confidence": null
     },
     "TCELL": {
@@ -550,26 +488,12 @@
           "event_type": "KAR_BILANCO",
           "direction": "BELIRSIZ",
           "severity": 2,
-          "confidence": 90,
-          "summary": "Turkcell 3. çeyrekte 6,7 milyar TL kâr açıkladı; kâr gerilerken gelirler arttı.",
-          "source_count": 3,
-          "first_seen": "2026-11-09T18:43:56+03:00",
+          "confidence": 85,
+          "summary": "Turkcell'in 3Ç26 net kârı 6,7 milyar TL olurken gelirlerde artış, kâr marjlarında düşüş görüldü.",
+          "source_count": 2,
+          "first_seen": "2026-11-09T20:20:10+03:00",
           "trusted": false,
           "evidence": [
-            {
-              "title": "Turkcell (TCELL) 2026 3. çeyrek bilançosu beklentiyi karşıladı mı?",
-              "source": "rotaborsa.com",
-              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQm5YVlRUY1hHY0U1aWN1cjZfcmw0bDdkR3FTbFpwN01DeHBvRFNGX2JQdDNjQ184ZDY1dHpkRmtOODBnUVkySk1kNldSbUQzVkVOa1Z5NUNXZThxUDNCNUNlQjMyaHNIMG5EV1pKSVItdGkxUWRSMmU5MWZQYTRhV3BOSWRYWmoyM094THh3?oc=5",
-              "published": "2026-11-09T18:43:56+03:00",
-              "tier": "T3"
-            },
-            {
-              "title": "Turkcell (TCELL) 2026 yılı 3. çeyrek bilançosunu açıkladı! İşte detaylar",
-              "source": "rotaborsa.com",
-              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYXRGX3c4SU1CX3paX25wQzlZNW9TUHRLV3RlR0JoaDFRRjJYdXZRVVVtbXdZNzBsd19nQjVlQVFmWkhIQnNMdERfUmdWVGV2Z3BPS3JHa3gyb0tMM0RrUXYtdm1keXV1Z29NZm9YWUp6UE9zeV9rekZLTWJOY0QweTc2OWczck42WVBVRVdGWGJvN20tS0E?oc=5",
-              "published": "2026-11-09T18:49:23+03:00",
-              "tier": "T3"
-            },
             {
               "title": "Turkcell bilançosunda kâr düştü, gelirler arttı",
               "source": "hisse.net",
@@ -590,7 +514,7 @@
       ],
       "gdelt": null,
       "llm_risk_flag": false,
-      "summary": "Turkcell 3. çeyrekte 6,7 milyar TL kâr açıkladı; kâr gerilerken gelirler arttı.",
+      "summary": "Turkcell'in 3Ç26 net kârı 6,7 milyar TL olurken gelirlerde artış, kâr marjlarında düşüş görüldü.",
       "confidence": null
     },
     "TRALT": {
@@ -602,7 +526,7 @@
           "direction": "OLUMLU",
           "severity": 4,
           "confidence": 90,
-          "summary": "Türk Altın İşletmeleri 3. çeyrekte beklentilerin belirgin üzerinde net kâr açıkladı.",
+          "summary": "Türk Altın İşletmeleri'nin 3. çeyrek kârı analist beklentilerini yaklaşık ikiye katladı.",
           "source_count": 2,
           "first_seen": "2026-11-09T21:13:59+03:00",
           "trusted": false,
@@ -634,7 +558,7 @@
       ],
       "gdelt": null,
       "llm_risk_flag": false,
-      "summary": "Türk Altın İşletmeleri 3. çeyrekte beklentilerin belirgin üzerinde net kâr açıkladı.",
+      "summary": "Türk Altın İşletmeleri'nin 3. çeyrek kârı analist beklentilerini yaklaşık ikiye katladı.",
       "confidence": null
     },
     "TTKOM": {
@@ -642,11 +566,31 @@
       "risk_flag": false,
       "events": [
         {
+          "event_type": "OPERASYONEL",
+          "direction": "OLUMLU",
+          "severity": 2,
+          "confidence": 85,
+          "summary": "Türk Telekom, Darende'de 300 MW kapasiteli güneş enerjisi santrali (GES) projesinin temelini attı.",
+          "source_count": 1,
+          "first_seen": "2026-11-10T16:39:00+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Türk Telekom'dan 300 megavatlık GES yatırımı! Darende'de temel atıldı",
+              "source": "ekonomi.haber7.com",
+              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVlFEdVhiUlZFUV9MeG9uUWJ6dnF1TFNKTWlXY29CaC0yRnJUWEhlaGNzRFR2T0M1UEdvSzA3cjB6dG9hMFRtZGdqT1ItRWhKczF4THh4MlM5SXNWUngxYzZBNkhfeGVGLXB5cUJfdHRvUjcxMlZSalBpTVB5eVRNMF9wTXNVNVg2d1ZMN3JkVHZzMTg0enBLMjllN19HQWRNS2dzM1ZTdTBIa3BPcGdSMmtZdTdRd9IBuAFBVV95cUxNZkxkR05sQzRKanJJbkM3NFBRR2ZWZE1fc3lzZDRNcllFd2NjMXFXbnBZQWV4Mi1NbWJRUlhYS01aWFMtNl81VzVBdmpXTVlkaGZTZnBUcUV0RTNJaENVSnlFRERJcHpEb0JzZ0NnQ0J3RzM3YkwwWnR1SEdrS2pqU0xXNjY0WU15MnVSX0Y3cVVHenV4SmFnc1JkUHBIa0hjd2FremJud1VRSGxFUHVuNE1sdjUwazBx?oc=5",
+              "published": "2026-11-10T16:39:00+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        },
+        {
           "event_type": "YONETIM_ORTAKLIK",
           "direction": "BELIRSIZ",
           "severity": 2,
-          "confidence": 80,
-          "summary": "Türk Telekom'da yönetim kademesinde Yunus Arıncı'nın istifası haberlere yansıdı.",
+          "confidence": 75,
+          "summary": "Türk Telekom yönetiminde görev alan Yunus Arıncı'nın istifasına yönelik haberler yer aldı.",
           "source_count": 1,
           "first_seen": "2026-11-10T18:01:46+03:00",
           "trusted": false,
@@ -664,7 +608,7 @@
       ],
       "gdelt": null,
       "llm_risk_flag": false,
-      "summary": "Türk Telekom'da yönetim kademesinde Yunus Arıncı'nın istifası haberlere yansıdı.",
+      "summary": "Türk Telekom, Darende'de 300 MW kapasiteli güneş enerjisi santrali (GES) projesinin temelini attı.",
       "confidence": null
     }
   },
@@ -673,30 +617,10 @@
       {
         "event_type": "MAKRO_SEKTOR",
         "direction": "BELIRSIZ",
-        "severity": 2,
-        "confidence": 90,
-        "summary": "TCMB, iki elektronik para kuruluşunun faaliyet izinlerini iptal etti.",
-        "source_count": 1,
-        "first_seen": "2026-11-11T00:08:53+03:00",
-        "trusted": true,
-        "evidence": [
-          {
-            "title": "TCMB, iki elektronik para şirketinin faaliyet iznini iptal etti",
-            "source": "bloomberght.com",
-            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWS1Gam82WnpZd09mUGs0MHJhSzNfa1p3TFljbm5GQW8wWVN0RVEtenc1RGZiMTRBV0FTU29qSzdMNmxGRk8yX2tnWUFOSW1BOVE1MHVwdHcyMTJUVDV4SzdSYzBjN2h5ZlVpdDl4R2QwRW9oNDBGaVVncjAyUThkSmNfQ3VZYncxWUxtTE44N0oxM05Dc2JURGdKQmx3Slk?oc=5",
-            "published": "2026-11-11T00:08:53+03:00",
-            "tier": "T1"
-          }
-        ],
-        "origin": "llm"
-      },
-      {
-        "event_type": "MAKRO_SEKTOR",
-        "direction": "BELIRSIZ",
         "severity": 3,
-        "confidence": 85,
-        "summary": "TCMB Enflasyon Raporu ve faiz indirim beklentileri piyasada yakından takip ediliyor.",
-        "source_count": 2,
+        "confidence": 80,
+        "summary": "Piyasalarda TCMB'nin enflasyon raporu ve aralık ayına ilişkin olası faiz indirimi beklentileri izleniyor.",
+        "source_count": 3,
         "first_seen": "2026-11-11T07:23:00+03:00",
         "trusted": true,
         "evidence": [
@@ -713,39 +637,19 @@
             "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUlFMSmk4eHl5QnR4Q2dvSGpySnhwaGwyVDB1QzcwWVo0YU9MRXB3YXRsdURwU2hXby1aeVp0bF90amx5d3cwSXkyQjFyNVFYQWNaQ0FkdVVhMmRwd21FdnAtV1ZqMkw4TXdLaGRLOGo5VUZUN29yTTdqYkcwOXZYMmpzQk5aeXZlcWVMTnU1YlJnYk9vVmVocnNiaEZYM3BYVmp4cUpB?oc=5",
             "published": "2026-11-11T11:39:55+03:00",
             "tier": "T2"
-          }
-        ],
-        "origin": "llm"
-      },
-      {
-        "event_type": "DAVA_CEZA_SORUSTURMA",
-        "direction": "OLUMSUZ",
-        "severity": 3,
-        "confidence": 75,
-        "summary": "Borsa İstanbul yönetimine ilişkin rüşvet iddiaları ve istifa çağrıları gündeme geldi.",
-        "source_count": 2,
-        "first_seen": "2026-11-11T13:53:00+03:00",
-        "trusted": false,
-        "evidence": [
-          {
-            "title": "Murat Emir: Sıra Borsa İstanbul Yönetim Kurulu Başkanı Erişah Arıcan’a geldi!",
-            "source": "birgun.net",
-            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM0NDRGl5d21keEcwS0ZDUy1wc19BRUh2QUhIOGFrQ0hwWHIyVjY2TTFSSTA4VGE0NVAzNXRVRl9PLXdET0xvYlA1Y01ETnozMkltVnZxSWhQWGFvbDVjVXpYODFYLUZ3MmJOWmFYcmo5RXdFYTA0TG5qWXdmUkFoT1VZME1aVl83akQtMGhFRklhUFQybk84UnhBN0JkZFNPcjRqai1WN0plTEFaVlZJ?oc=5",
-            "published": "2026-11-11T13:53:00+03:00",
-            "tier": "T2"
           },
           {
-            "title": "Yeni Partili Murat Emir, Erişah Arıcan'ı işaret etti: Borsa İstanbul Genel Müdürü rüşvetten tutuklanırken Yönetim Kurulu Başkanı o koltukta oturamaz!",
-            "source": "t24.com.tr",
-            "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOZV9HUW1HOEk2dDAxY19GVDZ0MkZHSDhqTWxvTjR1VlFjYmFhN0xLLTBOVnZSNnR1SncyTmVOWEdtSWZnUXZoT1ltMGpMU2xLVWtCbFpwVHp1NWhvOWRkaUVwbGMyQ1RybDhST1NSYUJqSXo3WnYyRkpqWHduczJ3aDJBaXFlQWhHNzZTcjBmdW96QjFzT0xXS1JLRjl4OGpqYVZCSXgzSlBWb2NFbGFhS3dxMVh1cjBUT2x4Qkk1V1J0a2MyMVpreUEtZnZWUGZVX2FfMERtY3BjeXZ2QzNNanYzR0Z4MVNtbmhMci15eDJkUUc5LU5idVg5czZFWElEdXpqa19wTzhGdEJrSHZJ?oc=5",
-            "published": "2026-11-11T15:23:00+03:00",
-            "tier": "T3"
+            "title": "Dev bankalardan TCMB için aralık tahmini: Faiz indirimi beklentisi güçleniyor",
+            "source": "dunya.com",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeFAweXZVRWZOV3lMeFBpeThwZ0IyWFh6dzZrMFl6eC1DZzdSd29uQklkck45Q0hMRFdja3h0WTNfcC02WkZFREhoRnA1dHVRVVV1dnFfUDNEc3d1a1dBWFlDMnNlRmszUWRKazhrWHdrcG4xVWVWd01rX3Q1eF9SZkxaRDlLajhzc1ZGRUZEWjZMVGNGa3d5LTlDMUlJNllRd1JvajFmVm5zbTJsMjhjMElZcWRqR0hudmlieA?oc=5",
+            "published": "2026-11-11T14:55:00+03:00",
+            "tier": "T1"
           }
         ],
         "origin": "llm"
       }
     ],
-    "summary": "TCMB, iki elektronik para kuruluşunun faaliyet izinlerini iptal etti."
+    "summary": "Piyasalarda TCMB'nin enflasyon raporu ve aralık ayına ilişkin olası faiz indirimi beklentileri izleniyor."
   },
   "gemini": {},
   "makro": [
