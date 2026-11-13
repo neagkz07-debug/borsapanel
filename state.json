@@ -3,17 +3,17 @@
     "hata_gun": "2026-10-26",
     "haber": [],
     "pazartesi_gun": "2026-10-26",
-    "ozet_gun": "2026-11-12"
+    "ozet_gun": "2026-11-13"
   },
   "son_calisma": {
-    "zaman": "2026-11-12T20:40:18+03:00",
+    "zaman": "2026-11-13T18:26:08+03:00",
     "mod": "close",
     "durum": "TAMAM",
     "kuru": false,
     "uyarilar": [
       "Yapay zekâ sınıflandırması yapılamadı; kural yedeği kullanıldı [ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again ]."
     ],
-    "son_bar": "2026-11-12"
+    "son_bar": "2026-11-13"
   },
   "saglik": {
     "ardisik_hata": 0,
@@ -21,20 +21,20 @@
     "veri_bayat": false,
     "haber_ok": true,
     "yapay_zeka_ok": false,
-    "son_basarili": "2026-11-12T20:40:18+03:00"
+    "son_basarili": "2026-11-13T18:26:08+03:00"
   },
-  "haber_zamani": "2026-11-12T20:40:18+03:00",
+  "haber_zamani": "2026-11-13T18:26:08+03:00",
   "llm_ok": false,
   "pozisyon_durum": {},
   "cooldowns": {},
-  "guncelleme": "2026-11-12T20:40:18+03:00",
+  "guncelleme": "2026-11-13T18:26:08+03:00",
   "rejim": {
     "label": "RISK_OFF",
     "index": "XU030.IS",
-    "close": 14815.37,
-    "sma20": 14245.36,
-    "sma50": 15268.28,
-    "usdtry_1d_pct": 0.09,
+    "close": 14844.74,
+    "sma20": 14238.26,
+    "sma50": 15239.2,
+    "usdtry_1d_pct": 0.21,
     "fx_shock": false,
     "available": true
   },
@@ -48,7 +48,7 @@
   },
   "gemini": {},
   "makro": [
-    "12 Kasım: TCMB Enflasyon Raporu"
+    "27 Kasım: TCMB Finansal İstikrar Raporu"
   ],
   "skor_karti": {
     "toplam_kayit": 0,
