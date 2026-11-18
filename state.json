@@ -3,420 +3,80 @@
     "hata_gun": "2026-10-26",
     "haber": [],
     "pazartesi_gun": "2026-10-26",
-    "ozet_gun": "2026-11-17"
+    "ozet_gun": "2026-11-18"
   },
   "son_calisma": {
-    "zaman": "2026-11-17T21:41:15+03:00",
+    "zaman": "2026-11-18T19:29:23+03:00",
     "mod": "close",
     "durum": "TAMAM",
     "kuru": false,
-    "uyarilar": [],
-    "son_bar": "2026-11-17"
+    "uyarilar": [
+      "Arama doğrulaması kullanılamadı (ücretsiz katmanda kapalı olabilir); atlandı [ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on]",
+      "Yapay zekâ sınıflandırması yapılamadı; kural yedeği kullanıldı [ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again ]."
+    ],
+    "son_bar": "2026-11-18"
   },
   "saglik": {
     "ardisik_hata": 0,
     "veri_eksik": [],
     "veri_bayat": false,
     "haber_ok": true,
-    "yapay_zeka_ok": true,
-    "son_basarili": "2026-11-17T21:41:15+03:00"
+    "yapay_zeka_ok": false,
+    "son_basarili": "2026-11-18T19:29:23+03:00"
   },
-  "haber_zamani": "2026-11-17T21:41:15+03:00",
-  "llm_ok": true,
+  "haber_zamani": "2026-11-18T19:29:23+03:00",
+  "llm_ok": false,
   "pozisyon_durum": {},
   "cooldowns": {},
-  "guncelleme": "2026-11-17T21:41:15+03:00",
+  "guncelleme": "2026-11-18T19:29:23+03:00",
   "rejim": {
     "label": "RISK_OFF",
     "index": "XU030.IS",
-    "close": 14614.92,
-    "sma20": 14272.08,
-    "sma50": 15164.8,
-    "usdtry_1d_pct": 0.14,
+    "close": 14412.79,
+    "sma20": 14258.89,
+    "sma50": 15110.98,
+    "usdtry_1d_pct": 0.04,
     "fx_shock": false,
     "available": true
   },
   "pozisyonlar": [],
   "adaylar": [],
-  "izleme": [],
-  "haber": {
-    "AKBNK": {
-      "sentiment": "NOTR",
-      "risk_flag": false,
-      "events": [
-        {
-          "event_type": "OPERASYONEL",
-          "direction": "OLUMLU",
-          "severity": 2,
-          "confidence": 75,
-          "summary": "Akbank, COP31 kapsamında sanayinin yeşil dönüşümüne yönelik DENGE Programı'nı tanıttı.",
-          "source_count": 1,
-          "first_seen": "2026-11-16T15:54:00+03:00",
-          "trusted": false,
-          "evidence": [
-            {
-              "title": "Akbank COP31'de sanayinin yeşil dönüşümüne yönelik DENGE Programı'nı tanıttı",
-              "source": "platinonline.com",
-              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOV0tobjFxNzdOV1VsbFpSOGg5cTNOM2d2Q09Vd2xLQTh4WmVMdnRweXNWQVBRd3ZoXzdra2g2UkF1bklZb1Z2MDRmZmI0dThHRWJhY0FQUEFjRjlQQmFkNkhxZHRyVWdRYW0xVldmTzBGdlpHSFJWTWRYbXdrUjlveXNyYWpNMVpEc1E1T3pKVmhBMHh2NlQ1NjRpM1pvdS1NZ3hkTlhDVW9SSTB3b1pOWjI4ZjZ2SUdSZ2NLWUZtRQ?oc=5",
-              "published": "2026-11-16T15:54:00+03:00",
-              "tier": "T3"
-            }
-          ],
-          "origin": "llm"
-        }
+  "izleme": [
+    {
+      "symbol": "TAVHL",
+      "type": "TREND",
+      "action": "BEKLE",
+      "close": 291.0,
+      "score": 3,
+      "sector": "HAVACILIK",
+      "entry_zone": [
+        288.09,
+        292.45
       ],
-      "gdelt": null,
-      "llm_risk_flag": false,
-      "summary": "Akbank, COP31 kapsamında sanayinin yeşil dönüşümüne yönelik DENGE Programı'nı tanıttı.",
-      "confidence": null
-    },
-    "ASELS": {
-      "sentiment": "NOTR",
-      "risk_flag": false,
-      "events": [
-        {
-          "event_type": "SOZLESME_SIPARIS",
-          "direction": "OLUMLU",
-          "severity": 2,
-          "confidence": 90,
-          "summary": "ASELSAN ve ROKETSAN füze sistemleri için milyarlık yeni sözleşme imzaladı; bakiye siparişler güçlendi.",
-          "source_count": 2,
-          "first_seen": "2026-11-16T11:41:13+03:00",
-          "trusted": false,
-          "evidence": [
-            {
-              "title": "Aselsan (ASELS) dev sözleşmeyi duyurdu",
-              "source": "rotaborsa.com",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE51XzNTV3FXLVhqZzNVWlkxdGF0REFWRzZJeG5ZSXFaQmxfNGlIbTFJbjhqaWNBdnoyaDFPalltRFUxSVljVTNrNThlR0EzYXF1c1F1ZzBhejlJWi1FZ2N0aDBkd19EaFl2VDJVbmNIVQ?oc=5",
-              "published": "2026-11-16T11:41:13+03:00",
-              "tier": "T3"
-            },
-            {
-              "title": "ASELSAN ve ROKETSAN'dan füze sistemleri için milyarlık...",
-              "source": "hisse.net",
-              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMHRkUF9ZMEI1V0E3QXR4eU84anp2ZzhPa3M5dFZ3UVpmeHh6d0tJRjFVcmtxQTNKdm5TWG5JQlFjUmhkeFR5Q19yUFUtb1RaYnJOUWQ4MEM3dTJJbEZ3VjYzRU9RR19ldk04d21TWUluRml5Q1NQVzRFS3B6bjc0REZ0bmJtRWdlT2tMWFg1UTEzTzVrSUZSalktOXU0Z9IBowFBVV95cUxNamZpUVRqNGtIendMTUl0VFlqckJPMFNPZ0pQMHFjak9aOFBuRWl6dW9DckdhdGZiYUFtTWEzalFfa0dBNEt1M0VqOW9LdlRTOTY3TlpXSHBMcW4tc2pkemM4WFNBR2tFUG8wZ1g4ZE1zMTQ1NUFlQmhFOHF5WTRqZXNYbU5oTlNUUzhOM2ZKOGFWa1dvR1I1a0JBVkNHSlpwUmZR?oc=5",
-              "published": "2026-11-16T11:55:21+03:00",
-              "tier": "T3"
-            },
-            {
-              "title": "ASELSAN'ın sözleşmeleri geçen yılki cirosunun 3,5 katına...",
-              "source": "hisse.net",
-              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQd25wYk9iZk9NQUZlcE5lY05oQmx1SHowYVRvMHhtTjlFalJmN0JmaWFjR3lQRVIzcWJQZmxxOHZCVjc3NDlEVjFHTktqRTI5MFZaNFRtdFA1WjFwdFlGdVFSdTQ1NWR0ek80V3ppYnBFUUNwa0V1blRDSTBRT0ZRS256Q0hWOE1YSy1rTjlfdXEyUzk3cWI0T21CejNjMjjSAaQBQVVfeXFMT0FkNElqWVJpblZqbmpIWDJ3UnJhemNUbVctUFRtelVGY0Z6eTdOV2FlOEVPQ0VKY3NQMDNVZzYyZkpnaVZLSVRES2FBTEtsN2dtVmhUc2FkV3l0X3llbXNzR2ZmNUM5SXEyRFA1bGdUSkNWdEpucG1QUncwbTFLZmlQR0NFMEpOMzlMTVE3WExQdDQzYS1acS0zamEwVGFtYjlFeFg?oc=5",
-              "published": "2026-11-16T15:00:33+03:00",
-              "tier": "T3"
-            }
-          ],
-          "origin": "llm"
-        }
-      ],
-      "gdelt": null,
-      "llm_risk_flag": false,
-      "summary": "ASELSAN ve ROKETSAN füze sistemleri için milyarlık yeni sözleşme imzaladı; bakiye siparişler güçlendi.",
-      "confidence": null
-    },
-    "EKGYO": {
-      "sentiment": "NOTR",
-      "risk_flag": false,
-      "events": [
-        {
-          "event_type": "OPERASYONEL",
-          "direction": "OLUMLU",
-          "severity": 2,
-          "confidence": 85,
-          "summary": "Emlak Konut GYO, TOKİ ile protokol imzalayarak Didim'de 2,1 milyar TL bedelle arsa satın aldı.",
-          "source_count": 6,
-          "first_seen": "2026-11-16T18:02:41+03:00",
-          "trusted": false,
-          "evidence": [
-            {
-              "title": "Emlak Konut GYO (EKGYO) dev satın almayı duyurdu",
-              "source": "rotaborsa.com",
-              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5oR2xzbmFxcVlBSWppR1FqM0JnU1lwRTU1dy1MQ2JEZFVmVDF2bzNvQlozOGEzX1ZwTFl2Y2duUjBFYWJfMGxfRk5tSkdaX1pvRHY1LTNoMDVpZ2ZmdnZCdG1WWlVpQ2k1MzlFTlVMMU8xSVdkNzI1XzJzSQ?oc=5",
-              "published": "2026-11-16T18:02:41+03:00",
-              "tier": "T3"
-            },
-            {
-              "title": "EKGYO'dan Didim'de 2,1 Milyar TL'lik Arsa Alımı",
-              "source": "paraninyonu.com.tr",
-              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPR3JjNFhSUDlieEhnbEdoVDRFWTQ4a3RfME41OEJjaXpsbE5XNGxFbThxOXBjNTA4dmRJdWNQSXNwQ0JyZVVXc21WZGE3WHdQYVJXMjFGbDFZS09oTTZ5dmRsQWpMRHdsc0dXeWRtUFFWUlI4RmNZSkE2MGhpZ0FZZ0piUEJNLVFJVi1hUmhB?oc=5",
-              "published": "2026-11-16T18:04:00+03:00",
-              "tier": "T3"
-            },
-            {
-              "title": "EKGYO'dan 2.1 Milyar TL'lik Didim Arsa Alımı Hamlesi",
-              "source": "finanshatti.com",
-              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVWtOd092eExMRDdhbjl1YTlpM1VUTjNPZ1EyOU1kT1dhUU9jdnczTXI3TmVqVWRFV3lFY1N3aS0zZ0I0bDZ2UWFRUGJVVnR5cEZHWEZ6Q012cmpxOXlZMWFYRjY2akxZdE1QM3pwNjdVdTM5c0pNRHNseXc3dDFzd1g3blBOUQ?oc=5",
-              "published": "2026-11-16T18:16:32+03:00",
-              "tier": "T3"
-            },
-            {
-              "title": "Emlak Konut (EKGYO) Didim'de 2,1 milyar TL'lik arsa aldı",
-              "source": "iscihaber.net",
-              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZGxldXRxdVJTaDRuWjhLZEoyVURhUGxseHhQTDAwX0l1MHRsVTNxUjRnQXgwYjBvSFptT3NqY3g4WWxLNUdmdHp0M2N3VTFRaTk5aEpUUVJzNGVBWE1MSjJNZUl1MFpKZjdIRXNoLTI3MnV5ZTFvV2pNVzhDeU8zTkJCQnFQZmV4SjFFbHlrbjlpLTloamtF?oc=5",
-              "published": "2026-11-16T18:29:18+03:00",
-              "tier": "T3"
-            },
-            {
-              "title": "Emlak Konut'tan 2,1 milyar TL'lik dev satın alma: TOKİ ile protokol imzalandı",
-              "source": "istanbulticaretgazetesi.com",
-              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMHZmbDU5Q3RWdzlMU3BEaWowcE9mUHgyVnJWWWx6aGJqSmdpbFpmaVVyMXFJNnUzcjdSWTc2cXkwNF9ab3F1cTJuWHZjODNDeERhNUlDbGxfNWFKV3Z6TFJBMmFmUjFWeWlta0pvU1U1ODk0LXhnYVNiLUE0T2VPNXk1dGhYRGMwLUVsU0NVaXIzTUR6T3p1MFVsMDBKbWJ2MU9aVEhkdy0tME9fY0E?oc=5",
-              "published": "2026-11-16T18:30:23+03:00",
-              "tier": "T3"
-            },
-            {
-              "title": "Emlak Konut’tan Didim’de dev arsa alımı",
-              "source": "hisse.net",
-              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kbTlid21FZDJIcGlGMlQtUjRNMVJQWWR6ZDNjX2t0YXVRdmtpcnRtQTdVLXJnS1VhWV9hV1k4eWZUM0RWTnhycnlWeUxCN2c3LWdGYU5aVURtRTZJc2txQXk2dGk0N295dVl6SVo4dGlUUGxKTUZoMi1CazhsMk3SAYQBQVVfeXFMUG9UWkpJdWt6eV90ZEFaRVRsVkdycGp4ZXVFMW5iamRMcmxlbGZiLUxhTUIwaHhmNXluZk9EalZvb1Npb3p6bzdyQld4c0VyQlRPNllWSUFfN0V5WXhIZ1lENlZ4aE56NF9SVHV0R19yb1otUGpwN0xiQjVfSXRTTnZ0bktf?oc=5",
-              "published": "2026-11-16T19:06:11+03:00",
-              "tier": "T3"
-            }
-          ],
-          "origin": "llm"
-        }
-      ],
-      "gdelt": null,
-      "llm_risk_flag": false,
-      "summary": "Emlak Konut GYO, TOKİ ile protokol imzalayarak Didim'de 2,1 milyar TL bedelle arsa satın aldı.",
-      "confidence": null
-    },
-    "ENKAI": {
-      "sentiment": "NOTR",
-      "risk_flag": false,
-      "events": [
-        {
-          "event_type": "YONETIM_ORTAKLIK",
-          "direction": "OLUMLU",
-          "severity": 2,
-          "confidence": 80,
-          "summary": "Mehmet Sinan Tara, Enka İnşaat paylarında alım gerçekleştirdiğini açıkladı.",
-          "source_count": 1,
-          "first_seen": "2026-11-16T08:46:37+03:00",
-          "trusted": false,
-          "evidence": [
-            {
-              "title": "Mehmet Sinan Tara’dan Enka İnşaat’ta (ENKAI) hisse alış açıklaması",
-              "source": "rotaborsa.com",
-              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTjZtTHltSFlDSTJncWRpTmhqTFpUY05velhKTU14MF94dGtuWWtNLUJLUThueXJ3bFZia1paWTE0dmw1cmlFV1NsT1lDdXJka0t2UEpsa2VSTHE5ZjhDbVpEb2ZWWEVGZFJQZHAxVDgwY0x4dTRCVG5ucDFndjVweUhodmFkcFhucHBNdHdsVnk2Zw?oc=5",
-              "published": "2026-11-16T08:46:37+03:00",
-              "tier": "T3"
-            }
-          ],
-          "origin": "llm"
-        }
-      ],
-      "gdelt": null,
-      "llm_risk_flag": false,
-      "summary": "Mehmet Sinan Tara, Enka İnşaat paylarında alım gerçekleştirdiğini açıkladı.",
-      "confidence": null
-    },
-    "FROTO": {
-      "sentiment": "NOTR",
-      "risk_flag": false,
-      "events": [
-        {
-          "event_type": "OPERASYONEL",
-          "direction": "OLUMLU",
-          "severity": 2,
-          "confidence": 75,
-          "summary": "Ford Otosan, COP31'de tedarik zincirinde karbonsuzlaşma ve yeşil dönüşüm yol haritasını paylaştı.",
-          "source_count": 2,
-          "first_seen": "2026-11-16T17:40:00+03:00",
-          "trusted": true,
-          "evidence": [
-            {
-              "title": "Ford Otosan, COP31’de tedarik zincirinde karbonsuzlaşmanın yol haritasını paylaştı",
-              "source": "dunya.com",
-              "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNDB5cGtMc2xlODlWa3FCZVI5RDdmVGhUWHJzeFhMNmRTWUVwNXprQWo5OWFCcC1XdXc2SEkyVGRiTEZ4akloMk16aDBaS192UFNfUXZ0LVY4YVhxanpHdl8zbnhfUnU4R05Ud1pKZHFBVzdsX19yNnNxUURWcEZ5dllmRHdlbWN4Y1V4NVdMeDA2cVJkM0JoR3dlYS1xaEpLRzRsSTdodnZ2SnlhSUVFU19zaGpQQzdoMTFPMWlDNjZReHhXRGxKR0xDbV96WGct?oc=5",
-              "published": "2026-11-16T17:40:00+03:00",
-              "tier": "T1"
-            },
-            {
-              "title": "Ford Otosan, COP31’de otomotivde yeşil dönüşüm için tedarikçileriyle iş birliğini gündeme taşıdı",
-              "source": "ekonomim.com",
-              "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQTI0ZmFxdjBlX1d3amhxR01TVnpJazJzSDN2Rmt2ZHpwdlFBdVBBaWg2bmRlUW50OG80azZyemJSTnJoVWlmRmpVY3dmSkliZVhvU0hrdjBYMFdPazRheE1aWVZTNExZcUVuZjlsM1o4aWtYOG50S2tJeEZzR01vc2Z5a0JfTms2NkJkN0hXemNmOUMwMnpWdjBia2ROMmE0LU9HdkdEcTdNbzF2cFg4LUVlUWVta0dvTDQ4blJJbTVXX1BiZjdBanJFT3NqNWx6d1pwdFpBSnlxUQ?oc=5",
-              "published": "2026-11-17T16:26:00+03:00",
-              "tier": "T1"
-            }
-          ],
-          "origin": "llm"
-        }
-      ],
-      "gdelt": null,
-      "llm_risk_flag": false,
-      "summary": "Ford Otosan, COP31'de tedarik zincirinde karbonsuzlaşma ve yeşil dönüşüm yol haritasını paylaştı.",
-      "confidence": null
-    },
-    "KCHOL": {
-      "sentiment": "NOTR",
-      "risk_flag": false,
-      "events": [
-        {
-          "event_type": "YONETIM_ORTAKLIK",
-          "direction": "BELIRSIZ",
-          "severity": 2,
-          "confidence": 80,
-          "summary": "Koç Holding yönetiminde bir istifa gerçekleştiği bildirildi.",
-          "source_count": 1,
-          "first_seen": "2026-11-17T18:20:17+03:00",
-          "trusted": false,
-          "evidence": [
-            {
-              "title": "Koç Holding (KCHOL) Yönetiminde istifa",
-              "source": "rotaborsa.com",
-              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBhTzhoWTk3cmZzSUNfZlVhMTV1aEFjdW9Lb0pXdDg3eGZJZ2lTS0VUdHJIOG5HNVFtclRoZ2lYWXo3Ry0xNHBtb01CdDFBMDV0UkE1djRBRXdWcE0xUUt4SFpJVDRpdmhBbXZzejBR?oc=5",
-              "published": "2026-11-17T18:20:17+03:00",
-              "tier": "T3"
-            }
-          ],
-          "origin": "llm"
-        }
-      ],
-      "gdelt": null,
-      "llm_risk_flag": true,
-      "summary": "Yönetim kurulundaki istifa kurumsal belirsizlik yaratabilir.",
-      "confidence": null
-    },
-    "PETKM": {
-      "sentiment": "NOTR",
-      "risk_flag": false,
-      "events": [
-        {
-          "event_type": "YONETIM_ORTAKLIK",
-          "direction": "OLUMSUZ",
-          "severity": 2,
-          "confidence": 75,
-          "summary": "Goldman Sachs'ın Petkim'deki hisse işlemlerinin ardından pay oranı geriledi.",
-          "source_count": 1,
-          "first_seen": "2026-11-17T09:31:47+03:00",
-          "trusted": false,
-          "evidence": [
-            {
-              "title": "Goldman'ın Petkim'de işlemleri sürüyor! Pay oranı geriledi",
-              "source": "hisse.net",
-              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWlFqcHBtMkVtSy1Zc2dsU0JzS09oZE9xNHJudnliVGV3VGxSWVNka3V5VkdTSU9rZGZMd0ZkM2FnelhjNENkMEcxVUVXTmlNczdmQ2tEa3dEUVJWREFJRzRLMFgtR1NoenJfeWNIZW5TaGRCa3pOcGNtaE92WThvbEFCMVJaWTU3VkVPT3NYOGJmNEVOTmFJ0gGcAUFVX3lxTFBiWDh3Z1hCMzVXVDVEYVhUVnkzeTJTNTlZVWs0dXdMdFpxOUhMLXJpSllwLVdxa0dvdmVrSzkyLXRBTzk0VmptaGl1VGxMZU91VFpLXzRfazhIZnczcGd6XzNma3JJSTdHWFF0WkFSTG1yMDI2T1dnUnp3dk82amd5cDVpZGo2QkE1MUZlX1dVWFZsRTNtNDdQaFh6SA?oc=5",
-              "published": "2026-11-17T09:31:47+03:00",
-              "tier": "T3"
-            }
-          ],
-          "origin": "llm"
-        }
-      ],
-      "gdelt": null,
-      "llm_risk_flag": true,
-      "summary": "Yabancı kurumsal ortak Goldman Sachs'ın Petkim'de pay azaltması hisse üzerinde satış baskısı yaratabilir.",
-      "confidence": null
-    },
-    "PGSUS": {
-      "sentiment": "NOTR",
-      "risk_flag": false,
-      "events": [
-        {
-          "event_type": "YONETIM_ORTAKLIK",
-          "direction": "OLUMLU",
-          "severity": 2,
-          "confidence": 95,
-          "summary": "Pegasus, 3 milyar TL büyüklüğünde pay geri alım programı başlattığını duyurdu.",
-          "source_count": 6,
-          "first_seen": "2026-11-16T19:49:21+03:00",
-          "trusted": false,
-          "evidence": [
-            {
-              "title": "Pegasus 3 milyar liralık hisse alacak",
-              "source": "hisse.net",
-              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mQ0FhcE5wU055eF9SR0ZoYmxkVEVzRVYzYnlfREU1WlBtaFpaZ3hrTGV4R1lrLUpVaDJnNlNZbkpScGtqdWRRZ0lXUE9ZdDRfM0hkLUtCeHFjV2NjV2VIUTZaSUw4bjhCdkZBenZLVVE0VEswemthZ0xBdWvSAYIBQVVfeXFMTTNMcWJ4ckYybXNILVh1dlU0N2Fnck01TldjeXR2MXhFUmg1LTZDakRBRnY2UlI4SFZIczYxblFaelZ4RHFKd3FSYnFjeVg0YXpuYmVYRFV3WXp3bHhjdXM4MnJlVWY1ZURncmQxWjBMeGthcGlUOGZMOF80YnRsN2pIQQ?oc=5",
-              "published": "2026-11-16T19:49:21+03:00",
-              "tier": "T3"
-            },
-            {
-              "title": "Pegasus'tan 3 Milyar TL'lik Pay Geri Alım Kararı",
-              "source": "paraninyonu.com.tr",
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRHo1QTg3M0J6cDg0VjJNWVQtck13aU5oZ3NWejVnT0Z2YnNJTER0VjRBcEQ4MFlGY2ltRV9QRk1mRTVZR3VsTmZtaHlUenAtWWxNNGcxd0hhRkNlQzh1ZnhZaklfaEFOQ1NGZDNmeWlsR0tLXzg5ZFlpLXhEUFlnS0R1cXRLVjdNT3N6aA?oc=5",
-              "published": "2026-11-16T22:01:00+03:00",
-              "tier": "T3"
-            },
-            {
-              "title": "Pegasus 3 Milyar TL’lik Pay Geri Alım Programını Başlattı",
-              "source": "paraajansi.com.tr",
-              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbHdqR2FERHR6cEhnVzJQWEM2ZU42N0RkVTBidzRqb2c4RGN3QkpRVFF6SFFHSFAtbmw1NTF6d3FYck1pZnMtUHpaLWJTcnVUODZxWHY3TXJ4SFNBQ3pqRTA3ZlR0WlNrTXZmU3lLd0loaDhiaFFfc01tOWNBVTR5V2NBTjlRc085elJVdS1fYkhZRVVPNGFGTXZTZDF1dzdOR1NMd1BZWXIzNDRjRUE?oc=5",
-              "published": "2026-11-17T11:30:00+03:00",
-              "tier": "T3"
-            },
-            {
-              "title": "Ali Sabancı “Bu kadar irtifa kaybı yeter” dedi",
-              "source": "haberhurriyeti.com",
-              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMmtocTBGeENmNGlRQkVJZWprQXYwQXdoeV9VSnlxYkdEQTVkamhwSGd4NzZxLTR6ZVh0TlBsVFNMdm1IS3dLOE41cHlsY2Y2Nm9OX0t3OEJSWHpDck5xd3NFZzRfMUNOT2FFdF95NlNObXZtTVlINlc5RVZNTHkyYjVJdk1yTkxhZTVjSlRadU9JVldQ0gGaAUFVX3lxTE9yRnlGZVpLbThEZVBtaFdseE1lX0dSeGVObXdsdzlQeVFyMVFiZHZtTGZRZS1CNVJ0OFV1YUZVbktFMnRRUEhTdFlzWER0YWkzcHN2cWdQOHpld19qLVlyUkxrSXROVzZNQjVQcVE2MFMxUnl1c3BzNFNDeHRqbDNoVEhJejIwcnFLdVNpbkpvUnlWOTBieFFKMHc?oc=5",
-              "published": "2026-11-16T23:24:00+03:00",
-              "tier": "T3"
-            },
-            {
-              "title": "Borsada Pegasus’tan 13 yıl sonra bir ilk haberi",
-              "source": "borsaningundemi.com",
-              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPX3RXSnBkSGI0UmpCYXVtSlZlYWxzOVY0Qmxlb1I5SVVvdC1vR0xwSEVNamFXbXNYcXBybzF2VUhqLThieVdTQ3JHUzN2RUFaek5DcDd6RHlrTHd4QXFmRU9mcFQtRlJuVjFYY3k4VzNrZFp5VEdGa0Z6VURwS3UzYktJRVZ3TTFlNUhBVkV3?oc=5",
-              "published": "2026-11-17T11:01:59+03:00",
-              "tier": "T3"
-            },
-            {
-              "title": "Pegasus’tan 3 milyar TL’lik karar",
-              "source": "airturkhaber.com",
-              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGWkVRWGhYblJkUVRyMzRuaHBaR0NfUTJfQ2c0SXdQaFQ4eGEtd1RrSlBUcHNCa01acXpQQ1ZQLUkwNHdFdEphSE5Gel9NcnhNWVRIVDJhUm5tdUd4RXBJQ0hydTYxdm5qQWFVa3hZbndmV2FYOGFobVdR?oc=5",
-              "published": "2026-11-17T13:59:46+03:00",
-              "tier": "T3"
-            }
-          ],
-          "origin": "llm"
-        }
-      ],
-      "gdelt": null,
-      "llm_risk_flag": false,
-      "summary": "Pegasus, 3 milyar TL büyüklüğünde pay geri alım programı başlattığını duyurdu.",
-      "confidence": null
+      "stop_loss": 269.84,
+      "target_price": 333.31,
+      "lot": null,
+      "risk_tl": null,
+      "notional": null,
+      "net_rr": null,
+      "reason": "Piyasa rejimi RISK_OFF",
+      "veto_kind": "REJIM"
     }
-  },
+  ],
+  "haber": {},
   "haber_genel": {
-    "events": [
-      {
-        "event_type": "MAKRO_SEKTOR",
-        "direction": "OLUMSUZ",
-        "severity": 2,
-        "confidence": 85,
-        "summary": "Borsa İstanbul günü satıcılı seyir ve düşüşle tamamladı.",
-        "source_count": 3,
-        "first_seen": "2026-11-17T13:33:16+03:00",
-        "trusted": true,
-        "evidence": [
-          {
-            "title": "Borsa İstanbul frene bastı",
-            "source": "bigpara.hurriyet.com.tr",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPXzZ6QXRsejlJcDhEYzZWcDFQQXJJaEVIR2Vhbmtja3JJLUxRdkN6VGdYM0lZem5pTmFZcjFDUFI5OFBUalAzUG0tUEdLaFBGaGRaOFdJVzNKc2JxelJaLWQwSGFDeHV3aEFUdm9oZ2tIaTlSVHZUTS1xOW1jckRxWVRfcw?oc=5",
-            "published": "2026-11-17T13:33:16+03:00",
-            "tier": "T2"
-          },
-          {
-            "title": "Borsa günü düşüşle tamamladı",
-            "source": "aa.com.tr",
-            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE93N0RCcEhkM2dlZlV2V3FUNHJUb2Z5bmM2RlRfY1ZPVG9yVmtTUy1zLWZyZlZNVTEwMXFxaTBpeUNYWlc5cnlMMjA0b0c1VVVnZzJ4SXVyczUtUlFESkR5Qk1TcVBRTEt3c3p3R0REOWszdmtuUEhrSg?oc=5",
-            "published": "2026-11-17T18:41:38+03:00",
-            "tier": "T1"
-          },
-          {
-            "title": "Borsa günü düşüşle tamamladı",
-            "source": "haberturk.com",
-            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1wUndtWmpfdmZWYkhkWlJjaWpjb2lpTVVDNnlrSXU4S3RscW4zVk82LTY4OEtzSG9Va2xHQmpBTmJORUQ1dnNraUcySVpUclVjaUp1LXBLblpHWWstSWxkeWJJbGloQlF3Qzl1aURkS2FVMVE4bmhPNVZn?oc=5",
-            "published": "2026-11-17T19:29:32+03:00",
-            "tier": "T2"
-          }
-        ],
-        "origin": "llm"
-      }
-    ],
-    "summary": "Borsa İstanbul günü satıcılı seyir ve düşüşle tamamladı."
+    "events": [],
+    "summary": ""
   },
-  "gemini": {},
+  "gemini": {
+    "tarih": "2026-11-18",
+    "grounding": 1
+  },
   "makro": [
     "27 Kasım: TCMB Finansal İstikrar Raporu"
   ],
   "skor_karti": {
-    "toplam_kayit": 0,
+    "toplam_kayit": 1,
     "tamamlanan": 0,
     "hepsi": {
       "n": 0

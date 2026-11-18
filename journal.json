@@ -1,3 +1,26 @@
 {
-  "kayitlar": []
+  "kayitlar": [
+    {
+      "id": "2026-11-18-TAVHL-TREND",
+      "tarih": "2026-11-18",
+      "symbol": "TAVHL",
+      "tur": "TREND",
+      "ref_fiyat": 291.0,
+      "stop": 269.84,
+      "hedef": 333.31,
+      "rr": null,
+      "rejim": "RISK_OFF",
+      "skor": 3,
+      "haber": {
+        "event_type": null,
+        "severity": null,
+        "source_count": null
+      },
+      "veto": "REJIM",
+      "sonuc": {
+        "durum": "BEKLIYOR",
+        "gun_sayisi": 0
+      }
+    }
+  ]
 }
