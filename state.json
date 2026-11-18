@@ -6,7 +6,7 @@
     "ozet_gun": "2026-11-18"
   },
   "son_calisma": {
-    "zaman": "2026-11-18T19:29:23+03:00",
+    "zaman": "2026-11-18T21:16:38+03:00",
     "mod": "close",
     "durum": "TAMAM",
     "kuru": false,
@@ -22,13 +22,13 @@
     "veri_bayat": false,
     "haber_ok": true,
     "yapay_zeka_ok": false,
-    "son_basarili": "2026-11-18T19:29:23+03:00"
+    "son_basarili": "2026-11-18T21:16:38+03:00"
   },
-  "haber_zamani": "2026-11-18T19:29:23+03:00",
+  "haber_zamani": "2026-11-18T21:16:38+03:00",
   "llm_ok": false,
   "pozisyon_durum": {},
   "cooldowns": {},
-  "guncelleme": "2026-11-18T19:29:23+03:00",
+  "guncelleme": "2026-11-18T21:16:38+03:00",
   "rejim": {
     "label": "RISK_OFF",
     "index": "XU030.IS",
@@ -70,7 +70,7 @@
   },
   "gemini": {
     "tarih": "2026-11-18",
-    "grounding": 1
+    "grounding": 2
   },
   "makro": [
     "27 Kasım: TCMB Finansal İstikrar Raporu"
