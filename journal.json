@@ -19,7 +19,12 @@
       "veto": "REJIM",
       "sonuc": {
         "durum": "BEKLIYOR",
-        "gun_sayisi": 0
+        "gun_sayisi": 1,
+        "giris_acilis": 289.75,
+        "g1": 0.6,
+        "max_lehte": 2.07,
+        "max_aleyhte": -0.52,
+        "first_hit": "YOK"
       }
     }
   ]

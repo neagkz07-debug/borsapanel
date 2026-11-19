@@ -3,18 +3,17 @@
     "hata_gun": "2026-10-26",
     "haber": [],
     "pazartesi_gun": "2026-10-26",
-    "ozet_gun": "2026-11-18"
+    "ozet_gun": "2026-11-19"
   },
   "son_calisma": {
-    "zaman": "2026-11-18T21:16:38+03:00",
+    "zaman": "2026-11-19T19:36:33+03:00",
     "mod": "close",
     "durum": "TAMAM",
     "kuru": false,
     "uyarilar": [
-      "Arama doğrulaması kullanılamadı (ücretsiz katmanda kapalı olabilir); atlandı [ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on]",
       "Yapay zekâ sınıflandırması yapılamadı; kural yedeği kullanıldı [ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again ]."
     ],
-    "son_bar": "2026-11-18"
+    "son_bar": "2026-11-19"
   },
   "saglik": {
     "ardisik_hata": 0,
@@ -22,47 +21,26 @@
     "veri_bayat": false,
     "haber_ok": true,
     "yapay_zeka_ok": false,
-    "son_basarili": "2026-11-18T21:16:38+03:00"
+    "son_basarili": "2026-11-19T19:36:33+03:00"
   },
-  "haber_zamani": "2026-11-18T21:16:38+03:00",
+  "haber_zamani": "2026-11-19T19:36:33+03:00",
   "llm_ok": false,
   "pozisyon_durum": {},
   "cooldowns": {},
-  "guncelleme": "2026-11-18T21:16:38+03:00",
+  "guncelleme": "2026-11-19T19:36:33+03:00",
   "rejim": {
     "label": "RISK_OFF",
     "index": "XU030.IS",
-    "close": 14412.79,
-    "sma20": 14258.89,
-    "sma50": 15110.98,
-    "usdtry_1d_pct": 0.04,
+    "close": 14300.01,
+    "sma20": 14250.72,
+    "sma50": 15052.2,
+    "usdtry_1d_pct": 0.05,
     "fx_shock": false,
     "available": true
   },
   "pozisyonlar": [],
   "adaylar": [],
-  "izleme": [
-    {
-      "symbol": "TAVHL",
-      "type": "TREND",
-      "action": "BEKLE",
-      "close": 291.0,
-      "score": 3,
-      "sector": "HAVACILIK",
-      "entry_zone": [
-        288.09,
-        292.45
-      ],
-      "stop_loss": 269.84,
-      "target_price": 333.31,
-      "lot": null,
-      "risk_tl": null,
-      "notional": null,
-      "net_rr": null,
-      "reason": "Piyasa rejimi RISK_OFF",
-      "veto_kind": "REJIM"
-    }
-  ],
+  "izleme": [],
   "haber": {},
   "haber_genel": {
     "events": [],
