@@ -6,13 +6,11 @@
     "ozet_gun": "2026-11-19"
   },
   "son_calisma": {
-    "zaman": "2026-11-19T19:36:33+03:00",
+    "zaman": "2026-11-19T21:26:07+03:00",
     "mod": "close",
     "durum": "TAMAM",
     "kuru": false,
-    "uyarilar": [
-      "Yapay zekâ sınıflandırması yapılamadı; kural yedeği kullanıldı [ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again ]."
-    ],
+    "uyarilar": [],
     "son_bar": "2026-11-19"
   },
   "saglik": {
@@ -20,14 +18,14 @@
     "veri_eksik": [],
     "veri_bayat": false,
     "haber_ok": true,
-    "yapay_zeka_ok": false,
-    "son_basarili": "2026-11-19T19:36:33+03:00"
+    "yapay_zeka_ok": true,
+    "son_basarili": "2026-11-19T21:26:07+03:00"
   },
-  "haber_zamani": "2026-11-19T19:36:33+03:00",
-  "llm_ok": false,
+  "haber_zamani": "2026-11-19T21:26:07+03:00",
+  "llm_ok": true,
   "pozisyon_durum": {},
   "cooldowns": {},
-  "guncelleme": "2026-11-19T19:36:33+03:00",
+  "guncelleme": "2026-11-19T21:26:07+03:00",
   "rejim": {
     "label": "RISK_OFF",
     "index": "XU030.IS",
@@ -41,10 +39,336 @@
   "pozisyonlar": [],
   "adaylar": [],
   "izleme": [],
-  "haber": {},
+  "haber": {
+    "AKBNK": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "DIGER",
+          "direction": "OLUMSUZ",
+          "severity": 2,
+          "confidence": 85,
+          "summary": "Ünlü & Co, model portföyünden Akbank'ı çıkararak yerine VakıfBank'ı ekledi.",
+          "source_count": 4,
+          "first_seen": "2026-11-19T11:06:13+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Ünlü & Co’nun banka tercihi değişti: Akbank gitti, Vakıfbank geldi",
+              "source": "paratic.com",
+              "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQnJZa2dzY1ptdWk5dS1wTGxJY0d1TkhJb2tpTFFjdFo4cTRSOWcxWTJJSEZCYUJLdjRqOVFsSS1YRFIybjJ3bS11bExjTmFRS24wZTdUVGJPcWJ4VTJCNm13UFV6MWt2d0xKSlI2TEpheDRpYWk2UElGV3ktX0ZBazhVMHJBdjZNTFE?oc=5",
+              "published": "2026-11-19T11:06:13+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "ÜNLÜ & Co model portföyünü güncelledi: Akbank çıktı, VakıfBank girdi",
+              "source": "ekoturk.com",
+              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSF9RYzlxYXNNcThjeG9rcGZ5OU5jN0tnTzlmaElzWU04N0VYWVplelBQbzJfUGdzeUQ0RHcwWm5PWW45VzJPUlY3eGRLYjc0SWhIX0cwS0FnRGxTT1FUU190Z0l2T3FTeHgyMlktSDhiQWZtVmlybk5BbVNWTmVqdmtCemJZU0Z6LWNFUzFyN016Qkl4aEhEVzdB?oc=5",
+              "published": "2026-11-19T11:44:54+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Ünlü Menkul model portföye Vakıfbank’ı ekledi, Akbank’ı çıkardı",
+              "source": "borsatek.com",
+              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1SWUJXcGpEMkF6R2RYZFJNR2s5SmNKeEI3NEI5N2hPVVJCVkVET0RXdTVna3ZxV015UDJRRVFGZFdlRmluVjZCcF9ETDN0SkVOcHhyTnJQdGo2aGxjV0NaVEJKazJtNFVydXhuamJwOTZCRGdUY0x0bg?oc=5",
+              "published": "2026-11-19T11:57:32+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Ünlü & Co, o hisseyi model portföyünden çıkardı!",
+              "source": "borsamatik.com.tr",
+              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPclByQ0tRUmN6UTZ4UktnMTR3V0ltaVEzd25PLWpMdVY5MGI2U3pycVAwTWdTMEJXRXBfYmo4cTE0RmlxZmw4V0pOLXZkODBIT1dYTllGMzNkeU85VjZaX090d1lmOEtGSUZ6U0JVWlYxcVR1UVVmWE9hcmpzMFpTemVNR1plTVhxckVmUTNBQTQ?oc=5",
+              "published": "2026-11-19T14:06:00+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Ünlü & Co, model portföyünden Akbank'ı çıkararak yerine VakıfBank'ı ekledi.",
+      "confidence": null
+    },
+    "ASTOR": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "DIGER",
+          "direction": "OLUMSUZ",
+          "severity": 2,
+          "confidence": 85,
+          "summary": "MSCI endeks revizyonunda Astor Enerji'nin alt endekse alındığı bildirildi.",
+          "source_count": 1,
+          "first_seen": "2026-11-18T09:33:19+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "MSCI'dan Türkiye'ye endeks freni: Sabancı ve Astor alt endekse, 18 hisse liste dışına",
+              "source": "aydinlik.com.tr",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQREdMa1FRTVBWQWJUS283NDlybGcxSV8wcHlhWFhGWnVRY2N4bGc5aDVnYXJlX01hRXM5NC1jMjRYcHdIWnlXVkxzSE9VM0FZRjQ4R2xQd01XSDNGY3ZhdU9ybm05aklyNnpuQ0tTVWxKY1pDWTYwNzJhVWhBclRJeTVJdnlOSHl3bDVUbGJEaDZyWlp1OFdrTzJfZ0pIUWpaRHhZV3BsMnMwVkNOb2pGM2J2cVdMNklwUnctN1IxMTUyQQ?oc=5",
+              "published": "2026-11-18T09:33:19+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        },
+        {
+          "event_type": "DIGER",
+          "direction": "OLUMSUZ",
+          "severity": 2,
+          "confidence": 80,
+          "summary": "HSBC, Astor Enerji için hedef fiyatını 272 TL seviyesine düşürdü.",
+          "source_count": 3,
+          "first_seen": "2026-11-19T09:54:00+03:00",
+          "trusted": true,
+          "evidence": [
+            {
+              "title": "Astor Enerji yatırımcıları için HSBC'den yeni değerlendirme",
+              "source": "ekonomim.com",
+              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWjJuRnBWMGxUQTNqT3RhVTdWcmFTTFM0NVdSaF82MjhJNmQ4ZWY5MnRnYUludmRTSG1MWjVtdmgzMFliaXF3RDV4aGRVZHVIeGdSUmMxWDJfeVNfdzk5djVPMDZ4UW4wS0NMOEZCTEh0WE5QZjhjZzRKTXhGVGNpSy1QN041eEFnYTNQYTJteVBOOG1qemVfcHRhWkJzaUpRVEs0Y2ZaTm1EbXYzb1RYYnpPbkMxa1BjWmN3?oc=5",
+              "published": "2026-11-19T09:54:00+03:00",
+              "tier": "T1"
+            },
+            {
+              "title": "HSBC, Astor Enerji hedef fiyatını düşürdü",
+              "source": "ekoturk.com",
+              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1wT21iWXZfMHBJXzJCcnJiYWRZeW9yVFZZVUlsd3RHRFBmcUxQVVlDM2F1blhsYkUtVUpUZjhxS00zd20wNko2SUVFQ0VIUHdoTWdIVHRVUnhBUlRQMGNNSFM3a3htMUlWcGZPQkVCcXV6LWpPQUt1VG53?oc=5",
+              "published": "2026-11-19T10:35:16+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Astor Enerji (ASTOR) hisseleri için HSBC'den 272 TL hedef fiyat",
+              "source": "yatirimx.com.tr",
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTE9zRHc1T2FBRm80NDNXZUZKcUpEdm9qVU51RnZoMzZPRU4xeFZrdHMyNGdIcWhJOVVBX2E3VFZuTS02U1VJYS1jOHdob0hTOFNwTTF3Ni1PR09jVGFGelBOY0p0VC1COGVHQmR5aS02TF9qS25leC1WaDhlRm9hTUdsdDdjNXpwb2pfcERRUmk1elh3cFJhVUdfWExvTVdlTFQ1eGdFX0p2MUZxNFJfRA?oc=5",
+              "published": "2026-11-19T14:17:26+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": true,
+      "summary": "MSCI alt endeksine çekilmesi ve HSBC'nin hedef fiyat indirmesi.",
+      "confidence": null
+    },
+    "GARAN": {
+      "sentiment": "OLUMLU",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "DIGER",
+          "direction": "OLUMLU",
+          "severity": 3,
+          "confidence": 90,
+          "summary": "Garanti BBVA, pay geri alım programı kapsamında 319,6 milyon TL'lik hisse geri alımı gerçekleştirdi.",
+          "source_count": 8,
+          "first_seen": "2026-11-18T19:15:44+03:00",
+          "trusted": true,
+          "evidence": [
+            {
+              "title": "GARAN Hisse Geri Alımı: Garanti'den 319 Milyonluk Hamle",
+              "source": "finanshatti.com",
+              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQb2pSR2ZhenNTY3RUcElzS2tUcjdQbjNpRmZMZW1MTF9CRF96WTA0azJUWUIxNGhKYnl2LXFIWnYyLS05UDFwMmVfV3dkb1RPME1jc2VrLXRhaHBodXQyakhwNFkzQTFJMHFELXFFVG1MeG9Zd0dQYndVOW90dnRpb252c0VZSzd0WFZjZHVLamJHUQ?oc=5",
+              "published": "2026-11-18T19:15:44+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Garanti BBVA (GARAN) KAP'a duyurdu: 319,6 milyon TL'lik hisse geri alımı",
+              "source": "cnbce.com",
+              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSkg5bTB1VkVHVVl6aHFGWHBzNVV3dmFBOFVJTXMtUV93cTVWVDA2a1ZMUUZWcGU4aDlELS1SRVJJVlNFejgxcXUtMk9rdkZqbjRtMW11cVBFLXBQM08wSDZTaFdNZm83d1NnM09jdDB1MDNSbkV1cnhmQzJQMUd0QjNpbGtaWF9nU0tKQlFuTUFuUVhUT1BmM2RDRGRDM2s0ZVhR?oc=5",
+              "published": "2026-11-18T19:41:11+03:00",
+              "tier": "T2"
+            },
+            {
+              "title": "Garanti BBVA'da 319,6 milyon TL'lik hisse geri alımı",
+              "source": "ekonomim.com",
+              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMWpZMHU4WE5JOG8xc3B1NlczbnVnSFhIektmU002YnYwbGsxaVlWck1kMC1rRmxqREt0cEp6bFR3bW1qQU9lMFVEMWMzSEVQN09JeUlKemZpMkl4dHlEYUkyYTZXU1lWbnZlOElacnl0WUxzRzVPNjFvQ3ZCWkw2MS1HVlY0ZnBBRHlMNnRyeGpoR3RDTjlMaVBjXzB0QUp2dXJqclJOMkY4dGV5S1NN?oc=5",
+              "published": "2026-11-18T20:12:00+03:00",
+              "tier": "T1"
+            },
+            {
+              "title": "Garanti BBVA’dan 319,6 milyon TL’lik hisse geri alımı",
+              "source": "heyhaber.com",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DTFI0cUIwSGZGSlpYTjlReDdlb2pBY2pFZi1PMkZQY0w0T1ZzYjJvbk15RVEzeUpmVlBvVnZIMUhERXNtdGdiMVlialNUNkZidFItLWY2b0lYa3FlQ0x5Z0lTRy13RmtObnJNQjhfMVI3WXE4RV9tbmpCLVg3Ylk?oc=5",
+              "published": "2026-11-18T20:26:05+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Garanti BBVA 18 Kasım'da 319,6 milyon TL'lik hisse geri aldı",
+              "source": "gazetememur.com",
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRmNqMVBEbHhVMlZwZnEyUFF3NXhOVE1zcHFRZ29vbWU3Q08tZjl4ZHBrQmVaWUg2SkYyb0xIQTRad0FHcmJkTk0xdE9nXzZwUjhUaU4tWVZIVEExREhDdE9rUlZ5SlpwSjdaVHhoRG1TeGpydGVISmt4V1oyZW4zRm9zaVVzNURkUW5Zd3dkd1ZIRUhjYnp1YUtqUXgzeEJQUHFoTFBWMmVKdE9GOE5yclhyMDhPMjQ?oc=5",
+              "published": "2026-11-18T21:06:09+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Garanti BBVA 319,6 milyon TL tutarında hisse geri aldı",
+              "source": "dosyahaber.com",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWFZ3eEdmdVU4eW9yZ1NfVWtsNjZuMllOWnhyZHZGb3YyY2NwbjI1TGRublh0N3NLMS1GY2haallCMm54OWhKRWlTSFkya0VvWG9kU1p3dUhPd1E4elZFNEltazZSXzJLNmMwN2tjd05JcVNKMF9VUmtBc3JmZEU1bGtxbVZwX2l3eHI2alJoUjVia0ZRRXR3Mw?oc=5",
+              "published": "2026-11-18T21:24:13+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Garanti BBVA, pay geri alım programı kapsamında 319,6 milyon TL'lik hisse geri alımı gerçekleştirdi.",
+      "confidence": null
+    },
+    "GUBRF": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "DIGER",
+          "direction": "OLUMLU",
+          "severity": 2,
+          "confidence": 85,
+          "summary": "Gübre Fabrikaları, 150 bin TL nominal değerli pay geri alımı gerçekleştirdiğini duyurdu.",
+          "source_count": 2,
+          "first_seen": "2026-11-18T19:54:06+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Gübre Fabrikaları (GUBRF) 150.000 TL nominal pay geri aldı",
+              "source": "borsatek.com",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBETXN4akZoOWxveXJ3RmNFSENrbHFyQVdQZHFUMlRfaHU2elRKdk5tN2d6Wlpqc1kyZ0RSWHpxOEhVcUtXbHhPN2w4eWt5d0xlakVTOXN5Nnl6aFFlNk9IN2h3T1FFMVN6?oc=5",
+              "published": "2026-11-18T19:54:06+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Gübretaş’tan (GUBRF) geri alım açıklaması",
+              "source": "rotaborsa.com",
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1GazRBczNpUy02bWEyMnJYMGZXUFVhcXM1d3VnRmhNRDRhTl9jU1FSNVNQV1VmSHFYenpUNTZRZjIwWWtubXJGSk5ZNnk3ZmhGWEtnSThEN0wwc1NidDNpdUFHODB3TW1acVJaZTZaV19nZw?oc=5",
+              "published": "2026-11-18T19:57:16+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Gübre Fabrikaları, 150 bin TL nominal değerli pay geri alımı gerçekleştirdiğini duyurdu.",
+      "confidence": null
+    },
+    "SAHOL": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "DIGER",
+          "direction": "OLUMSUZ",
+          "severity": 2,
+          "confidence": 85,
+          "summary": "MSCI endeks güncellemesinde Sabancı Holding'in alt endekse kaydırıldığı açıklandı.",
+          "source_count": 1,
+          "first_seen": "2026-11-18T09:33:19+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "MSCI'dan Türkiye'ye endeks freni: Sabancı ve Astor alt endekse, 18 hisse liste dışına",
+              "source": "aydinlik.com.tr",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQREdMa1FRTVBWQWJUS283NDlybGcxSV8wcHlhWFhGWnVRY2N4bGc5aDVnYXJlX01hRXM5NC1jMjRYcHdIWnlXVkxzSE9VM0FZRjQ4R2xQd01XSDNGY3ZhdU9ybm05aklyNnpuQ0tTVWxKY1pDWTYwNzJhVWhBclRJeTVJdnlOSHl3bDVUbGJEaDZyWlp1OFdrTzJfZ0pIUWpaRHhZV3BsMnMwVkNOb2pGM2J2cVdMNklwUnctN1IxMTUyQQ?oc=5",
+              "published": "2026-11-18T09:33:19+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": true,
+      "summary": "MSCI endeks revizyonunda alt endekse düşürülmesi.",
+      "confidence": null
+    },
+    "SISE": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "KREDI_BORC",
+          "direction": "OLUMSUZ",
+          "severity": 2,
+          "confidence": 90,
+          "summary": "Moody's, Şişecam'ın kredi derecelendirme notunu düşürdüğünü açıkladı.",
+          "source_count": 2,
+          "first_seen": "2026-11-18T20:34:51+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Moody’s, Şişecam (SISE) kredi derecelendirme notunu açıkladı",
+              "source": "rotaborsa.com",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa3VnTDZ4S2JHRF9CS3VqU2xJUjdaTVVMTFlYWFB1LVFiVGtuMWI5eGFGYjc1dERsck9EdGZLRHJwejBOTHRPNEtjalZoc2hLRVRnN2lQUHRCRFR3WHd2TEtPQW8yeWliVzM4c3cwWEtsMXNNM0g0ZzZoUXdsejZYdnRqU2JMcHRF?oc=5",
+              "published": "2026-11-18T20:34:51+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Moody's, Şişecam'ın kredi notunu düşürdü: Sebebi belli oldu",
+              "source": "hisse.net",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZGlJZExoNUNETE01LTVoc01zZHJEWWh0RzJka1FTb19Selh1YWlxM2hTdERtUk1RN3ZLRjRMOVJ0eGptN1FoSUxtVHdBaHRoT2ZreURLWkhjT1A1aHJXemJPSVFKLTU2SFJLcDdBSGc1ZXByQlhlOVRNRDkwYWNhX2pUQlM3Z1c3aHROR1pnN1lEaXdpd3Vn0gGcAUFVX3lxTE9HXzAxUGJvWW1NRnpMNUk2Y28zcC0zbm1MRy1BVS10R3RqYTZOelhUaXYwY092bFlUZWxZb2hfMTUyZHZqQldURjRvMDlfSFdQUm5PQkV1d2pjaGs3SHNicjF6UXAtcjJDekpPVjFPT3lnSDQ2aHZJUjdzbzQ1QTJRTGJoMHFKdjJCTmNrbTR3aEFockQ5T3hGSzBGUg?oc=5",
+              "published": "2026-11-19T08:21:50+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": true,
+      "summary": "Moody's tarafından şirketin kredi derecelendirme notunun düşürülmesi.",
+      "confidence": null
+    }
+  },
   "haber_genel": {
-    "events": [],
-    "summary": ""
+    "events": [
+      {
+        "event_type": "DAVA_CEZA_SORUSTURMA",
+        "direction": "OLUMSUZ",
+        "severity": 3,
+        "confidence": 85,
+        "summary": "Borsa manipülasyonu soruşturması kapsamında 108 kişinin hesaplarının dondurulması talep edildi.",
+        "source_count": 1,
+        "first_seen": "2026-11-19T00:09:00+03:00",
+        "trusted": true,
+        "evidence": [
+          {
+            "title": "Borsa manipülasyonu soruşturmasında 108 kişinin hesaplarının dondurulması istendi",
+            "source": "ekonomim.com",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRzJScGtnT182bXVUbks5Rmg0eWdRMWw2Q21ITTRPQ25kUDhpOXA2ajRxNjZYc0p4dkdRZWZIMjR1VDFMTERWNnRuY0JEc1ItWU5sTmhib2cyakdMLWMxRHdNZGdacWVaS1BiS2NKSWstd0FhdWNVTmt5dm9hZVhuVkMwYWtfODRiR2pOeUk5LThrZW1VNVJWOE0wWlh5OHRoTkR6NHZLSWx1UFJkemIxSzExMGxiUnlET25sNWY5ZmJFQVBYV2NR?oc=5",
+            "published": "2026-11-19T00:09:00+03:00",
+            "tier": "T1"
+          }
+        ],
+        "origin": "llm"
+      },
+      {
+        "event_type": "MAKRO_SEKTOR",
+        "direction": "OLUMSUZ",
+        "severity": 2,
+        "confidence": 85,
+        "summary": "TCMB verilerine göre Türkiye'nin kısa vadeli dış borç stokunda artış kaydedildi.",
+        "source_count": 1,
+        "first_seen": "2026-11-19T10:00:00+03:00",
+        "trusted": true,
+        "evidence": [
+          {
+            "title": "TCMB açıkladı: Türkiye'nin kısa vadeli dış borç stokunda artış!",
+            "source": "dunya.com",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcFBZTGxIUjZqMHdWUnJVQUpKNHA2UHJRTDJUQ19pbE9acmlyVUlsRlpSdVRxTTdSRHFmbllwNW0xb3JBMjB0UjZzQ20tYTVXczB1VFFvSzRrQTBVcmdWOHVuaXppTjVqRExXMUhpYTgtdC1nM2U2VmxVeVlvQlpHX0lpdFptZlRYaGpJeVhyYTRoRl9IUDRONzlBM2MweHpoOXh3RWVhdw?oc=5",
+            "published": "2026-11-19T10:00:00+03:00",
+            "tier": "T1"
+          }
+        ],
+        "origin": "llm"
+      }
+    ],
+    "summary": "Borsa manipülasyonu soruşturması kapsamında 108 kişinin hesaplarının dondurulması talep edildi."
   },
   "gemini": {
     "tarih": "2026-11-18",
