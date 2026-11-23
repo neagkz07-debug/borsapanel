@@ -6,123 +6,42 @@
     "ozet_gun": "2026-11-23"
   },
   "son_calisma": {
-    "zaman": "2026-11-23T22:16:09+03:00",
-    "mod": "close",
+    "zaman": "2026-11-24T00:34:59+03:00",
+    "mod": "open",
     "durum": "TAMAM",
     "kuru": false,
     "uyarilar": [
-      "Arama doğrulaması kullanılamadı (ücretsiz katmanda kapalı olabilir); atlandı [ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on]",
+      "Veri güncel değil (son bar 2026-11-20, beklenen 2026-11-23).",
       "Yapay zekâ sınıflandırması yapılamadı; kural yedeği kullanıldı [ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on]."
     ],
-    "son_bar": "2026-11-23"
+    "son_bar": "2026-11-20"
   },
   "saglik": {
     "ardisik_hata": 0,
     "veri_eksik": [],
-    "veri_bayat": false,
+    "veri_bayat": true,
     "haber_ok": true,
     "yapay_zeka_ok": false,
-    "son_basarili": "2026-11-23T22:16:09+03:00"
+    "son_basarili": "2026-11-24T00:34:59+03:00"
   },
-  "haber_zamani": "2026-11-23T22:16:09+03:00",
+  "haber_zamani": "2026-11-24T00:34:59+03:00",
   "llm_ok": false,
   "pozisyon_durum": {},
   "cooldowns": {},
-  "guncelleme": "2026-11-23T22:16:09+03:00",
+  "guncelleme": "2026-11-24T00:34:59+03:00",
   "rejim": {
     "label": "RISK_OFF",
     "index": "XU030.IS",
-    "close": 13938.3,
-    "sma20": 14251.23,
-    "sma50": 14923.27,
-    "usdtry_1d_pct": 0.06,
+    "close": 13957.1,
+    "sma20": 14248.03,
+    "sma50": 14989.46,
+    "usdtry_1d_pct": 0.05,
     "fx_shock": false,
     "available": true
   },
   "pozisyonlar": [],
   "adaylar": [],
-  "izleme": [
-    {
-      "symbol": "GARAN",
-      "type": "TREND",
-      "action": "BEKLE",
-      "close": 145.7,
-      "score": 4,
-      "sector": "BANKA",
-      "entry_zone": [
-        144.24,
-        146.43
-      ],
-      "stop_loss": 136.54,
-      "target_price": 164.02,
-      "lot": null,
-      "risk_tl": null,
-      "notional": null,
-      "net_rr": null,
-      "reason": "Piyasa rejimi RISK_OFF",
-      "veto_kind": "REJIM"
-    },
-    {
-      "symbol": "TAVHL",
-      "type": "TREND",
-      "action": "BEKLE",
-      "close": 288.0,
-      "score": 4,
-      "sector": "HAVACILIK",
-      "entry_zone": [
-        285.12,
-        289.44
-      ],
-      "stop_loss": 267.9,
-      "target_price": 328.2,
-      "lot": null,
-      "risk_tl": null,
-      "notional": null,
-      "net_rr": null,
-      "reason": "Piyasa rejimi RISK_OFF",
-      "veto_kind": "REJIM"
-    },
-    {
-      "symbol": "YKBNK",
-      "type": "TREND",
-      "action": "BEKLE",
-      "close": 36.8,
-      "score": 4,
-      "sector": "BANKA",
-      "entry_zone": [
-        36.43,
-        36.98
-      ],
-      "stop_loss": 34.54,
-      "target_price": 41.32,
-      "lot": null,
-      "risk_tl": null,
-      "notional": null,
-      "net_rr": null,
-      "reason": "Piyasa rejimi RISK_OFF",
-      "veto_kind": "REJIM"
-    },
-    {
-      "symbol": "PGSUS",
-      "type": "TREND",
-      "action": "BEKLE",
-      "close": 152.4,
-      "score": 3,
-      "sector": "HAVACILIK",
-      "entry_zone": [
-        150.88,
-        153.16
-      ],
-      "stop_loss": 141.26,
-      "target_price": 174.68,
-      "lot": null,
-      "risk_tl": null,
-      "notional": null,
-      "net_rr": null,
-      "reason": "Piyasa rejimi RISK_OFF",
-      "veto_kind": "REJIM"
-    }
-  ],
+  "izleme": [],
   "haber": {},
   "haber_genel": {
     "events": [],
