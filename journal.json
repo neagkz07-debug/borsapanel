@@ -19,12 +19,101 @@
       "veto": "REJIM",
       "sonuc": {
         "durum": "BEKLIYOR",
-        "gun_sayisi": 2,
+        "gun_sayisi": 3,
         "giris_acilis": 289.75,
         "g1": 0.6,
+        "g3": -0.6,
         "max_lehte": 2.07,
-        "max_aleyhte": -2.33,
+        "max_aleyhte": -2.42,
         "first_hit": "YOK"
+      }
+    },
+    {
+      "id": "2026-11-23-GARAN-TREND",
+      "tarih": "2026-11-23",
+      "symbol": "GARAN",
+      "tur": "TREND",
+      "ref_fiyat": 145.7,
+      "stop": 136.54,
+      "hedef": 164.02,
+      "rr": null,
+      "rejim": "RISK_OFF",
+      "skor": 4,
+      "haber": {
+        "event_type": null,
+        "severity": null,
+        "source_count": null
+      },
+      "veto": "REJIM",
+      "sonuc": {
+        "durum": "BEKLIYOR",
+        "gun_sayisi": 0
+      }
+    },
+    {
+      "id": "2026-11-23-TAVHL-TREND",
+      "tarih": "2026-11-23",
+      "symbol": "TAVHL",
+      "tur": "TREND",
+      "ref_fiyat": 288.0,
+      "stop": 267.9,
+      "hedef": 328.2,
+      "rr": null,
+      "rejim": "RISK_OFF",
+      "skor": 4,
+      "haber": {
+        "event_type": null,
+        "severity": null,
+        "source_count": null
+      },
+      "veto": "REJIM",
+      "sonuc": {
+        "durum": "BEKLIYOR",
+        "gun_sayisi": 0
+      }
+    },
+    {
+      "id": "2026-11-23-YKBNK-TREND",
+      "tarih": "2026-11-23",
+      "symbol": "YKBNK",
+      "tur": "TREND",
+      "ref_fiyat": 36.8,
+      "stop": 34.54,
+      "hedef": 41.32,
+      "rr": null,
+      "rejim": "RISK_OFF",
+      "skor": 4,
+      "haber": {
+        "event_type": null,
+        "severity": null,
+        "source_count": null
+      },
+      "veto": "REJIM",
+      "sonuc": {
+        "durum": "BEKLIYOR",
+        "gun_sayisi": 0
+      }
+    },
+    {
+      "id": "2026-11-23-PGSUS-TREND",
+      "tarih": "2026-11-23",
+      "symbol": "PGSUS",
+      "tur": "TREND",
+      "ref_fiyat": 152.4,
+      "stop": 141.26,
+      "hedef": 174.68,
+      "rr": null,
+      "rejim": "RISK_OFF",
+      "skor": 3,
+      "haber": {
+        "event_type": null,
+        "severity": null,
+        "source_count": null
+      },
+      "veto": "REJIM",
+      "sonuc": {
+        "durum": "BEKLIYOR",
+        "gun_sayisi": 0
       }
     }
   ]
