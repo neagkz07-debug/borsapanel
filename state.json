@@ -3,59 +3,100 @@
     "hata_gun": "2026-10-26",
     "haber": [],
     "pazartesi_gun": "2026-10-26",
-    "ozet_gun": "2026-11-23"
+    "ozet_gun": "2026-11-24"
   },
   "son_calisma": {
-    "zaman": "2026-11-24T00:34:59+03:00",
-    "mod": "open",
+    "zaman": "2026-11-24T21:55:29+03:00",
+    "mod": "close",
     "durum": "TAMAM",
     "kuru": false,
     "uyarilar": [
-      "Veri güncel değil (son bar 2026-11-20, beklenen 2026-11-23).",
-      "Yapay zekâ sınıflandırması yapılamadı; kural yedeği kullanıldı [ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on]."
+      "Arama doğrulaması kullanılamadı (ücretsiz katmanda kapalı olabilir); atlandı [ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on]",
+      "Yapay zekâ sınıflandırması yapılamadı; kural yedeği kullanıldı [ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again ]."
     ],
-    "son_bar": "2026-11-20"
+    "son_bar": "2026-11-24"
   },
   "saglik": {
     "ardisik_hata": 0,
     "veri_eksik": [],
-    "veri_bayat": true,
+    "veri_bayat": false,
     "haber_ok": true,
     "yapay_zeka_ok": false,
-    "son_basarili": "2026-11-24T00:34:59+03:00"
+    "son_basarili": "2026-11-24T21:55:29+03:00"
   },
-  "haber_zamani": "2026-11-24T00:34:59+03:00",
+  "haber_zamani": "2026-11-24T21:55:29+03:00",
   "llm_ok": false,
   "pozisyon_durum": {},
   "cooldowns": {},
-  "guncelleme": "2026-11-24T00:34:59+03:00",
+  "guncelleme": "2026-11-24T21:55:29+03:00",
   "rejim": {
     "label": "RISK_OFF",
     "index": "XU030.IS",
-    "close": 13957.1,
-    "sma20": 14248.03,
-    "sma50": 14989.46,
-    "usdtry_1d_pct": 0.05,
+    "close": 13762.06,
+    "sma20": 14241.9,
+    "sma50": 14858.28,
+    "usdtry_1d_pct": 0.09,
     "fx_shock": false,
     "available": true
   },
   "pozisyonlar": [],
   "adaylar": [],
-  "izleme": [],
+  "izleme": [
+    {
+      "symbol": "GARAN",
+      "type": "TREND",
+      "action": "BEKLE",
+      "close": 143.3,
+      "score": 4,
+      "sector": "BANKA",
+      "entry_zone": [
+        141.87,
+        144.02
+      ],
+      "stop_loss": 133.98,
+      "target_price": 161.94,
+      "lot": null,
+      "risk_tl": null,
+      "notional": null,
+      "net_rr": null,
+      "reason": "Piyasa rejimi RISK_OFF",
+      "veto_kind": "REJIM"
+    },
+    {
+      "symbol": "TAVHL",
+      "type": "TREND",
+      "action": "BEKLE",
+      "close": 288.0,
+      "score": 4,
+      "sector": "HAVACILIK",
+      "entry_zone": [
+        285.12,
+        289.44
+      ],
+      "stop_loss": 268.48,
+      "target_price": 327.04,
+      "lot": null,
+      "risk_tl": null,
+      "notional": null,
+      "net_rr": null,
+      "reason": "Piyasa rejimi RISK_OFF",
+      "veto_kind": "REJIM"
+    }
+  ],
   "haber": {},
   "haber_genel": {
     "events": [],
     "summary": ""
   },
   "gemini": {
-    "tarih": "2026-11-23",
+    "tarih": "2026-11-24",
     "grounding": 1
   },
   "makro": [
     "27 Kasım: TCMB Finansal İstikrar Raporu"
   ],
   "skor_karti": {
-    "toplam_kayit": 5,
+    "toplam_kayit": 7,
     "tamamlanan": 0,
     "hepsi": {
       "n": 0
