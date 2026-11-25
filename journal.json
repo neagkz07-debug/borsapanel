@@ -18,13 +18,14 @@
       },
       "veto": "REJIM",
       "sonuc": {
-        "durum": "BEKLIYOR",
-        "gun_sayisi": 4,
+        "durum": "TAMAM",
+        "gun_sayisi": 5,
         "giris_acilis": 289.75,
         "g1": 0.6,
         "g3": -0.6,
+        "g5": -3.19,
         "max_lehte": 2.07,
-        "max_aleyhte": -2.42,
+        "max_aleyhte": -3.62,
         "first_hit": "YOK"
       }
     },
@@ -47,11 +48,11 @@
       "veto": "REJIM",
       "sonuc": {
         "durum": "BEKLIYOR",
-        "gun_sayisi": 1,
+        "gun_sayisi": 2,
         "giris_acilis": 146.5,
         "g1": -2.18,
         "max_lehte": 1.3,
-        "max_aleyhte": -2.59,
+        "max_aleyhte": -6.21,
         "first_hit": "YOK"
       }
     },
@@ -74,11 +75,11 @@
       "veto": "REJIM",
       "sonuc": {
         "durum": "BEKLIYOR",
-        "gun_sayisi": 1,
+        "gun_sayisi": 2,
         "giris_acilis": 289.0,
         "g1": -0.35,
         "max_lehte": 1.04,
-        "max_aleyhte": -1.04,
+        "max_aleyhte": -3.37,
         "first_hit": "YOK"
       }
     },
@@ -100,13 +101,13 @@
       },
       "veto": "REJIM",
       "sonuc": {
-        "durum": "BEKLIYOR",
-        "gun_sayisi": 1,
+        "durum": "ACIK_VURULDU",
+        "gun_sayisi": 2,
         "giris_acilis": 36.7,
         "g1": -2.67,
         "max_lehte": 0.87,
-        "max_aleyhte": -2.89,
-        "first_hit": "YOK"
+        "max_aleyhte": -7.52,
+        "first_hit": "STOP"
       }
     },
     {
@@ -128,11 +129,11 @@
       "veto": "REJIM",
       "sonuc": {
         "durum": "BEKLIYOR",
-        "gun_sayisi": 1,
+        "gun_sayisi": 2,
         "giris_acilis": 153.0,
         "g1": 0.78,
-        "max_lehte": 1.37,
-        "max_aleyhte": -0.98,
+        "max_lehte": 2.94,
+        "max_aleyhte": -1.44,
         "first_hit": "YOK"
       }
     },
@@ -155,7 +156,12 @@
       "veto": "REJIM",
       "sonuc": {
         "durum": "BEKLIYOR",
-        "gun_sayisi": 0
+        "gun_sayisi": 1,
+        "giris_acilis": 142.8,
+        "g1": -3.43,
+        "max_lehte": 1.47,
+        "max_aleyhte": -3.78,
+        "first_hit": "YOK"
       }
     },
     {
@@ -169,6 +175,55 @@
       "rr": null,
       "rejim": "RISK_OFF",
       "skor": 4,
+      "haber": {
+        "event_type": null,
+        "severity": null,
+        "source_count": null
+      },
+      "veto": "REJIM",
+      "sonuc": {
+        "durum": "BEKLIYOR",
+        "gun_sayisi": 1,
+        "giris_acilis": 288.0,
+        "g1": -2.6,
+        "max_lehte": 0.52,
+        "max_aleyhte": -3.04,
+        "first_hit": "YOK"
+      }
+    },
+    {
+      "id": "2026-11-25-PGSUS-TREND",
+      "tarih": "2026-11-25",
+      "symbol": "PGSUS",
+      "tur": "TREND",
+      "ref_fiyat": 151.0,
+      "stop": 139.96,
+      "hedef": 173.08,
+      "rr": null,
+      "rejim": "RISK_OFF",
+      "skor": 3,
+      "haber": {
+        "event_type": null,
+        "severity": null,
+        "source_count": null
+      },
+      "veto": "REJIM",
+      "sonuc": {
+        "durum": "BEKLIYOR",
+        "gun_sayisi": 0
+      }
+    },
+    {
+      "id": "2026-11-25-THYAO-TREND",
+      "tarih": "2026-11-25",
+      "symbol": "THYAO",
+      "tur": "TREND",
+      "ref_fiyat": 311.5,
+      "stop": 292.15,
+      "hedef": 350.2,
+      "rr": null,
+      "rejim": "RISK_OFF",
+      "skor": 3,
       "haber": {
         "event_type": null,
         "severity": null,
