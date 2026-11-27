@@ -3,10 +3,10 @@
     "hata_gun": "2026-10-26",
     "haber": [],
     "pazartesi_gun": "2026-10-26",
-    "ozet_gun": "2026-11-26"
+    "ozet_gun": "2026-11-27"
   },
   "son_calisma": {
-    "zaman": "2026-11-26T22:10:40+03:00",
+    "zaman": "2026-11-27T20:29:25+03:00",
     "mod": "close",
     "durum": "TAMAM",
     "kuru": false,
@@ -14,7 +14,7 @@
       "Arama doğrulaması kullanılamadı (ücretsiz katmanda kapalı olabilir); atlandı [ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on]",
       "Yapay zekâ sınıflandırması yapılamadı; kural yedeği kullanıldı [ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again ]."
     ],
-    "son_bar": "2026-11-26"
+    "son_bar": "2026-11-27"
   },
   "saglik": {
     "ardisik_hata": 0,
@@ -22,20 +22,20 @@
     "veri_bayat": false,
     "haber_ok": true,
     "yapay_zeka_ok": false,
-    "son_basarili": "2026-11-26T22:10:40+03:00"
+    "son_basarili": "2026-11-27T20:29:25+03:00"
   },
-  "haber_zamani": "2026-11-26T22:10:40+03:00",
+  "haber_zamani": "2026-11-27T20:29:25+03:00",
   "llm_ok": false,
   "pozisyon_durum": {},
   "cooldowns": {},
-  "guncelleme": "2026-11-26T22:10:40+03:00",
+  "guncelleme": "2026-11-27T20:29:25+03:00",
   "rejim": {
     "label": "RISK_OFF",
     "index": "XU030.IS",
-    "close": 13453.63,
-    "sma20": 14188.01,
-    "sma50": 14747.41,
-    "usdtry_1d_pct": 0.01,
+    "close": 13763.83,
+    "sma20": 14205.21,
+    "sma50": 14695.29,
+    "usdtry_1d_pct": 0.2,
     "fx_shock": false,
     "available": true
   },
@@ -46,15 +46,15 @@
       "symbol": "THYAO",
       "type": "TREND",
       "action": "BEKLE",
-      "close": 309.75,
+      "close": 314.0,
       "score": 3,
       "sector": "HAVACILIK",
       "entry_zone": [
-        306.65,
-        311.3
+        310.86,
+        315.57
       ],
-      "stop_loss": 290.78,
-      "target_price": 347.69,
+      "stop_loss": 294.71,
+      "target_price": 352.58,
       "lot": null,
       "risk_tl": null,
       "notional": null,
@@ -66,15 +66,15 @@
       "symbol": "PGSUS",
       "type": "TREND",
       "action": "BEKLE",
-      "close": 151.4,
+      "close": 152.6,
       "score": 3,
       "sector": "HAVACILIK",
       "entry_zone": [
-        149.89,
-        152.16
+        151.07,
+        153.36
       ],
-      "stop_loss": 140.61,
-      "target_price": 172.99,
+      "stop_loss": 141.76,
+      "target_price": 174.27,
       "lot": null,
       "risk_tl": null,
       "notional": null,
@@ -89,15 +89,15 @@
     "summary": ""
   },
   "gemini": {
-    "tarih": "2026-11-26",
-    "grounding": 2
+    "tarih": "2026-11-27",
+    "grounding": 1
   },
   "makro": [
     "27 Kasım: TCMB Finansal İstikrar Raporu",
     "10 Aralık: TCMB PPK faiz kararı"
   ],
   "skor_karti": {
-    "toplam_kayit": 11,
+    "toplam_kayit": 13,
     "tamamlanan": 1,
     "hepsi": {
       "n": 1,
