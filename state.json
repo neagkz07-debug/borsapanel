@@ -6,13 +6,12 @@
     "ozet_gun": "2026-11-27"
   },
   "son_calisma": {
-    "zaman": "2026-11-27T20:29:25+03:00",
+    "zaman": "2026-11-27T22:05:59+03:00",
     "mod": "close",
     "durum": "TAMAM",
     "kuru": false,
     "uyarilar": [
-      "Arama doğrulaması kullanılamadı (ücretsiz katmanda kapalı olabilir); atlandı [ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on]",
-      "Yapay zekâ sınıflandırması yapılamadı; kural yedeği kullanıldı [ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again ]."
+      "Arama doğrulaması kullanılamadı (ücretsiz katmanda kapalı olabilir); atlandı [ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on]"
     ],
     "son_bar": "2026-11-27"
   },
@@ -21,14 +20,14 @@
     "veri_eksik": [],
     "veri_bayat": false,
     "haber_ok": true,
-    "yapay_zeka_ok": false,
-    "son_basarili": "2026-11-27T20:29:25+03:00"
+    "yapay_zeka_ok": true,
+    "son_basarili": "2026-11-27T22:05:59+03:00"
   },
-  "haber_zamani": "2026-11-27T20:29:25+03:00",
-  "llm_ok": false,
+  "haber_zamani": "2026-11-27T22:05:59+03:00",
+  "llm_ok": true,
   "pozisyon_durum": {},
   "cooldowns": {},
-  "guncelleme": "2026-11-27T20:29:25+03:00",
+  "guncelleme": "2026-11-27T22:05:59+03:00",
   "rejim": {
     "label": "RISK_OFF",
     "index": "XU030.IS",
@@ -83,14 +82,285 @@
       "veto_kind": "REJIM"
     }
   ],
-  "haber": {},
+  "haber": {
+    "AKBNK": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "MAKRO_SEKTOR",
+          "direction": "OLUMSUZ",
+          "severity": 2,
+          "confidence": 75,
+          "summary": "Bankacılık hisseleri genelinde satış baskısı ve düşüş eğilimi takip ediliyor.",
+          "source_count": 3,
+          "first_seen": "2026-11-26T00:08:05+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Borsada kayıplar derinleşiyor, bankacılık hisseleri baskı altında",
+              "source": "ekoturk.com",
+              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeER0Y1dyVFBESDFDeTNfWWtrSFFVMGI2b184Y3ZKVjZkV1JuTnFKOEZMa0pFWlJjLUtaeTJTa1d4VnlkdG1ZZ1d3Vk94SHpFTm9NSHk5N19sTkk3czBNU0FUYVRwN2s2TjlDV2R0d2E5SS03cHZFdTkzbXhCLXJ5WUhGajN1QXBnWTB3cXNERDBUM3c1WFp3TGJB?oc=5",
+              "published": "2026-11-26T00:08:05+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Banka Hisseleri Neden Düşüyor? İşte 27 Kasım Verileri",
+              "source": "paraninyonu.com.tr",
+              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMXVzckk1eUM5STJJRGZIc29KUFhFMnBVa1ZYdThvUkhMamNtd1kyMk02TUdpejBOUlhjRVhGNkFwcHhGMWFUU0QwcXRKWThUSDlBQkFGeFFqLUJGdXlPQ2c3N1B4Q2xMWkRLQzU1NGVKV192cW16ejlTTkR5Q3lRLVJZM1MxQnpBTGhRSElIWWtlQzRsd0E3T3FR?oc=5",
+              "published": "2026-11-27T10:43:00+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Banka Hisseleri Neden Düşüyor? (27 Kasım 2026) - Isparta Haber | Isparta Son Dakika Haberleri",
+              "source": "haber32.com.tr",
+              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGVmg5TnpmaXc2eDRiY1NESVlVQnJPckRNdEV0TnVLcFZsY3J3SFA1OEFuc0czTk9sbkhpWnlmWHVveFFiRU1vaHNpLS1COXVCcllyeElUYWZERWtMVDR2V2V6TXNPcUFjcmhyQVZ2MnBtZG5ncDluZk93?oc=5",
+              "published": "2026-11-27T10:59:00+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": true,
+      "summary": "Bankacılık sektörü genelinde satış baskısının ve düşüş trendinin derinleşmesi.",
+      "confidence": null
+    },
+    "ENKAI": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "YONETIM_ORTAKLIK",
+          "direction": "OLUMLU",
+          "severity": 2,
+          "confidence": 90,
+          "summary": "Mehmet Sinan Tara, Enka İnşaat paylarında hisse alımı gerçekleştirdiğini açıkladı.",
+          "source_count": 1,
+          "first_seen": "2026-11-26T08:59:16+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Mehmet Sinan Tara’dan Enka İnşaat’ta (ENKAI) hisse alış açıklaması",
+              "source": "rotaborsa.com",
+              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOS1pobi1PWVNCWUNibDRMNnprMThpMmlhT3pPS0x3NV84WFJWSVFnYU9CdWxMWm9adXVVUTg4WXBvQzVWM04xS2J6MWVXSEk5OXhRYjM2RXhKZ0N4V0xtLVVMNE83WUkwQW9CeS1IQWg5eXNaTk05LTd6UFVIbnpkQVdtOU10dmxOS01FbUNkbFNnQQ?oc=5",
+              "published": "2026-11-26T08:59:16+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Mehmet Sinan Tara, Enka İnşaat paylarında hisse alımı gerçekleştirdiğini açıkladı.",
+      "confidence": null
+    },
+    "FROTO": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "TEMETTU",
+          "direction": "OLUMLU",
+          "severity": 2,
+          "confidence": 95,
+          "summary": "Ford Otosan temettü dağıtım sürecine girerken hisse fiyatında temettü düzeltmesi yapıldı.",
+          "source_count": 3,
+          "first_seen": "2026-11-26T08:42:00+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Ford Otosan’ın fiyatında bugün temettü düzeltmesi",
+              "source": "borsagundem.com.tr",
+              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY0Rsb2xGWlc3Mk1sdGxjcHg4VGhEdFZWaWg3VjVDZGV4X1JqbkJuQTVsU2JrNWc0SGZfYndiTmczYkRQV3htTGJ2SUw5V2x3alRPMF9BaG1Sd0RKZ0pFbXY0Umtpcl9NVktYckJLTVpiVHhRRWkyaFJYdlNGN09vYmZZVWRNdw?oc=5",
+              "published": "2026-11-26T08:42:00+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Ford Otosan temettü dağıtıyor: Kim ne kadar alacak?",
+              "source": "mansethaber.com",
+              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOT0JJQXJ1djQyTHVyUnBtNEVOaHJmQnBjaDFSQU13cDE0Sm9BMDV2UkhfM0I1QlJUSDlSLXIxemNzdDV4VzRsRlMwMU5KdmtMdDlYa2YyU3pIWGhwVjN0aU81MWdEY1Ftb0VsUXRoZDlQdHcxbWdSMWlocTJuaVNVTEdiWV9pcU0?oc=5",
+              "published": "2026-11-26T10:16:00+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "FROTO temettü ne zaman yatacak? Ford Otosan ödeme tarihi",
+              "source": "habercitv.com.tr",
+              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWVRHSUoxWF9DdzRubHBvMFFXTFBYV25uRlBaQ2ZWbnNNRDVrVTloMlE5M1dGUXlDaVVtOHE0anp0RS1uMjB4NlJsTjJNWlRhZGJDenExdFZHZmhqX2xidzk1Rl9qaWt3Vl9kaHFqbExqOUJqRmtoNWZYcTJ6VlN3c0l1czl1c3dNOVZ3WA?oc=5",
+              "published": "2026-11-26T11:25:00+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Ford Otosan temettü dağıtım sürecine girerken hisse fiyatında temettü düzeltmesi yapıldı.",
+      "confidence": null
+    },
+    "GARAN": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "DIGER",
+          "direction": "OLUMLU",
+          "severity": 2,
+          "confidence": 90,
+          "summary": "Garanti Bankası hisse geri alımı programına ilişkin açıklamada bulundu.",
+          "source_count": 1,
+          "first_seen": "2026-11-26T19:04:03+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Garanti Bankası’ndan (GARAN) geri alım açıklaması",
+              "source": "rotaborsa.com",
+              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBabHF3akZkdTNMNnRFOFg4ZTNRejVyY3RDNl9UaXhIZ3NmSXcwdldKV3VaenFxdGlaOVdsTFVRMm1CU3ZfSndISU9yckRUUFNRRk4zNkJRSXV0NmZtSEZWVk1IcGdQb3IyR1NIS0UyM01lWFZBd3JVVDN5TQ?oc=5",
+              "published": "2026-11-26T19:04:03+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Garanti Bankası hisse geri alımı programına ilişkin açıklamada bulundu.",
+      "confidence": null
+    },
+    "PGSUS": {
+      "sentiment": "NOTR",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "DIGER",
+          "direction": "OLUMLU",
+          "severity": 2,
+          "confidence": 90,
+          "summary": "Pegasus hisse geri alım kararına ilişkin ayrıntıları duyurdu.",
+          "source_count": 1,
+          "first_seen": "2026-11-27T21:30:38+03:00",
+          "trusted": false,
+          "evidence": [
+            {
+              "title": "Pegasus (PGSUS) Hisse Geri Alım Kararı Detayları",
+              "source": "finanshatti.com",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaXBaZGhDOWZjeHlBazBObmlZUm56eXRETTFoRlZOWndoOGtUWWpxLW8yVEZPYzZOb3JnbDBiOGgyQ2JkT0xYSnMxZmV0b0NIMk9meVc4UFRhbkVDUW1UY21GbE0tZW5TUHZjNTdzWURsTUF3S0JwUzdFTVA4cUJueg?oc=5",
+              "published": "2026-11-27T21:30:38+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "Pegasus hisse geri alım kararına ilişkin ayrıntıları duyurdu.",
+      "confidence": null
+    },
+    "YKBNK": {
+      "sentiment": "OLUMLU",
+      "risk_flag": false,
+      "events": [
+        {
+          "event_type": "YONETIM_ORTAKLIK",
+          "direction": "OLUMLU",
+          "severity": 3,
+          "confidence": 95,
+          "summary": "SPK, Yapı Kredi Portföy'ün Azimut'a devrine ve yeni ortaklık yapısına onay verdi.",
+          "source_count": 3,
+          "first_seen": "2026-11-26T11:47:50+03:00",
+          "trusted": true,
+          "evidence": [
+            {
+              "title": "SPK’dan Yapı Kredi Portföy’ün Azimut’a devrine onay çıktı",
+              "source": "bloomberght.com",
+              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTjJOS2daMVpVR3h3d19mbFRscC01UnM1SzQ5Y1FUOFRwV1BqUU1PT1R5aXdDZlBvM01mc1VWd0tPSFA4elFzSmNKdDVhcWNrQV9KbnYwNURMQzIwY0NFRlJaeHd5Nmt5UFAxN3VoMFBudlg1YlFqUFNrUV9MX2NWR01LUUJmRFUyMjl2WFB2Y01HcEln?oc=5",
+              "published": "2026-11-26T11:47:50+03:00",
+              "tier": "T1"
+            },
+            {
+              "title": "Yapı Kredi Portföy'ün Azimut'a devrine onay çıktı",
+              "source": "m.doviz.com",
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdDY1cmJYWW0yUE5Cd3lrd1kzZEloTEVNNHdhNk5yV2tyS2llc3FwYjJ4NWw4Y203SENDcXBEOXZ6XzlyRE1VajNLRXRmTWw5Z1c2MnBhQ1c0eFp3RkQ0WGhTV0ZmRTNpNURpUkxhVS14VGtxdGVFT3l2Ymt0bWZORTRfUXZpWDF2enVQam5QUGdET0NtQUloOVpMVU9aTzjSAaQBQVVfeXFMUE52RElaN3ZxTnhwbHBWTjF4Z1B4T185TnhtaVJpTThoNnRWckdveFl4VzU0Sl8wTTJhR3ljZlNfT3E4TWdGejBZWEt3WDM3MnFKVEx5UTVSVVhTUk9WSlZHUUdJTm9uQU9vdWp4aUdpR3I0dTItNXgxTjVNOU5mdW9YRl9IRm13RGtpU1JIWkQzYUJJSk1KaTlLd3VaZDl6M0dUcjE?oc=5",
+              "published": "2026-11-26T14:50:41+03:00",
+              "tier": "T3"
+            },
+            {
+              "title": "Yapı Kredi Portföy’ün yeni ortaklık yapısına SPK’dan onay",
+              "source": "sanayigazetesi.com.tr",
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUkFrbmNZTno4OXFIU3FhQXoxQ0M0OHp4ZFk4UEZmM19pZXI0b2FqMWlVVEV6SkVCMmlnU0tHaEZqX1FpTGFQZEg5MUtuQjlwbXJiSzRIbUlJb05VMldER2JqdktzR2d1dTZpOE9IYlEyTFZiamNkTXR2NFRQQ1pMOFkxRmJQclgyc1ZJYWwyQnhBRC1ZMDZoVDMta0RPRUY1eEE?oc=5",
+              "published": "2026-11-26T15:51:29+03:00",
+              "tier": "T3"
+            }
+          ],
+          "origin": "llm"
+        }
+      ],
+      "gdelt": null,
+      "llm_risk_flag": false,
+      "summary": "SPK, Yapı Kredi Portföy'ün Azimut'a devrine ve yeni ortaklık yapısına onay verdi.",
+      "confidence": null
+    }
+  },
   "haber_genel": {
-    "events": [],
-    "summary": ""
+    "events": [
+      {
+        "event_type": "MAKRO_SEKTOR",
+        "direction": "OLUMSUZ",
+        "severity": 3,
+        "confidence": 90,
+        "summary": "TCMB rezervleri 142 milyar dolar seviyesine gerileyerek son 1,5 yılın en düşüğünü gördü.",
+        "source_count": 2,
+        "first_seen": "2026-11-26T14:40:36+03:00",
+        "trusted": true,
+        "evidence": [
+          {
+            "title": "TCMB rezervleri 1,5 yılın en düşük seviyesinde",
+            "source": "bloomberght.com",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNblhJbElBZlc5SXZpUFhLelNPX05WZ1JZTVVuLVhnWksyY2J0b0o1c2ZnX0IwMlBmVk5MazVMRU5BanRRTko0LVExdWt1S0l4clhQVl9sUXgtTzhvVTlLbzFCYUJ2OVpTazhTN052THZvNlR5S2xzTGVvYk1DaU1IM2hDeEcxdGRsS0E?oc=5",
+            "published": "2026-11-26T14:40:36+03:00",
+            "tier": "T1"
+          },
+          {
+            "title": "Merkez Bankası rezervleri 142 milyar dolar oldu",
+            "source": "uzmanpara.milliyet.com.tr",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUUFHWDI0Nkl0dlhaOHJrclRGaVlfLWEyWm9TeVQtcHpxT01jWHV6TmFDS0VpS3EyaXFlVnpydmpFcnR2Mm01NzJEU013c3FKYWF3ZElES0t6WHZSeTdmeDRKMDYxQW5nYUt2NFJMcWdOaGYwYUFxa1FENEtGeF9mUkV3VXZwbFg2TDBpM1RiQ0FuZm5yYXdjMXcyWnF0YkhP?oc=5",
+            "published": "2026-11-26T15:15:00+03:00",
+            "tier": "T2"
+          }
+        ],
+        "origin": "llm"
+      },
+      {
+        "event_type": "MAKRO_SEKTOR",
+        "direction": "BELIRSIZ",
+        "severity": 3,
+        "confidence": 90,
+        "summary": "TCMB, Türk lirası zorunlu karşılıklara ödenen faiz oranında artışa gitti.",
+        "source_count": 1,
+        "first_seen": "2026-11-26T22:42:57+03:00",
+        "trusted": true,
+        "evidence": [
+          {
+            "title": "TCMB, TL zorunlu karşılık faizini artırdı",
+            "source": "bloomberght.com",
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcWtvZTlMNHdrRm9zQTE3aThUY3V5b3dJMFpwQzJPQjlSY0VQVmtET29kT0JiVlVkdV9OVldpVVFjTXNrNGc4czJOdndVdTAtdEJ4VUwtQjBETUt5WUdVUjRfNkFnV2JFZDdkSkF3S3lENjlaRGdYMTNnS05ndkZ4eWJn?oc=5",
+            "published": "2026-11-26T22:42:57+03:00",
+            "tier": "T1"
+          }
+        ],
+        "origin": "llm"
+      }
+    ],
+    "summary": "TCMB rezervleri 142 milyar dolar seviyesine gerileyerek son 1,5 yılın en düşüğünü gördü."
   },
   "gemini": {
     "tarih": "2026-11-27",
-    "grounding": 1
+    "grounding": 2
   },
   "makro": [
     "27 Kasım: TCMB Finansal İstikrar Raporu",
